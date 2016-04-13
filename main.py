@@ -9,7 +9,8 @@ fileFoursquareII = '../Dados/foursquare/foursquare_coletacompleta/foursquare_seg
 fileGPlaces = '../Dados/gplaces/gplacesdata.csv'
 
 import pudb
-import loadGplaces as gplaces
+import loadGplaces
+import compareGplaces
 
 # Check if CNAE string is really a number.
 def is_number(s):
@@ -51,6 +52,8 @@ with open(fileISS) as iss:
 		issEntities[placeId] = address, neighborhoodName, mainCNAE, secCNAE, startDate
 
 # Loads Google Place data.
-gplaces.read_translate_GPlaces()
-gPlacesEntities = gplaces.load_GPlaces()
-print gPlacesEntities[1282854]
+loadGplaces.read_translate_GPlaces()
+#gPlacesEntities = loadGplaces.load_GPlaces()
+#compareGplaces.compare_gplaces_iss(gPlacesEntities, issEntities)
+
+

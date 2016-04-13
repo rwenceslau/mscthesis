@@ -10,13 +10,11 @@ fileGplacesISS = '../Dados/gplaces/GPlacesCategories.csv'
 import csv
 import re
 import pudb
-import codecs
 from geopy.geocoders import Nominatim
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8') # ou Latin1 ou cp1552
 import time
-import geocoder
 
 gPlacesCategoriesCounter = 0
 gPlacesCategories = []
@@ -92,9 +90,9 @@ def read_translate_GPlaces():
 				placeName = row[2]												# Place name (not address).
 				placeCategories = parse_place_categories(row[4].split(','))		# Parsing place categories.
 				placeLocation = [float(row[6]),float(row[7])]							# Lat-Lon point.
-				if idCounter > 140002:
-					placeAddress =  geolocator.reverse(placeLocation, timeout=15)	# Reverse geocoding (lat-lon to place address).
-					time.sleep(1)
+				if idCounter > 326370 and idCounter < 500000:
+					placeAddress =  geolocator.reverse(placeLocation, timeout=20)	# Reverse geocoding (lat-lon to place address).
+					time.sleep(0.2)
 					placeAddress = placeAddress.address
 					#address = geocoder.google(placeLocation, method = 'reverse')
 					#print address
@@ -118,15 +116,15 @@ def read_translate_GPlaces():
 def load_GPlaces():
 
 	gPlacesEntities = {}
+	idCounter = 0
 
-	with open('gplacesOutput.csv', 'r') as gplacesFile:
+	with open(fileGPlacesOutput, 'r') as gplacesFile:
 		gPlacesReader = csv.reader(gplacesFile, delimiter=',')
 		for row in gPlacesReader:
-			idNumber = row[0]
 			placeName = row[2]
 			streetName = row[3]
 			neighborhood = row[4]
 			categories = row[-1].split(" ")
-			gPlacesEntities[idNumber] = placeName, streetName, neighborhood, categories
-
+			gPlacesEntities[idCounter] = placeName, streetName, neighborhood, categories
+			idCounter += 1
 	return gPlacesEntities
