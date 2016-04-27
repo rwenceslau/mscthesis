@@ -4,7 +4,7 @@
 __author__ = 'rodrigowenceslau'
 
 fileGPlacesInput = '../Dados/gplaces/gplacesdata.csv'
-fileGPlacesOutput = '../Dados/gplaces/gplacesOutput.csv'
+fileGPlacesOutput = '../Dados/gplaces/gplacesOutput2.csv'
 fileGplacesISS = '../Dados/gplaces/GPlacesCategories.csv'
 
 import csv
@@ -19,8 +19,14 @@ import time
 gPlacesCategoriesCounter = 0
 gPlacesCategories = []
 notServices = ['political', 'route', 'neighborhood', 'transit_station', 'post_box', 'intersection', 'bus_station', 'locality']
-
 geolocator = Nominatim()
+
+def is_number(s):
+    try:
+        int(s)
+        return True
+    except ValueError:
+        return False
 
 # Loads the conversion table between GPlaces categories and its respective ISS translations.
 def load_gplaces_translation_table():
@@ -90,7 +96,7 @@ def read_translate_GPlaces():
 				placeName = row[2]												# Place name (not address).
 				placeCategories = parse_place_categories(row[4].split(','))		# Parsing place categories.
 				placeLocation = [float(row[6]),float(row[7])]							# Lat-Lon point.
-				if idCounter > 326370 and idCounter < 500000:
+				if idCounter > 927712:
 					placeAddress =  geolocator.reverse(placeLocation, timeout=20)	# Reverse geocoding (lat-lon to place address).
 					time.sleep(0.2)
 					placeAddress = placeAddress.address
@@ -123,8 +129,16 @@ def load_GPlaces():
 		for row in gPlacesReader:
 			placeName = row[2]
 			streetName = row[3]
-			neighborhood = row[4]
+			if is_number(row[3]):
+				streetName = row[4]
+			else:
+			 	streetName = row[5]
+			#neighborhood = row[4]
 			categories = row[-1].split(" ")
-			gPlacesEntities[idCounter] = placeName, streetName, neighborhood, categories
+			uniqueSet = set(categories)
+			categories = list(uniqueSet)
+			del categories[0]
+			#print categories
+			gPlacesEntities[idCounter] = placeName, streetName, categories
 			idCounter += 1
 	return gPlacesEntities
