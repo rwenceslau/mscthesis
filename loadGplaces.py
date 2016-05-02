@@ -19,6 +19,7 @@ import time
 gPlacesCategoriesCounter = 0
 gPlacesCategories = []
 notServices = ['political', 'route', 'neighborhood', 'transit_station', 'post_box', 'intersection', 'bus_station', 'locality']
+streetIndicators = ['Rua', 'Avenida', 'Pra\xc3a']
 geolocator = Nominatim()
 
 def is_number(s):
@@ -27,6 +28,12 @@ def is_number(s):
         return True
     except ValueError:
         return False
+
+# Checks if a value is an address.
+def check_string_for_street(s):
+	for indicators in streetIndicators:
+		if indicators in s:
+			return True
 
 # Loads the conversion table between GPlaces categories and its respective ISS translations.
 def load_gplaces_translation_table():
@@ -96,7 +103,7 @@ def read_translate_GPlaces():
 				placeName = row[2]												# Place name (not address).
 				placeCategories = parse_place_categories(row[4].split(','))		# Parsing place categories.
 				placeLocation = [float(row[6]),float(row[7])]							# Lat-Lon point.
-				if idCounter > 927712:
+				if idCounter > 968353:
 					placeAddress =  geolocator.reverse(placeLocation, timeout=20)	# Reverse geocoding (lat-lon to place address).
 					time.sleep(0.2)
 					placeAddress = placeAddress.address
@@ -128,17 +135,24 @@ def load_GPlaces():
 		gPlacesReader = csv.reader(gplacesFile, delimiter=',')
 		for row in gPlacesReader:
 			placeName = row[2]
-			streetName = row[3]
-			if is_number(row[3]):
-				streetName = row[4]
+			#pudb.set_trace()
+			
+			# This strange piece of code takes care of all special cases where street name isn't
+			# in the expceted position (row[3]).
+			if not check_string_for_street(row[3]):
+				if is_number(row[3]):
+					streetName = row[4]
+				if is_number(row[4]):
+					streetName = row[5]
 			else:
-			 	streetName = row[5]
-			#neighborhood = row[4]
+				streetName = row[3]
+		
 			categories = row[-1].split(" ")
-			uniqueSet = set(categories)
+			uniqueSet = set(categories)		# Removing CNAE duplicates.
 			categories = list(uniqueSet)
 			del categories[0]
 			#print categories
 			gPlacesEntities[idCounter] = placeName, streetName, categories
+			print gPlacesEntities[idCounter]
 			idCounter += 1
 	return gPlacesEntities
