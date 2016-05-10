@@ -5,6 +5,7 @@ __author__ = 'rodrigowenceslau'
 
 from nltk.metrics import edit_distance
 import pudb
+import csv
 
 persistenceIndexFile = 'persistentIndexes'
 similarityThreshold = 3
@@ -14,14 +15,6 @@ similarityThreshold = 3
 hitCNAEStats = {}		# Counts the CNAE categories which got hit.
 hitPlaceStats = {}		# Stores the places which got hit.
 
-# Checks if the CNAE is already in the dict and counts it.
-def cnae_sum(cnae):
-
-	if cnae in hitCNAEStats.keys():
-		oldCounter = hitCNAEStats[cnae]
-		hitCNAEStats[cnae] = oldCounter + 1
-	else:
-		hitCNAEStats[cnae] = 1
 
 # Reads the file which stores the point where the analysis stopped.
 def read_index_position():
@@ -37,6 +30,13 @@ def read_index_position():
 			hits = int(line[2])
 			break
 	indexFile.close()
+
+# Writes CNAE and Places stats to a external csv file.
+def write_stats_csv():
+
+	writer = csv.writer(open('placesHit.csv', 'wb'))
+	for key, value in hitPlaceStats.items():
+   		writer.writerow([key, value])
 
 # Write last index position on file so it persists on next run.
 def write_index_position():
@@ -102,11 +102,8 @@ def compare_gplaces_iss(gPlacesEntities, issEntities):
 						global hits
 						hits += 1
 						print "MATCH: {} {}".format(placeName, gplacesCNAE)
-						print "ISS CNAE: ", issMainCNAE
-						cnae_sum(issMainCNAE)										# Adds CNAE to hit stats.
-						cnae_sum(issSecCNAE)
-						print "CNAE added to stats."
-						hitPlaceStats[placeName] = streetName
+						print "ISS CNAE: ", issMainCNAE, issSecCNAE
+						hitPlaceStats[placeName] = streetName, issMainCNAE, issSecCNAE
 						print "Place added to stats."
 						break
 
@@ -115,8 +112,10 @@ def compare_gplaces_iss(gPlacesEntities, issEntities):
 	except (KeyboardInterrupt, SystemExit):
 		print '\n\nProcessing interrupted. Saving persistent file ...'
 		write_index_position()
+		#write_stats_csv()
 
 	write_index_position()
+	write_stats_csv()
 
 
 
