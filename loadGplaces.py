@@ -103,7 +103,7 @@ def read_translate_GPlaces():
 				placeName = row[2]												# Place name (not address).
 				placeCategories = parse_place_categories(row[4].split(','))		# Parsing place categories.
 				placeLocation = [float(row[6]),float(row[7])]							# Lat-Lon point.
-				if idCounter > 968353:
+				if idCounter > 1045445:
 					placeAddress =  geolocator.reverse(placeLocation, timeout=20)	# Reverse geocoding (lat-lon to place address).
 					time.sleep(0.2)
 					placeAddress = placeAddress.address
@@ -134,6 +134,7 @@ def load_GPlaces():
 	with open(fileGPlacesOutput, 'r') as gplacesFile:
 		gPlacesReader = csv.reader(gplacesFile, delimiter=',')
 		for row in gPlacesReader:
+			#print row[2]
 			placeName = row[2]
 			#pudb.set_trace()
 			
@@ -153,6 +154,6 @@ def load_GPlaces():
 			del categories[0]
 			#print categories
 			gPlacesEntities[idCounter] = placeName, streetName, categories
-			print gPlacesEntities[idCounter]
+			#print gPlacesEntities[idCounter]
 			idCounter += 1
 	return gPlacesEntities
