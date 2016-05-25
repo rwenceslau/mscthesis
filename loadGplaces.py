@@ -103,9 +103,9 @@ def read_translate_GPlaces():
 				placeName = row[2]												# Place name (not address).
 				placeCategories = parse_place_categories(row[4].split(','))		# Parsing place categories.
 				placeLocation = [float(row[6]),float(row[7])]							# Lat-Lon point.
-				if idCounter > 1045445:
+				if idCounter > 1138022:
 					placeAddress =  geolocator.reverse(placeLocation, timeout=20)	# Reverse geocoding (lat-lon to place address).
-					time.sleep(0.2)
+					time.sleep(0.1)
 					placeAddress = placeAddress.address
 					#address = geocoder.google(placeLocation, method = 'reverse')
 					#print address

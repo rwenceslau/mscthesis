@@ -1,4 +1,4 @@
-#	Main part of the algorithm, which loads ISS data to memory.
+#	Main part of the algorithm, which loads ISS data to memory and compares it to Google Places data.
 #	-----------------------------------------------------------
 
 __author__ = 'rodrigowenceslau'
@@ -11,7 +11,7 @@ import pudb
 import loadGplaces
 import compareGplaces
 import loadISS
-import disambiguateGplaces
+import disambiguate
 
 print "\nReading ISS file ...\n"
 issEntities = loadISS.read_iss()
@@ -26,7 +26,7 @@ gPlacesEntities = loadGplaces.load_GPlaces()
 #print len(gPlacesEntities.keys())
 
 print "Removing Google Places file duplicates ...\n"
-gPlacesEntities = disambiguateGplaces.disambiguate_GPlaces_entries(gPlacesEntities)
+gPlacesEntities = disambiguate.disambiguate_GPlaces_entries(gPlacesEntities)
 
 print "Comparing ISS x Google Places data ...\n"
 #print len(gPlacesEntities.keys())
