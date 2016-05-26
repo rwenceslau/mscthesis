@@ -113,12 +113,13 @@ def compare_gplaces_iss(gPlacesEntities, issEntities):
 			
 					global indexISS
 					indexISS = j
+					write_index_position()
 
 				if not hadMatch:
 						for cnae in gplacesCNAE:
 							nonMatchFile.write(cnae+";")
 						nonMatchFile.write("\n")
-						
+				write_index_position()
 		except (KeyboardInterrupt, SystemExit):
 			print '\n\nProcessing interrupted. Saving persistent file ...'
 			write_index_position()
