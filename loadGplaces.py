@@ -4,7 +4,7 @@
 __author__ = 'rodrigowenceslau'
 
 fileGPlacesInput = '../Dados/gplaces/gplacesdata.csv'
-fileGPlacesOutput = '../Dados/gplaces/gplacesOutput50_100.csv'
+fileGPlacesOutput = '../Dados/gplaces/gplacesOutput.csv'
 fileGplacesISS = '../Dados/gplaces/GPlacesCategories.csv'
 
 import csv

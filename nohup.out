@@ -1,0 +1,4414 @@
+/home/wenceslau/mscthesis/Projeto/compareGplaces.py:79: SyntaxWarning: name 'indexGplaces' is used prior to global declaration
+  global indexGplaces
+
+Reading ISS file ...
+
+Converting Google Places entries ...
+
+Reading Google Places file ...
+
+Removing Google Places file duplicates ...
+
+Comparing ISS x Google Places data ...
+
+Current entry:  São Marcos,  Avenida Doutor Cristiano Guimarães
+
+
+Processing interrupted. Saving persistent file ...
+/home/wenceslau/mscthesis/Projeto/compareGplaces.py:79: SyntaxWarning: name 'indexGplaces' is used prior to global declaration
+  global indexGplaces
+
+Reading ISS file ...
+
+Converting Google Places entries ...
+
+Reading Google Places file ...
+
+Removing Google Places file duplicates ...
+
+Comparing ISS x Google Places data ...
+
+Traceback (most recent call last):
+  File "main.py", line 33, in <module>
+    compareGplaces.compare_gplaces_iss(gPlacesEntities, issEntities)
+  File "/home/wenceslau/mscthesis/Projeto/compareGplaces.py", line 51, in compare_gplaces_iss
+    read_index_position()
+  File "/home/wenceslau/mscthesis/Projeto/compareGplaces.py", line 22, in read_index_position
+    with open(persistenceIndexFile, 'r') as indexFile:
+IOError: [Errno 2] No such file or directory: 'persistentIndexes_part1'
+
+Reading ISS file ...
+
+Converting Google Places entries ...
+
+Reading Google Places file ...
+
+Removing Google Places file duplicates ...
+
+Comparing ISS x Google Places data ...
+
+Current entry:  Lomarty Indústria e Comércio LTDA,  Rua Santa Anastácia
+Current entry:  Total Combat Paintball,  Rua Acácio Teles Pereira
+Current entry:  Mortal Combat Paintball,  Avenida Francisco Negrão de Lima
+Current entry:  Pampulha-Consultório Psicoterapêutico,  Avenida Presidente
+Current entry:  Guia de Festas,  Rua Washington
+Current entry:  Arte Madeira,  Rua Montevidéu
+Current entry:  Aconchego do Vovô e da Vovó,  Rua Montevidéu
+Current entry:  Steelmining,  Avenida Central
+Current entry:  Flex Cadeira conserto manutenção reforma cadeiras,  Rua Sebastião Fróes
+Current entry:  Oficina Pedagógica Recanto Verde,  Rua Joinville
+Similarity:  1
+HIT!
+MATCH:  Oficina Pedagógica Recanto Verde ['0', '8512100', '4713001']
+ISS CNAE:  8512100 
+Place added to stats.
+Current entry:  Bar do Armindo,  Rua Joinville
+Current entry:  Júlia Modas,  Rua Joinville
+Similarity:  1
+HIT!
+MATCH:  Júlia Modas ['0', '4781400', '4713001']
+ISS CNAE:  4763602 4781400
+Place added to stats.
+Current entry:  L A INSTALAÇÕES,  Rua Joinville
+Similarity:  1
+HIT!
+MATCH:  L A INSTALAÇÕES ['0', '4321500', '4713001']
+ISS CNAE:  4321500 
+Place added to stats.
+Current entry:  Paróquia São Sebastião e São Vicente,  Rua Zona da Mata
+Current entry:  A Certa Carimbos e Suprimentos,  Rua Comendador Teixeira da Costa
+Current entry:  Escolinha Crianças,  Rua Júlio Ferreira Pinto
+Similarity:  3
+HIT!
+MATCH:  Escolinha Crianças ['0', '8512100', '4713001']
+ISS CNAE:  8512100 8511200
+Place added to stats.
+Current entry:  Classimaq,  Rua Heitor Sócrates Cardoso
+Current entry:  Steelcut Brasil,  Rua Heitor Sócrates Cardoso
+Current entry:  Tecpiscinas,  Avenida Guarapari
+Current entry:  CEL Centro Educacional Luluzinha,  Avenida Guarapari
+Current entry:  Col Paulo Freire,  Avenida Guarapari
+Current entry:  Moser Comércio e Rep Ltda,  Avenida Guarapari
+Current entry:  Associação de Veículos Leves de Minas Gerais Avel MG,  Avenida Guarapari
+Current entry:  Representação de Madeiras Guarapari Ltda,  Avenida Guarapari
+Current entry:  Casarão de Minas,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Casarão de Minas ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Telefone Público,  Avenida Deputado Anuar Menhem
+Current entry:  RBR Centro Automotivo,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  RBR Centro Automotivo ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Icelvet,  Rua Monte Castelo
+Current entry:  Iceltec,  Rua Monte Castelo
+Current entry:  Água Deionizada,  Rua Monte Castelo
+Current entry:  Fred Peres web design & fotografia,  Rua Monte Castelo
+Current entry:  Soraia de Fátima Silva Brandão,  Rua Mário de Andrade
+Current entry:  Tradução e Intérprete - Marina Schmoeller,  Rua Mário de Andrade
+Current entry:  Ton-Tec Informática ME,  Rua Mário de Andrade
+Current entry:  Aquecedor Solar BH,  Rua Antero de Quental
+Current entry:  Motel King,  Rua Antero de Quental
+Current entry:  Creche Com Pequeno Alexandre,  Rua Antero de Quental
+Current entry:  Aquecedor Solar BH,  Rua Antero de Quental
+Current entry:  Motel Royalle,  Rua Teles de Menezes
+Similarity:  1
+HIT!
+MATCH:  Motel Royalle ['5590699', '4713001', '0']
+ISS CNAE:  5590699 
+Place added to stats.
+Current entry:  Alumiplast Comércio de Metais,  Rua Teles de Menezes
+Current entry:  Renovação Peças e Serviços Ltda,  Rua Teles de Menezes
+Current entry:  AutoCar,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  AutoCar ['4511102', '0', '4713001']
+ISS CNAE:  4511102 7490104
+Place added to stats.
+Current entry:  Drogaria Keller,  Avenida Montese
+Current entry:  Maria Elizabeth da Silva,  Avenida Montese
+Current entry:  Chaveiro Pampulha Ltda,  Avenida Montese
+Current entry:  Oficina da Roupa,  Avenida Montese
+Current entry:  Bema Tintas,  Avenida Montese
+Current entry:  Rogério Recursos de Multas,  Avenida Montese
+Current entry:  DVD Point Locadora,  Avenida Montese
+Current entry:  Eletrônica Durso Ltda,  Rua Desembargador Lincoln Prates
+Current entry:  Casa do Papis,  Rua Vicenzo Masi
+Current entry:  Canil Puppets Dogs,  Rua Vicenzo Masi
+Current entry:  Renato M Pinto,  Rua Rosa Maria Savassi
+Current entry:  Ponto A Ponto Reforma de Roupas,  Rua Padre Rodrigues
+Similarity:  1
+HIT!
+MATCH:  Ponto A Ponto Reforma de Roupas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Marrocos Interiores,  Rua Resy de Sousa Paiva
+Current entry:  Implantar Clínica Odontológica,  Rua Resy de Sousa Paiva
+Current entry:  Pronto Serviços em Telefonia C,  Rua Resy de Sousa Paiva
+Current entry:  Laboratório São Marcos,  Avenida Doutor Cristiano Guimarães
+Current entry:  São Marcos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Frigorífico Uberaba,  Avenida Doutor Cristiano Guimarães
+Current entry:  Espaço Modas,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Espaço Modas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Pazzine Bijuterias,  Avenida Doutor Cristiano Guimarães
+Current entry:  Patologia Clínica São Marcos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Kla-Kle Papelaria,  Avenida Doutor Cristiano Guimarães
+Current entry:  Restaura Jeans,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Restaura Jeans ['4713001', '4782201', '4781400', '0', '9601701', '4330404']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Só Sucos Lanchonete,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Só Sucos Lanchonete ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Bom Motivo Presentes,  Avenida Doutor Cristiano Guimarães
+Current entry:  Psiccoach,  Rua Henrique Horta
+Current entry:  Humberto Lopes Engenharia,  Rua Henrique Horta
+Current entry:  Márcia A V Félix,  Rua Henrique Horta
+Current entry:  Du Mato Defumados,  Rua Henrique Horta
+Current entry:  MASTER CLIMA REFIGERAÇÃO LTDA,  Rua Risoleta Pinto Sardinha
+Current entry:  Igreja Batista Monte Sião do Planalto,  Avenida General Carlos Guedes
+Current entry:  Kapavi Tapetes,  Avenida General Carlos Guedes
+Current entry:  Salão de Beleza Fátima,  Avenida General Carlos Guedes
+Current entry:  Silasom & Acessórios Automotivo,  Avenida General Carlos Guedes
+Current entry:  Pérola Salão de Beleza,  Avenida General Carlos Guedes
+Current entry:  Renovação,  Avenida General Carlos Guedes
+Current entry:  Amor e Arte,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Amor e Arte ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Caixa de Correio,  Avenida General Carlos Guedes
+Current entry:  Telefone Público,  Avenida General Carlos Guedes
+Current entry:  Restaurante e Lanchonete a Grande Família,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Restaurante e Lanchonete a Grande Família ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Bar e Restaurante Interessa,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Bar e Restaurante Interessa ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  1096100 5611201
+Place added to stats.
+Current entry:  Pontual Card,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Pontual Card ['0', '4753900', '4713001']
+ISS CNAE:  2610800 4753900
+Place added to stats.
+Current entry:  A Gpxcard,  Avenida Deputado Último de Carvalho
+Current entry:  Crachás - Bh Cards - Crachás em Pvc,  Avenida Deputado Último de Carvalho
+Current entry:  Lanisul Comércio de Equip e Suprimentos Ltda,  Avenida Deputado Último de Carvalho
+Current entry:  A A A A Gpx Card System,  Avenida Deputado Último de Carvalho
+Current entry:  Humberto M Santos,  Avenida Deputado Último de Carvalho
+Current entry:  Systemaq Máquinas e Serv para Escritório,  Avenida Deputado Último de Carvalho
+Current entry:  Brastém Máquinas,  Avenida Deputado Último de Carvalho
+Current entry:  Restaurante Aconchego,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Restaurante Aconchego ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  1096100 5611201
+Place added to stats.
+Current entry:  Telefone Público Deputado Último de Carvalho 630,  Avenida Deputado Último de Carvalho
+Current entry:  BH Gesso,  Avenida Deputado Último de Carvalho
+Current entry:  Le Cerceau Estofado,  Avenida Deputado Último de Carvalho
+Current entry:  Auto Elétrica São Francisco,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Auto Elétrica São Francisco ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Serralheria ReE,  Avenida Deputado Último de Carvalho
+Current entry:  Placas Vip Ltda,  Avenida Deputado Último de Carvalho
+Current entry:  Plasfinite Beagá - pallets,  Avenida Deputado Último de Carvalho
+Current entry:  Plastifine Beaga,  Avenida Deputado Último de Carvalho
+Current entry:  Point Fashion Acessórios,  Avenida Deputado Último de Carvalho
+Current entry:  Clemar Engenharia,  Avenida Deputado Último de Carvalho
+Current entry:  Geralservice,  Avenida Deputado Último de Carvalho
+Current entry:  Lequip,  Avenida Deputado Último de Carvalho
+Current entry:  Alumi Conser,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Alumi Conser ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Capotaria Martini,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Capotaria Martini ['0', '4713001', '4520001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  Serralheria Vidro,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Serralheria Vidro ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Igreja Batista Getsêmani,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Igreja Batista Getsêmani ['9491000', '4713001', '0']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Comercial Dona Clara Ltda,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Comercial Dona Clara Ltda ['0', '4731800', '4713001']
+ISS CNAE:  4731800 4520005
+Place added to stats.
+Current entry:  Mais Auto Vidros para-brisa,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Mais Auto Vidros para-brisa ['0', '4713001', '4520001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  Locguel Locadora de Equipamentos para Construção Ltda,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Locguel Locadora de Equipamentos para Construção Ltda ['4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  GMP Locação de Maq e Serviços Ltda,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  GMP Locação de Maq e Serviços Ltda ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Wanderlei Paiva,  Rua Aurélio Dolabela
+Current entry:  Mercearia O Produtor,  Rua Aurélio Dolabela
+Current entry:  Raro Estilo-Atacado de bolsas e calçados,  Avenida José Lopes Muradas
+Similarity:  3
+HIT!
+MATCH:  Raro Estilo-Atacado de bolsas e calçados ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4782201
+Place added to stats.
+Current entry:  Fam Aquario e Moveis,  Avenida Gastão Demétrio Maia
+Current entry:  EMG-Equipamentos Médicos Gerais,  Avenida Gastão Demétrio Maia
+Current entry:  BMG Mármores e Granitos Qualidade em Acabamentos,  Avenida Gastão Demétrio Maia
+Current entry:  Restaurante Varandão,  Rua Carlos Milan
+Current entry:  Master Divisórias,  Rua Mário Filho
+Current entry:  Sidken Reformas Mão de Obra Especializada,  Rua Ari Barroso
+Current entry:  HM AQUECEDORES,  Rua Heraldo Belisário
+Current entry:  Welington Baroso,  Rua Dolores Duran
+Current entry:  Bar do Max,  Rua Dolores Duran
+Similarity:  1
+HIT!
+MATCH:  Bar do Max ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  GLM IMPRESSORAS,  Rua Nelson Hungria
+Current entry:  DeveloPixel - Soluções em Web,  Rua José Lins do Rego
+Current entry:  Igreja Batista Vida Nova,  Rua Joaquim Cardoso
+Similarity:  1
+HIT!
+MATCH:  Igreja Batista Vida Nova ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Marmóre Santa Bárbara,  Avenida Basílio da Gama
+Current entry:  Moura Capachos e Tapetes,  Rua José Conde
+Current entry:  Fundação de Assistência Integral a Saúde,  Rua José Conde
+Current entry:  hospital,  Rua José Conde
+Current entry:  Tupi Táxi,  Rua José Conde
+Current entry:  Aluguel de Cama Elástica | Vai ter Festa,  Rua José Conde
+Similarity:  3
+HIT!
+MATCH:  Aluguel de Cama Elástica | Vai ter Festa ['4712100', '4713001', '0']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  Aluga e Brinca | Aluguel de Cama Elástica em BH | Aluguel de Brinquedos para Festa infantil,  Rua Joaquim Gonçalves
+Current entry:  Igreja Pentecostal os Filhos da Formosa Jerusalém,  Rua Pintora Tarcila
+Current entry:  Minas Conserto de Maquinas de Lavar Roupas,  Rua Pintora Tarcila
+Current entry:  Spot Burguer,  Rua Pintora Tarcila
+Current entry:  Oficina de Manutenção de Maq de Xerox,  Rua Remi Pereira Lopes
+Current entry:  Fernandes Demolições,  Rua Feira de Santana
+Current entry:  G & E Provas de Off Set Ltda,  Rua Água de Colônia
+Current entry:  Swr Locação e Transportes Ltda,  Rua Antônio Mariano de Abreu
+Current entry:  Telefone Público,  Rua Treze de Maio
+Current entry:  akatisuk,  Rua José de Alencar
+Current entry:  Star Photo,  Rua Generoso Clemente da Rocha
+Current entry:  jeisi photo e video,  Rua Carvalho
+Current entry:  Loja Gi & Re,  Rua Carvalho
+Current entry:  Telefone Público,  Rua Carvalho
+Current entry:  Depósito Marques,  Rua Generoso Clemente da Rocha
+Current entry:  Depósito Marques,  Rua Carvalho
+Current entry:  Mírian Dayrell Imóveis,  Rua Washington
+Current entry:  Nova Direção - Treinamento para Motoristas Habilitados,  Avenida Central
+Current entry:  Gran Farma-Bairro Copacabana,  Avenida Central
+Current entry:  Igreja Assembléia de Deus do Brasil,  Rua Maria José Horta
+Current entry:  Bar do João,  Rua Maria José Horta
+Current entry:  Lares de Minas Consultoria Imobiliária,  Rua dos Expedicionarios
+Current entry:  Impacto Transporte Executivo,  Rua dos Expedicionarios
+Similarity:  1
+HIT!
+MATCH:  Impacto Transporte Executivo ['0', '4713001', '7911200']
+ISS CNAE:  7911200 7990200
+Place added to stats.
+Current entry:  Eag Informática,  Rua Zona da Mata
+Current entry:  Israel Ribeiro dos Santos Junior,  Avenida Guarapari
+Current entry:  Oh My Dog,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Oh My Dog ['9609208', '0', '4713001']
+ISS CNAE:  4789004 9609208
+Place added to stats.
+Current entry:  Casarao Bahiano 2,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Casarao Bahiano 2 ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Gold Imóveis,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Gold Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6821802 6821801
+Place added to stats.
+Current entry:  Campo de Futebol,  Avenida Guarapari
+Current entry:  Eco Ambiental e Reciclo Ltda,  Rua Júlio Diniz
+Current entry:  Orgatel Organizações Hoteleiras,  Rua Teles de Menezes
+Similarity:  1
+HIT!
+MATCH:  Orgatel Organizações Hoteleiras ['5590699', '4713001', '0']
+ISS CNAE:  5590699 
+Place added to stats.
+Current entry:  J C Vidros,  Avenida Dom Pedro I
+Current entry:  Tião Cabeleireiro,  Avenida Dom Pedro I
+Current entry:  Spj Supermercado das Partas e Janelas,  Avenida Dom Pedro I
+Current entry:  Sartur Viagens e Turismo,  Avenida Montese
+Current entry:  Banca Zepelin,  Avenida Montese
+Current entry:  Depósito Montese LTDA,  Rua Engenheiro Vicente Assunção
+Current entry:  Hotel Conexão Pampulha,  Rua João Edmundo Caldeira Brant
+Current entry:  Balanço Social,  Avenida Doutor Cristiano Guimarães
+Current entry:  Enxovais Caroline,  Avenida Doutor Cristiano Guimarães
+Current entry:  Ad'vocatus Escritório de Advocacia,  Avenida Doutor Cristiano Guimarães
+Current entry:  Empório Nova Aliança,  Avenida Doutor Cristiano Guimarães
+Current entry:  Pés e Mãos de Fada,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Pés e Mãos de Fada ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Óptica Visage,  Avenida Doutor Cristiano Guimarães
+Current entry:  Spa das Sobrancelhas - Unidade Itapoã,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Spa das Sobrancelhas - Unidade Itapoã ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Trinca de Três,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Trinca de Três ['0', '4713001', '4781400', '4782201']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Farma Alves,  Avenida Doutor Cristiano Guimarães
+Current entry:  Aguiar Imóveis,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Aguiar Imóveis ['6821801', '4713001', '64', '0']
+ISS CNAE:  6822600 6821801
+Place added to stats.
+Current entry:  Psiccoach,  Rua Henrique Horta
+Current entry:  Lar Jovem Idosa,  Rua Henrique Horta
+Current entry:  decorcachepoecia,  Rua Henrique Horta
+Current entry:  Escola Estadual Maria Luiza Miranda Bastos,  Rua Henrique Horta
+Current entry:  Studio T.M.A,  Avenida General Carlos Guedes
+Current entry:  Agência gpWeb,  Avenida General Carlos Guedes
+Current entry:  Tecnoauto,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Tecnoauto ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Consultório PSI... Dra Érika de Assis Marques,  Avenida Deputado Último de Carvalho
+Current entry:  Ângela Maria da Silva Souza,  Avenida Deputado Último de Carvalho
+Current entry:  AGN Auto Peças BH,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  AGN Auto Peças BH ['0', '4520001', '4713001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Padaria Classic,  Avenida Deputado Último de Carvalho
+Current entry:  Usimaqui,  Avenida Deputado Último de Carvalho
+Current entry:  Vestuario Vivian Campos,  Avenida Deputado Último de Carvalho
+Current entry:  Depósito Construminas,  Avenida Deputado Último de Carvalho
+Current entry:  Balaia,  Avenida Deputado Último de Carvalho
+Current entry:  Central Car Serv Automotivos,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Central Car Serv Automotivos ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Plasfinite Marfin BH,  Avenida Deputado Último de Carvalho
+Current entry:  Roger Car,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Roger Car ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Retífica de Motores Standard,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Retífica de Motores Standard ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Walgas Comercial Ltda,  Avenida Deputado Último de Carvalho
+Current entry:  Veratro,  Avenida Deputado Último de Carvalho
+Current entry:  Eustáquio J Sampaio,  Avenida Deputado Último de Carvalho
+Current entry:  Consultório Odontológico Dra. Valéria Rocha Barrioni Barbosa e Dr. Filipe Rocha Barrioni,  Avenida Deputado Último de Carvalho
+Current entry:  Sacolão Amanhecer,  Rua Herculano Dias Coelho
+Current entry:  Distribuidora de Bebidas Águia,  Avenida Deputado Último de Carvalho
+Current entry:  Telefone Público,  Avenida Deputado Último de Carvalho
+Current entry:  Igreja Batista Profetizando o Avivamento dos Últimos Tempos,  Avenida Deputado Último de Carvalho
+Current entry:  Conexão Visual BH,  Avenida Deputado Último de Carvalho
+Current entry:  Isoinox,  Avenida Deputado Último de Carvalho
+Current entry:  Topjet Máquinas e Serviços,  Avenida Deputado Último de Carvalho
+Current entry:  Bar do Chu,  Rua Djalma da Silva
+Similarity:  1
+HIT!
+MATCH:  Bar do Chu ['0', '4713001', '4712100', '5611201', '5611202']
+ISS CNAE:  5612100 5611201
+Place added to stats.
+Current entry:  Andrezza Mara Oliveira Braga,  Rua João Fernandes de Oliveira
+Current entry:  Romeu Para Choque,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Romeu Para Choque ['0', '4713001', '4520001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  Calhas Maia,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Calhas Maia ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Igreja do Evangelho Quadrangular - Nova América,  Rua João Alves Teixeira
+Current entry:  Arcanjo Miguel Pedras,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Arcanjo Miguel Pedras ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Niquini Veículos,  Rua Coronel Joaquim Tiburcio
+Current entry:  Salão Status,  Rua Djalma da Silva
+Similarity:  1
+HIT!
+MATCH:  Salão Status ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Ellocad - Desenhos e Serviços Industriais Ltda.,  Rua Senador Teixeira da Costa
+Current entry:  HC Tec Auto Técnica,  Rua Djalma da Silva
+Similarity:  1
+HIT!
+MATCH:  HC Tec Auto Técnica ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Santa Fé Tatuagens,  Avenida José Lopes Muradas
+Current entry:  Traíras Beer's Do Toninho,  Avenida José Lopes Muradas
+Similarity:  3
+HIT!
+MATCH:  Traíras Beer's Do Toninho ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4722901 4712100
+Place added to stats.
+Current entry:  Sacolão Getsêmani,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Sacolão Getsêmani ['4712100', '0', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Igreja Batista da Floresta de Belo Horizonte,  Rua Oscar Corrêa
+Current entry:  Lar Creche Pingo de Gente,  Rua Oscar Corrêa
+Current entry:  Rita Soares dos Santos Guimarães,  Rua Oscar Corrêa
+Current entry:  Patrícia F Silva,  Rua Oscar Corrêa
+Current entry:  Mercearia União,  Rua Djalma da Silva
+Similarity:  1
+HIT!
+MATCH:  Mercearia União ['4712100', '5211799', '0', '4713001']
+ISS CNAE:  4712100 4722901
+Place added to stats.
+Current entry:  Salão do Reino das Testemunhas de Jeová,  Rua Djalma da Silva
+Current entry:  Carol Festas,  Rua Geraldo Ferreira Teles
+Current entry:  Afc Vitrine,  Rua Edelweis Barcelos
+Current entry:  Lava Jato Pescador,  Rua Djalma da Silva
+Current entry:  Distribuidora Pais e Filhos,  Rua Pedro Nava
+Current entry:  Feira Têxtil Comércio de Tecidos Ltda,  Rua José Lins do Rego
+Current entry:  WPS Reformas e Construções,  Rua Djalma da Silva
+Current entry:  Agnus Dei Informática Ltda,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Agnus Dei Informática Ltda ['0', '8512100', '4713001']
+ISS CNAE:  8512100 
+Place added to stats.
+Current entry:  Sacolão Tupi,  Rua José Conde
+Similarity:  3
+HIT!
+MATCH:  Sacolão Tupi ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  Abraao redes de proteçao,  Rua Joaquim Gonçalves
+Current entry:  Arte Móveis Camapuã,  Rua Rodolfo Bernardelli
+Current entry:  Solange Lopes Pâtisserie,  Rua Vereador Camil Karam
+Similarity:  2
+HIT!
+MATCH:  Solange Lopes Pâtisserie ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  1091102 4712100
+Place added to stats.
+Current entry:  Igreja Apostólica Batista Vitória,  Rua Absinto
+Current entry:  Vaunei Xavier Restaurações,  Rua Acácio Teles Pereira
+Current entry:  TRATOFINO LAVA-JATO,  Rua Francisco Bretas Bhering
+Similarity:  1
+HIT!
+MATCH:  TRATOFINO LAVA-JATO ['0', '5223100', '4520005', '4713001']
+ISS CNAE:  2542000 5223100
+Place added to stats.
+Current entry:  Weg Motores,  Rua Elias Moysés
+Current entry:  Joni M Carvalho,  Rua Elias Moysés
+Current entry:  A Pontual Desentupidora e Dedetizadora Bh,  Rua Maria Candida Cerqueira
+Current entry:  Espaço de Beleza e Estetica Marisa & Salles,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Espaço de Beleza e Estetica Marisa & Salles ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Restaurante Mammarita,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Restaurante Mammarita ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  IMOVEIS ADES REGIÃO PAMPULHA BH,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  IMOVEIS ADES REGIÃO PAMPULHA BH ['6821801', '4713001', '0']
+ISS CNAE:  6821802 6821801
+Place added to stats.
+Current entry:  Autopam Centro Automotivo Pampulha,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Autopam Centro Automotivo Pampulha ['0', '4520001', '4713001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  Mocidade para Cristo do Brasil,  Rua Antônio Egydio de Lima
+Similarity:  3
+HIT!
+MATCH:  Mocidade para Cristo do Brasil ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  ELIM-Escola de Liderança e Ministério,  Rua Antônio Egydio de Lima
+Similarity:  3
+HIT!
+MATCH:  ELIM-Escola de Liderança e Ministério ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Free S P E E Ltda,  Rua Antônio Egydio de Lima
+Current entry:  Atitude Inglesh Cours,  Rua Antônio Egydio de Lima
+Current entry:  Wesley H M Moura,  Rua Antônio Egydio de Lima
+Current entry:  Arca de Noé Mundo Pet,  Rua Antônio Egydio de Lima
+Current entry:  Campo de Futebol,  Rua Antônio Egydio de Lima
+Current entry:  Hotel Orleans Ltda,  Rua Teles de Menezes
+Similarity:  1
+HIT!
+MATCH:  Hotel Orleans Ltda ['5590699', '4713001', '0']
+ISS CNAE:  5590699 
+Place added to stats.
+Current entry:  Barrão Automóveis,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Barrão Automóveis ['4511102', '0', '4713001']
+ISS CNAE:  4511102 7490104
+Place added to stats.
+Current entry:  Clackcar Veículos,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Clackcar Veículos ['4511102', '0', '4713001']
+ISS CNAE:  4511102 7490104
+Place added to stats.
+Current entry:  São Judas Tadeu Comércio de Veículos,  Avenida Dom Pedro I
+Current entry:  Nossa Renovadora,  Avenida Dom Pedro I
+Current entry:  Triumpho Consultoria e Assessoria Empresarial e Imóveis Ltda,  Rua São Sebastião do Paraíso
+Current entry:  Estudio Om,  Rua São Sebastião do Paraíso
+Current entry:  Synteko Br,  Rua Engenheiro Vicente Assunção
+Current entry:  Vila Cecilia - Espaço do Bem Viver,  Rua Doutora Queridinha
+Current entry:  Metalconsut Projetos,  Rua Doutora Queridinha
+Current entry:  INST Educ Espaço Infantil,  Rua Desembargador Custódio Lustosa
+Similarity:  3
+HIT!
+MATCH:  INST Educ Espaço Infantil ['0', '8512100', '4713001']
+ISS CNAE:  8511200 8512100
+Place added to stats.
+Current entry:  Instituto Educ Espaço Encanta,  Rua Desembargador Custódio Lustosa
+Similarity:  3
+HIT!
+MATCH:  Instituto Educ Espaço Encanta ['0', '8512100', '4713001']
+ISS CNAE:  8511200 8512100
+Place added to stats.
+Current entry:  Vipasa Vidros Padrão,  Rua Professor Ricardo Pinto
+Current entry:  Costa Engenharia e Construções,  Rua Resy de Sousa Paiva
+Current entry:  Payleven Brasil - Maquininha Sem Mensalidade com desconto.,  Rua Resy de Sousa Paiva
+Current entry:  Sollar Negocios Imobiliários,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Sollar Negocios Imobiliários ['6821801', '4713001', '0']
+ISS CNAE:  6822600 6821801
+Place added to stats.
+Current entry:  Loja O Boticário,  Avenida Doutor Cristiano Guimarães
+Current entry:  Chocolate Brasil Cacau,  Avenida Doutor Cristiano Guimarães
+Current entry:  Costarelli Empreendimentos Imobiliários,  Avenida Doutor Cristiano Guimarães
+Current entry:  Rafael Rolojoaria,  Avenida Doutor Cristiano Guimarães
+Current entry:  Agencia Dolar de Empregados Domésticos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Playnet Lan House,  Rua Sete de Outubro
+Current entry:  Cooperfone Ltda,  Rua Sete de Outubro
+Current entry:  Salão De Beleza,  Rua Sete de Outubro
+Current entry:  Sorveteria Almeida-Planalto,  Avenida Doutor Cristiano Guimarães
+Current entry:  Consultório Dr. Fernando Ribeiro,  Avenida Doutor Cristiano Guimarães
+Current entry:  Fashion Jewerlry Distribuidora de Bijouterias,  Avenida Doutor Cristiano Guimarães
+Current entry:  Via Expressa,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Via Expressa ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Sacolão Paragominas,  Avenida Doutor Cristiano Guimarães
+Current entry:  Núcleo de Odontologia Fernando Ribeiro,  Avenida Doutor Cristiano Guimarães
+Current entry:  decorcachepoecia,  Rua Sete de Outubro
+Current entry:  Escola Estadual Maria Luiza Miranda Bastos,  Rua Sete de Outubro
+Current entry:  Serralheria Almeida Filho,  Rua Honório Ciriaco
+Current entry:  Achou Venda Nova,  Rua Honório Ciriaco
+Current entry:  Pizza Lia,  Rua Honório Ciriaco
+Current entry:  Fernada "dog Walker" Pampulha e Venda Nova,  Rua Honório Ciriaco
+Current entry:  Hotelzinho Infantil Arca de Noé,  Rua Adelina de Sales Pereira
+Current entry:  B e D,  Rua Risoleta Pinto Sardinha
+Current entry:  Vittório Bombas Injetoras Ltda,  Rua Risoleta Pinto Sardinha
+Current entry:  Creche Comunitária Cristo Operário,  Rua Risoleta Pinto Sardinha
+Current entry:  Manutenção,  Rua Risoleta Pinto Sardinha
+Current entry:  Tertulia Grill,  Rua Risoleta Pinto Sardinha
+Current entry:  Empório Cristo Rei,  Rua da Abolição
+Current entry:  Posto do Pai,  Avenida General Carlos Guedes
+Current entry:  Lotus Estofados,  Avenida Deputado Último de Carvalho
+Current entry:  W & N Empreendimentos,  Avenida Deputado Último de Carvalho
+Current entry:  Lava Jato Ornelas,  Avenida Deputado Último de Carvalho
+Current entry:  Ponto dos Estofados,  Avenida Deputado Último de Carvalho
+Current entry:  Academia Planalto,  Avenida Deputado Último de Carvalho
+Current entry:  Tuiu Motos,  Rua Wilson Soares Fernandes
+Current entry:  SuperGasbras,  Avenida Deputado Último de Carvalho
+Current entry:  MeJ Mercearia e Bar,  Avenida Deputado Último de Carvalho
+Current entry:  Covil Fight Team,  Avenida Deputado Último de Carvalho
+Current entry:  História,  Rua Motoqueiro Leandro Thadeu
+Current entry:  Jânio S Pinto,  Rua Lourival Carneiro de Vasconcelos
+Similarity:  1
+HIT!
+MATCH:  Jânio S Pinto ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 8291100
+Place added to stats.
+Current entry:  Cic Sistema Contato,  Rua Lourival Carneiro de Vasconcelos
+Similarity:  1
+HIT!
+MATCH:  Cic Sistema Contato ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 8291100
+Place added to stats.
+Current entry:  Escola Infantil Casinha Feliz,  Rua Lourival Carneiro de Vasconcelos
+Current entry:  Floramar Mudanças e Transportes,  Rua Lourival Carneiro de Vasconcelos
+Current entry:  Tele Marmitex Bom Tempero,  Rua Wilson Soares Fernandes
+Current entry:  Vidraçaria Dutra,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Vidraçaria Dutra ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Macacos Reis,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Macacos Reis ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Marmoraria Pedras do Joaquim,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Marmoraria Pedras do Joaquim ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Igreja do Evangélho Quadrangular,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Igreja do Evangélho Quadrangular ['9491000', '4713001', '0']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Dário Eustáquio da Silva,  Rua Senador Teixeira da Costa
+Similarity:  1
+HIT!
+MATCH:  Dário Eustáquio da Silva ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4530704
+Place added to stats.
+Current entry:  Ramos Utilidades,  Rua Raimundo Nonato
+Current entry:  Sacolão Paragominas,  Avenida José Lopes Muradas
+Similarity:  3
+HIT!
+MATCH:  Sacolão Paragominas ['4712100', '0', '4713001']
+ISS CNAE:  4722901 4712100
+Place added to stats.
+Current entry:  Varejão Ponto Certo,  Rua Oscar Corrêa
+Current entry:  Comercial RRM,  Rua Oscar Corrêa
+Current entry:  Casa de Carne RDG,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Casa de Carne RDG ['4712100', '4713001', '0']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Pet Shop Casa de Campo,  Rua Nelson Hungria
+Similarity:  1
+HIT!
+MATCH:  Pet Shop Casa de Campo ['9609208', '0', '4713001']
+ISS CNAE:  9609208 
+Place added to stats.
+Current entry:  Belo Horizonte,  Rua Nelson Hungria
+Current entry:  Belo Horizonte,  Rua José Lins do Rego
+Current entry:  LM Excursoes Ltda,  Rua Edgard Cavaleiro
+Current entry:  Belo Horizonte,  Rua Edgard Cavaleiro
+Current entry:  escola estadual Djanira rodrigues de oliveira,  Rua Cosme Torres Pimenta
+Current entry:  Sacolão Tupi,  Rua Cosme Torres Pimenta
+Current entry:  Hospital Sofia Feldman,  Rua Cosme Torres Pimenta
+Current entry:  Bj Locação de Maquinas Equipamentos Ltda,  Rua São João
+Current entry:  Nobre Coberturas & Vidros,  Rua São Ricardo
+Current entry:  ALMOXARIFADO - SEDS,  Rua Um - Parque Norte
+Current entry:  Misa Engenharia de Estruturas Ltda,  Rua Roma
+Current entry:  Acesso BHZ - Arquitetura e Acessibilidade,  Rua Roma
+Current entry:  Lumana I Ltda,  Rua Nicola Costa
+Current entry:  Cafe de Deus Cafeteria,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Cafe de Deus Cafeteria ['0', '5611202', '4713001']
+ISS CNAE:  4721104 5611202
+Place added to stats.
+Current entry:  Maury Monteiro Representações,  Rua Alair Marques Rodrigues
+Current entry:  Cris Telecom,  Rua Augusto William Parish
+Current entry:  BHZ IMÓVEIS,  Rua Augusto William Parish
+Current entry:  Bauer Propaganda,  Rua Augusto William Parish
+Similarity:  3
+HIT!
+MATCH:  Bauer Propaganda ['0', '4781400', '4713001']
+ISS CNAE:  9602501 4781400
+Place added to stats.
+Current entry:  Pedras Gramanelli Ltda Me,  Rua Augusto William Parish
+Current entry:  Atitude Inglesh Cours,  Rua Augusto William Parish
+Current entry:  Wesley H M Moura,  Rua Augusto William Parish
+Current entry:  Restaurante Sabor di Kasa,  جازان
+Current entry:  Alta Vet Veterinária Dr Luiz Wagner,  جازان
+Current entry:  BHZ IMÓVEIS,  جازان
+Current entry:  Bauer Propaganda,  جازان
+Current entry:  Pedras Gramanelli Ltda Me,  جازان
+Current entry:  Atitude Inglesh Cours,  جازان
+Current entry:  Wesley H M Moura,  جازان
+Current entry:  Arca de Noé Mundo Pet,  جازان
+Current entry:  CeLP Centro de Lazer Pampulha,  جازان
+Current entry:  Espaço de Beleza Beth Avila,  Rua Mário de Andrade
+Similarity:  3
+HIT!
+MATCH:  Espaço de Beleza Beth Avila ['0', '9602501', '4713001']
+ISS CNAE:  9602501 9602502
+Place added to stats.
+Current entry:  Escola De Futebol Oficial Do América,  Rua Mário de Andrade
+Current entry:  Laurocar Veículos,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Laurocar Veículos ['4511102', '0', '4713001']
+ISS CNAE:  4511102 7490104
+Place added to stats.
+Current entry:  Chuck Norri's House,  Rua Desembargador Custódio Lustosa
+Current entry:  FPR Caçamba,  Rua Professor Ricardo Pinto
+Current entry:  Graphite Editoriacao Eletrônica,  Rua Professor Ricardo Pinto
+Current entry:  Pague Menos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Geralda M P Souza,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Geralda M P Souza ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Koli Comunicação,  Avenida Doutor Cristiano Guimarães
+Current entry:  Da Pá Virada,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Da Pá Virada ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Bar do Cézar,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Bar do Cézar ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  Itapoã Loterias,  Avenida Doutor Cristiano Guimarães
+Current entry:  DeG Casa e Construção,  Avenida Doutor Cristiano Guimarães
+Current entry:  Koli Comunicação e Marketing,  Avenida Doutor Cristiano Guimarães
+Current entry:  Stilus Bh Representações,  Rua José Oscar Barreira
+Current entry:  Fernada "dog Walker" Pampulha e Venda Nova,  Rua José Oscar Barreira
+Similarity:  3
+HIT!
+MATCH:  Fernada "dog Walker" Pampulha e Venda Nova ['9609208', '0', '4713001']
+ISS CNAE:  9609208 0162803
+Place added to stats.
+Current entry:  PHD Gráfica e Editora,  Avenida Deputado Último de Carvalho
+Current entry:  Ornelas - Centro Automotivo,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Ornelas - Centro Automotivo ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Comercial JR 03,  Avenida Deputado Último de Carvalho
+Current entry:  Planalgás,  Avenida Deputado Último de Carvalho
+Current entry:  Iesa de Esquadria de Alumínio,  Avenida Deputado Último de Carvalho
+Current entry:  apa serviços residençiais ltd,  Rua Lourival Carneiro de Vasconcelos
+Current entry:  Variedades Val,  Rua Wilson Soares Fernandes
+Current entry:  JS Veículos,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  JS Veículos ['4511102', '0', '4713001']
+ISS CNAE:  4511102 4512902
+Place added to stats.
+Current entry:  Floramar Car,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Floramar Car ['4511102', '0', '4713001']
+ISS CNAE:  4511102 4512902
+Place added to stats.
+Current entry:  Griffon Consultoria e Serviços,  Rua Antônio Severino de Castro
+Current entry:  CBA Consult ME,  Rua Antônio Severino de Castro
+Current entry:  Lage,  Rua Antônio Severino de Castro
+Current entry:  H2O Venda e Assistencia Técnica Purificadores de àgua Europa,  Rua Senador Teixeira da Costa
+Current entry:  Drogaria Linha Verde,  Rua Oscar Corrêa
+Current entry:  Reaço Representações de Aços,  Rua Oscar Corrêa
+Current entry:  Floricultura Flor de Lis,  Rua José Clemente
+Current entry:  Cariny Aparecida Silva,  Rua Lúcia Miguel Pereira
+Current entry:  Igreja Avivamento Bíblico,  Rua Alberto Delpino
+Current entry:  Academia Atlas,  Rua Furquim Werneck
+Current entry:  Instituto Educacional Gean Piaget,  Rua Nelson Hungria
+Current entry:  Bar Restaurante Quentinha,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Bar Restaurante Quentinha ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5620101 5611201
+Place added to stats.
+Current entry:  PW Burguers,  Rua Edgard Cavaleiro
+Similarity:  1
+HIT!
+MATCH:  PW Burguers ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Hospital Sofia Feldman,  Rua Edgard Cavaleiro
+Current entry:  L.C Confecção de Uniformes,  Rua Poeta Emílio Moura
+Current entry:  Calhas BH,  Rua Divino Espírito Santo
+Current entry:  Instituto Educacional Tia Dirce,  Rua Divino Espírito Santo
+Similarity:  3
+HIT!
+MATCH:  Instituto Educacional Tia Dirce ['0', '8512100', '4713001']
+ISS CNAE:  8512100 
+Place added to stats.
+Current entry:  Centro Social de Apoio à Criança e ao Adolescente,  Rua Absinto
+Current entry:  Marcelo transporte de carga,  Rua Quênia
+Current entry:  Planeta Criativo: Criação de site,  Rua Roma
+Current entry:  Fabrício Ribeiro Fotografia,  Rua Edith de Araújo
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Edith de Araújo
+Current entry:  Larissa Móveis,  Rua Edith de Araújo
+Current entry:  Canguru Festas BH,  Rua Heitor Sócrates Cardoso
+Current entry:  Max Car Ltda,  Avenida Guarapari
+Current entry:  Roda Mil Bicicletas,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Roda Mil Bicicletas ['4763603', '0', '4713001']
+ISS CNAE:  4763603 9529104
+Place added to stats.
+Current entry:  IMAP-Imobiliárias Associadas da Pampulha,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  IMAP-Imobiliárias Associadas da Pampulha ['6821801', '4713001', '0']
+ISS CNAE:  6821802 6821801
+Place added to stats.
+Current entry:  Soft Beer Pampulha,  Avenida Guarapari
+Current entry:  Ponto da Bebida,  Rua Nicola Costa
+Current entry:  Ivos Cabeleiireiro,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Ivos Cabeleiireiro ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Maristane Studio Hair,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Maristane Studio Hair ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Fernando C Oliveira,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Fernando C Oliveira ['0', '4713001', '86', '8630504']
+ISS CNAE:  8630504 
+Place added to stats.
+Current entry:  Chopp Delivery BH,  Avenida Guarapari
+Current entry:  Assistência Técnica Plasma,  Avenida Guarapari
+Current entry:  A Bailar - A Loja da Dança,  Avenida Guarapari
+Current entry:  A Bailar,  Avenida Guarapari
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Avenida Guarapari
+Current entry:  Loja Gi & Re,  Avenida Guarapari
+Current entry:  Larissa Móveis,  Avenida Guarapari
+Current entry:  Vex Lan House,  Avenida Guarapari
+Current entry:  Depósito Marques,  Avenida Guarapari
+Current entry:  Borracharia do Baiano,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Borracharia do Baiano ['0', '4520001', '4713001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  Loja Gi & Re,  Rua Alair Marques Rodrigues
+Current entry:  Vex Lan House,  Rua Alair Marques Rodrigues
+Current entry:  Depósito Marques,  Rua Alair Marques Rodrigues
+Current entry:  Borracharia do Baiano,  Rua Alair Marques Rodrigues
+Similarity:  1
+HIT!
+MATCH:  Borracharia do Baiano ['0', '4520001', '4713001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  Lixão RPV,  Rua Augusto William Parish
+Current entry:  Lixão RPV,  جازان
+Current entry:  Rapidex,  Rua Ramalho Ortigão
+Current entry:  Triângulo Telhas e Madeiras,  Rua Antero de Quental
+Current entry:  Belgo Cercas e Cia,  Rua Antero de Quental
+Current entry:  Telas União Indústria e Comércio,  Rua Antero de Quental
+Current entry:  Telas União Indústria e Comércio,  Rua Antero de Quental
+Current entry:  Kidelicia lanches,  Rua Antero de Quental
+Current entry:  Telas União Indústria e Comércio,  Avenida Dom Pedro I
+Current entry:  Telas União Indústria e Comércio,  Avenida Dom Pedro I
+Current entry:  Kidelicia lanches,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Kidelicia lanches ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Sociedade Monterey de Serv Ltda,  Rua Engenheiro Vicente Assunção
+Current entry:  Graça Malta,  Avenida Montese
+Current entry:  Novais Comércio de Mat Elétrico,  Avenida Montese
+Current entry:  Organiza Consultoria,  Rua Fernando Magalhães Gomes
+Current entry:  Payleven Brasil - Maquininha Sem Mensalidade com desconto.,  Rua Professor Ricardo Pinto
+Current entry:  Scapamentos Top Scar,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Scapamentos Top Scar ['0', '4520001', '4713001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Restaurante Big Lanche,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Restaurante Big Lanche ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  JP Colchões,  Rua José Oscar Barreira
+Current entry:  Point do Pastel,  Avenida Doutor Cristiano Guimarães
+Current entry:  Loja do Dalmo,  Rua José Oscar Barreira
+Current entry:  Serafine,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Serafine ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Maria José,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Maria José ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Clínica Ética Odontologia,  Avenida Doutor Cristiano Guimarães
+Current entry:  Fogão de Minas,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Fogão de Minas ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  A Arca dos Bichos,  Avenida General Carlos Guedes
+Current entry:  Garfo Restaurante,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Garfo Restaurante ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  W4 Filmes,  Rua Epaminondas de Moura E Silva
+Current entry:  Abreu Armarios Planejados,  Rua Epaminondas de Moura E Silva
+Current entry:  Centro Automotivo Milcar,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Centro Automotivo Milcar ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  GF Comércio e Locação de Maq e Equipamentos,  Rua Capitão Leonídio Soares
+Current entry:  Paris Lanches,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Paris Lanches ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  1096100 5611201
+Place added to stats.
+Current entry:  Marcenaria Brilhart,  Avenida Deputado Último de Carvalho
+Current entry:  Montador de Móveis em BH,  Rua Herculano Dias Coelho
+Current entry:  Montador de móveis bh Ilder Silva Irs Montagem,  Rua Herculano Dias Coelho
+Current entry:  BH Card - Crachás,  Rua Herculano Dias Coelho
+Current entry:  Conservadora Oriental,  Rua Lourival Carneiro de Vasconcelos
+Current entry:  Tratol Peças para Tratores,  Rua João Fernandes de Oliveira
+Current entry:  WSP Imóveis,  Rua João Fernandes de Oliveira
+Current entry:  Parque Norte Business Center,  Avenida Existente
+Current entry:  Tornearia Rei,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Tornearia Rei ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  buffet taça de ouro,  Rua Senador Teixeira da Costa
+Current entry:  Lage,  Rua Senador Teixeira da Costa
+Current entry:  Lava Jato Lava-dão,  Rua Senador Teixeira da Costa
+Current entry:  Hdias Sistemas,  Rua Senador Teixeira da Costa
+Current entry:  Creche Com JD Felicidade,  Rua Senador Teixeira da Costa
+Current entry:  Hartes & Corpo Lingerie LTDA,  Rua Senador Teixeira da Costa
+Similarity:  1
+HIT!
+MATCH:  Hartes & Corpo Lingerie LTDA ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4782201
+Place added to stats.
+Current entry:  Monteith Overstreet,  Rua Senador Teixeira da Costa
+Current entry:  Mister Luiz Comercial,  Rua José Lopes Barroso
+Current entry:  One Way Brasil LTDA,  Rua José Lopes Barroso
+Current entry:  Costa & Matos Comércio Ltda,  Avenida Joaquim Clemente
+Current entry:  Cantinho da Surpresa,  Avenida Joaquim Clemente
+Current entry:  Academia Áqua Físico Esportes,  Rua Vítor Gonçalves Machado
+Current entry:  Alcance Digital ®,  Rua Vítor Gonçalves Machado
+Current entry:  Casa de Carne Neri,  Rua José Clemente
+Similarity:  3
+HIT!
+MATCH:  Casa de Carne Neri ['4712100', '4713001', '0']
+ISS CNAE:  4712100 4729699
+Place added to stats.
+Current entry:  Grossi Padaria e Mercearia,  Rua Maria José Horta
+Current entry:  Telefone Público,  Rua Maria José Horta
+Current entry:  sevenlee,  Rua Orestes Barbosa
+Current entry:  casa araujo,  Rua Nelson Hungria
+Current entry:  Flávia Maria de Lima Raimundo,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Flávia Maria de Lima Raimundo ['4712100', '0', '4713001']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Depósito Real Max Ltda,  Rua Antônio Bandeira
+Current entry:  Consultório Odontológico Dra Fernanda Augusta de Souza Lopes,  Rua Antônio Bandeira
+Similarity:  3
+HIT!
+MATCH:  Consultório Odontológico Dra Fernanda Augusta de Souza Lopes ['0', '4713001', '86', '8630504']
+ISS CNAE:  8630504 
+Place added to stats.
+Current entry:  PW Burguers,  Rua Antônio Bandeira
+Similarity:  3
+HIT!
+MATCH:  PW Burguers ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4721102 4712100
+Place added to stats.
+Current entry:  Casa de Rações JM,  Rua Ajair de Almeida Costa
+Current entry:  Master Mudanças,  Rua Rogério Aparecido da Silva
+Current entry:  FW Engenharia Ltda,  Rua Rogério Aparecido da Silva
+Current entry:  Igreja Evangélica Vida,  Rua Rogério Aparecido da Silva
+Current entry:  Cleisson de Freitas Vieira,  Rua Rogério Aparecido da Silva
+Current entry:  Depósito Regiane,  Rua Rogério Aparecido da Silva
+Current entry:  Lava Jato do Paulinho,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Lava Jato do Paulinho ['0', '4520005', '4713001']
+ISS CNAE:  4520005 
+Place added to stats.
+Current entry:  Famicalli Engenharia,  Rua Olga Fratezzi
+Current entry:  Salão Frize Hair,  Rua Bogotá
+Similarity:  3
+HIT!
+MATCH:  Salão Frize Hair ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Planeta Criativo: Criação de site,  Rua Bogotá
+Current entry:  Procedimentos em Saúde Ocupacional,  Rua Augusto Clementino
+Current entry:  Burguer e Companhia,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Burguer e Companhia ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Pujal Auto Peças,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Pujal Auto Peças ['0', '4520001', '4713001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  Marítima Engenharia e Construções Ltda,  Avenida Guarapari
+Current entry:  Geraldo S Albuquerque,  Avenida Guarapari
+Current entry:  Bons Sonhos Representações,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Bons Sonhos Representações ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789001
+Place added to stats.
+Current entry:  Chopp Delivery BH,  Avenida Guarapari
+Current entry:  Lixão RPV,  Avenida Guarapari
+Current entry:  Chico music,  Rua Júlio Diniz
+Current entry:  Motel Charme,  Rua Monte Castelo
+Current entry:  Breik Breik,  Rua Antero de Quental
+Current entry:  Elildo Carvalho Engenharia Elétrica,  Rua São Sebastião do Paraíso
+Current entry:  Telas União Indústria e Comércio,  Rua São Sebastião do Paraíso
+Current entry:  Telas União Indústria e Comércio,  Rua São Sebastião do Paraíso
+Current entry:  Studio Ca,  Rua São Sebastião do Paraíso
+Current entry:  Kidelicia lanches,  Rua São Sebastião do Paraíso
+Current entry:  Novais Representações Ltda,  Rua Doutora Queridinha
+Current entry:  Villa SPA Zen,  Rua Professor Ricardo Pinto
+Similarity:  1
+HIT!
+MATCH:  Villa SPA Zen ['5510801', '4713001', '9602501', '0']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Massagem Belo Horizonte,  Rua Professor Ricardo Pinto
+Current entry:  Massagem Belo Horizonte,  Rua Professor Ricardo Pinto
+Current entry:  C Educacional Iza Rizzotti,  Rua Jornalista Waldir Lau
+Similarity:  1
+HIT!
+MATCH:  C Educacional Iza Rizzotti ['0', '86', '8512100', '4713001']
+ISS CNAE:  8512100 8511200
+Place added to stats.
+Current entry:  A Arte Reparo - Martelinho de Ouro -,  Rua José Oscar Barreira
+Similarity:  3
+HIT!
+MATCH:  A Arte Reparo - Martelinho de Ouro - ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4520004
+Place added to stats.
+Current entry:  Casa de Carnes São José,  Rua José Oscar Barreira
+Current entry:  Padaria e Confeitaria Coelho Ribeiro,  Rua José Oscar Barreira
+Current entry:  Belissima Lingerie,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Belissima Lingerie ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Banca Estrela da Manha,  Avenida Doutor Cristiano Guimarães
+Current entry:  Fino Trato,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Fino Trato ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Telefone Público,  Avenida Doutor Cristiano Guimarães
+Current entry:  Cartório Postal,  Avenida Doutor Cristiano Guimarães
+Current entry:  Banca Estrela,  Avenida Doutor Cristiano Guimarães
+Current entry:  Give Imóveis,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Give Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6822600 6821801
+Place added to stats.
+Current entry:  Maria L S Amorim,  Avenida Doutor Cristiano Guimarães
+Current entry:  Terceira Intenção,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Terceira Intenção ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  UNIÃO DAS CORES TINTAS AUTOMOTIVAS,  Avenida Doutor Cristiano Guimarães
+Current entry:  Bel Cell,  Avenida Doutor Cristiano Guimarães
+Current entry:  ESTAMPARIA GERAIS,  Rua Henrique Horta
+Current entry:  Colégio Santa Maria Pampulha,  Rua Henrique Horta
+Current entry:  Instituto de Beleza - Fernanda Silva,  Rua Tristão da Cunha
+Current entry:  Carol Modas,  Rua Tristão da Cunha
+Current entry:  Salão M & M,  Rua Tristão da Cunha
+Current entry:  Ademar Bar e Restaurante Pais e Filhos,  Rua Tristão da Cunha
+Current entry:  Paróquia Cristo Operário,  Rua Tristão da Cunha
+Current entry:  Prisma Eletrônica,  Avenida General Carlos Guedes
+Current entry:  Vipesa Colchões e Estofados,  Avenida General Carlos Guedes
+Current entry:  Banner e Cia,  Avenida General Carlos Guedes
+Current entry:  Bar do Marquinho,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Bar do Marquinho ['0', '5611202', '4713001']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Rogério Alinhamento Direção Hidráulica,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Rogério Alinhamento Direção Hidráulica ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  GF Comércio e Locação de Maq e Equipamentos,  Rua Capitão Leonídio Soares
+Current entry:  Oximetal Indústria e Com de Produtos Siderúrgicos,  Avenida Deputado Último de Carvalho
+Current entry:  Nutrimus Industria de Lanche LTDA,  Avenida Deputado Último de Carvalho
+Current entry:  Promarket Representações,  Avenida Deputado Último de Carvalho
+Current entry:  Master Clima,  Avenida Deputado Último de Carvalho
+Current entry:  Farley's,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Farley's ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Igreja de Deus no Brasil,  Rua Antônio Ferreira Sobrinho
+Current entry:  Infordomínio,  Rua Wilson Soares Fernandes
+Current entry:  Loja da Fábrica San-Marino,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Loja da Fábrica San-Marino ['0', '4713001', '4782201']
+ISS CNAE:  4782201 4781400
+Place added to stats.
+Current entry:  Posto Petrobras,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Posto Petrobras ['0', '4731800', '4713001', '4520001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  minha casa BH,  Rua José Cláudio de Sales
+Current entry:  Verão Sorte Confecções,  Rua José Clemente
+Similarity:  3
+HIT!
+MATCH:  Verão Sorte Confecções ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Movic Calçados,  Rua José Clemente
+Similarity:  3
+HIT!
+MATCH:  Movic Calçados ['0', '4713001', '4782201']
+ISS CNAE:  4782201 
+Place added to stats.
+Current entry:  Congregação Crista No Brasil - Tupi,  Rua Alberto Delpino
+Current entry:  Hotelzinho Casa de Campo,  Rua Nelson Hungria
+Similarity:  1
+HIT!
+MATCH:  Hotelzinho Casa de Campo ['9609208', '0', '4713001']
+ISS CNAE:  9609208 
+Place added to stats.
+Current entry:  Supermercado HF,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Supermercado HF ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Casa de Carnes Vilela,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Casa de Carnes Vilela ['4712100', '4713001', '0']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Casa Araújo,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Casa Araújo ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Auto Manutenção Concertos,  Rua Furquim Werneck
+Current entry:  Belo Horizonte,  Rua Furquim Werneck
+Current entry:  Açai Dinho,  Rua Edgard Cavaleiro
+Similarity:  1
+HIT!
+MATCH:  Açai Dinho ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  INFORSAM COMERCIO E SERVIÇOS EM INFORMATICA,  Rua Agripino Grieco
+Current entry:  Casa de Carne Luciano Duarte,  Rua Antônio Bandeira
+Similarity:  3
+HIT!
+MATCH:  Casa de Carne Luciano Duarte ['4712100', '4713001', '0']
+ISS CNAE:  4721102 4712100
+Place added to stats.
+Current entry:  Drogaportes,  Rua Antônio Bandeira
+Current entry:  Bar Do Afonso,  Rua Sete de Outubro
+Similarity:  1
+HIT!
+MATCH:  Bar Do Afonso ['0', '5611202', '4713001']
+ISS CNAE:  5611203 5611202
+Place added to stats.
+Current entry:  Nerd Tech Bureau,  Avenida Américo Vespúcio
+Current entry:  EM Profa Acidalia Lott,  Rua Santo Isidoro
+Current entry:  Rio Real Empreendimentos Ltda,  Rua Estocolmo
+Current entry:  Corban MG Soluções Financeiras,  Rua Sérgio Felício da Silva
+Current entry:  Motel 44,  Rua Raimundo Albergaria Filho
+Current entry:  Ranário Lagoa das Rãs,  Rua Carlos de Sá
+Current entry:  Recanto da Fantasia,  Rua Américo Antonini
+Current entry:  Toca Dos Hobbits,  Rua dos Expedicionarios
+Current entry:  Atual Dedetização e Desentupidora Bh,  Rua Heitor Sócrates Cardoso
+Current entry:  YÁZIGI,  Avenida Guarapari
+Current entry:  Yázigi,  Avenida Guarapari
+Current entry:  Maria L Soares,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Maria L Soares ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Fraldas e Cia,  Avenida Deputado Anuar Menhem
+Current entry:  4W Veículos,  Rua Monte Castelo
+Current entry:  Breik Breik,  Rua Monte Castelo
+Similarity:  1
+HIT!
+MATCH:  Breik Breik ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  People Transporte Executivo,  Rua Monte Castelo
+Current entry:  People Transporte Executivo,  Rua São Sebastião do Paraíso
+Current entry:  Abreu e Oliveira,  Rua São Sebastião do Paraíso
+Current entry:  Instituto Presidente Roosevelt,  Avenida Montese
+Current entry:  Tecnoweb,  Avenida Montese
+Current entry:  Manutenção de Computadores,  Rua Ministro Hermenegildo de Barros
+Current entry:  AMX SOLUÇÕES LTDA,  Rua Jornalista Waldir Lau
+Current entry:  Correios - Ag Planalto,  Avenida Doutor Cristiano Guimarães
+Current entry:  Panda Têxtil Com Rep Ltda,  Avenida Doutor Cristiano Guimarães
+Current entry:  Posto dos Correios,  Avenida Doutor Cristiano Guimarães
+Current entry:  Projeto Planalto Papelaria,  Avenida Doutor Cristiano Guimarães
+Current entry:  Gobel,  Avenida Doutor Cristiano Guimarães
+Current entry:  Academia Templo Ltda,  Avenida Doutor Cristiano Guimarães
+Current entry:  Cirurgia Plástica Dr. Juarez Andrade,  Avenida Doutor Cristiano Guimarães
+Current entry:  Frutos de Goiás,  Avenida Doutor Cristiano Guimarães
+Current entry:  Cirurgia Plástica Dr.Luiz Carlos M. da Rocha,  Avenida Doutor Cristiano Guimarães
+Current entry:  Contorno do Corpo,  Avenida Doutor Cristiano Guimarães
+Current entry:  Sociedade Mineira de Cultura,  Rua Henrique Horta
+Current entry:  Sociedade de Educação e Assistência Social,  Rua Henrique Horta
+Current entry:  Col Sta Maria Pampulha,  Rua Henrique Horta
+Current entry:  Oficina Duarte Artesanato,  Rua Henrique Horta
+Current entry:  MOSTEIRO ENGENHARIA,  Rua Iracema Souza Pinto
+Current entry:  Rodrigo A Oliveira,  Avenida General Carlos Guedes
+Current entry:  Allucell Celulares e Acessórios,  Avenida General Carlos Guedes
+Current entry:  Musical Pampulha Inst Musicais,  Avenida General Carlos Guedes
+Current entry:  Planalto Trade Center,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Planalto Trade Center ['0', '6822600', '4713001']
+ISS CNAE:  6822600 8299799
+Place added to stats.
+Current entry:  Cássia C Oliveira,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Cássia C Oliveira ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Flor Morena,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Flor Morena ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Atelier Agulhas Criativas,  Avenida General Carlos Guedes
+Current entry:  São Luiz Industrial,  Avenida Deputado Último de Carvalho
+Current entry:  Eletrônica GM Ltda,  Avenida Deputado Último de Carvalho
+Current entry:  Uai Imóveis,  Avenida Deputado Último de Carvalho
+Current entry:  UAI Imóveis,  Avenida Deputado Último de Carvalho
+Current entry:  Kennedy de Souza Crispim,  Rua Doutor José Farolla
+Current entry:  Espetinho do Cal,  Rua Wilson Soares Fernandes
+Current entry:  Salão da Lora,  Rua Wilson Soares Fernandes
+Similarity:  1
+HIT!
+MATCH:  Salão da Lora ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Angelo Aviamentos,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Angelo Aviamentos ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4321500
+Place added to stats.
+Current entry:  SR Moto Peças,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  SR Moto Peças ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Autorização de Pesquisa Mineral e Requerimentos Junto ao DNPM,  Rua Senador Teixeira da Costa
+Current entry:  Posto Floramar,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Posto Floramar ['0', '4731800', '4713001']
+ISS CNAE:  4731800 4520005
+Place added to stats.
+Current entry:  Stilo Construções Reformas e Acabamentos Ltda - Me,  Rua Engenheiro Alfredo de Castilho
+Current entry:  Residencial Flor e Mar,  Rua Engenheiro Alfredo de Castilho
+Current entry:  Benezegás,  Rua José de Paula Cotta
+Current entry:  Belo Horizonte,  Rua Antônio Bandeira
+Current entry:  Igreja Católica da Cdd. Nossa Senhora de Fátima,  Rua Pintor Renato Lima
+Similarity:  1
+HIT!
+MATCH:  Igreja Católica da Cdd. Nossa Senhora de Fátima ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  serazi majeko jewelers,  Avenida Américo Vespúcio
+Current entry:  Igreja Internacional Despertar da Fé,  Avenida Américo Vespúcio
+Current entry:  Tele Gás,  Rua São Mauro
+Current entry:  Centro de Saúde Serra Verde 2,  Rua São Mauro
+Current entry:  Petisqueira Pampulha,  Rua Estocolmo
+Current entry:  Espaço Clubinho Pampulha,  Rua Estocolmo
+Current entry:  Lagoa Telhas Comércio,  Rua Raimundo Albergaria Filho
+Current entry:  MG TEXTURAS,  Rua Raimundo Albergaria Filho
+Current entry:  Transluveo Transportes,  Rua Carlos de Sá
+Current entry:  Auto Socorro Tiborna 24h,  Rua Quênia
+Current entry:  Socila,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Socila ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  MMT Comércio de Rações,  Avenida Guarapari
+Current entry:  Fofo Kão e Cia,  Avenida Guarapari
+Current entry:  Tudo De Bom,  Rua Sudão
+Current entry:  STALKER ENGENHARIA LTDA,  Rua Mário de Andrade
+Current entry:  Tom Sobre Tom,  Rua Antero de Quental
+Similarity:  1
+HIT!
+MATCH:  Tom Sobre Tom ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Clinicão Centro Veterinário Itapoã-Pampulha,  Rua Antero de Quental
+Current entry:  Clinicão Tosa e Banho,  Rua Antero de Quental
+Current entry:  Salão de Beleza Tom Sobre Tom,  Rua Antero de Quental
+Similarity:  1
+HIT!
+MATCH:  Salão de Beleza Tom Sobre Tom ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Icell Equipamentos para Laboratórios,  Rua Antero de Quental
+Current entry:  K2host Internet,  Rua Antero de Quental
+Current entry:  Agil Cred-Soluções Financeiras,  Rua Antero de Quental
+Current entry:  Karanga Pizzaria,  Rua Antero de Quental
+Current entry:  4W Veículos,  Rua Antero de Quental
+Current entry:  Comercial Guaraciabense,  Rua Antero de Quental
+Current entry:  Portugal Imóveis,  Rua Antero de Quental
+Current entry:  Comercial Guaraciabense,  Rua Antero de Quental
+Current entry:  People Transporte Executivo,  Rua Antero de Quental
+Current entry:  Lumiar Health Builders Equipamento Hospitalares,  Rua Doutora Queridinha
+Current entry:  Vantunes Imóveis - Negócios Imobiliários,  Rua Resy de Sousa Paiva
+Current entry:  Amaranthus,  Rua Jornalista Waldir Lau
+Current entry:  Posto dos Correios,  Avenida Doutor Cristiano Guimarães
+Current entry:  Luís Carlos Maurício da Rocha,  Avenida Doutor Cristiano Guimarães
+Current entry:  Med Plástica,  Avenida Doutor Cristiano Guimarães
+Current entry:  Shock Car Som e Acessórios,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Shock Car Som e Acessórios ['0', '4753900', '4713001', '4520001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Planalto Calçados,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Planalto Calçados ['0', '4713001', '4782201']
+ISS CNAE:  4755501 4782201
+Place added to stats.
+Current entry:  Estilo dos Pés (Loja Planalto),  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Estilo dos Pés (Loja Planalto) ['0', '4713001', '4782201']
+ISS CNAE:  4755501 4782201
+Place added to stats.
+Current entry:  Contabilidade At,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Contabilidade At ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 8219999
+Place added to stats.
+Current entry:  Geraldo Lustosa Laboratório Médico,  Avenida Doutor Cristiano Guimarães
+Current entry:  Sociedade Mineira de Cultura,  Avenida Doutor Cristiano Guimarães
+Current entry:  Sociedade de Educação e Assistência Social,  Avenida Doutor Cristiano Guimarães
+Current entry:  Col Sta Maria Pampulha,  Avenida Doutor Cristiano Guimarães
+Current entry:  Oficina Duarte Artesanato,  Avenida Doutor Cristiano Guimarães
+Current entry:  Corpo & Mente Mudadu,  Rua Iracema Souza Pinto
+Current entry:  Espaço Fashion,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Espaço Fashion ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Papelaria Colorir,  Avenida General Carlos Guedes
+Current entry:  Salão Zélio Cabeleireiro,  Avenida General Carlos Guedes
+Current entry:  Arte e Bibelô,  Avenida General Carlos Guedes
+Current entry:  Panda Têxtil,  Avenida General Carlos Guedes
+Current entry:  Açaí Planalto,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Açaí Planalto ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Uberaba Supermercado,  Avenida General Carlos Guedes
+Current entry:  José B Silva,  Avenida General Carlos Guedes
+Current entry:  Praça Engenheiro Lenine Savini,  Rua Tristão da Cunha
+Current entry:  Lojas Móbile,  Rua Tristão da Cunha
+Current entry:  Centro Automotivo Fino Trato,  Rua Capitão Leonídio Soares
+Current entry:  Auto Mecânica Multicar,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Auto Mecânica Multicar ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  EM Tristao da Cunha,  Avenida Deputado Último de Carvalho
+Current entry:  Chaveiro Heliopólis,  Rua Lobo Leite
+Current entry:  Alberto Informática,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Alberto Informática ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Hidrauaço Distribuidora de Material de Combate a Incêndio,  Rua Teófilo Otoni
+Current entry:  Telecondominio do Edifício Floramar,  Rua José Cláudio de Sales
+Current entry:  Silvério C Carvalho,  Rua Ouricuri
+Current entry:  José L Carvalho,  Rua Ouricuri
+Current entry:  Roberto Maciel de Freitas,  Avenida Joaquim Clemente
+Current entry:  Esteves e Empreendimento,  Rua José Drumond
+Current entry:  Dark Dragon art tattoo studio,  Rua José Drumond
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua José de Paula Cotta
+Current entry:  Larissa Móveis,  Rua José de Paula Cotta
+Current entry:  SUPERMERCADO BEM BOM,  Rua Lúcia Miguel Pereira
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Alberto Delpino
+Current entry:  Larissa Móveis,  Rua Alberto Delpino
+Current entry:  Vex Lan House,  Rua Alberto Delpino
+Current entry:  Dentista Dra. Juliana Marcia Pires,  Rua Alberto Delpino
+Current entry:  Borracharia do Baiano,  Rua Alberto Delpino
+Current entry:  A Rai Caçambas Ltda,  Rua Nelson Hungria
+Current entry:  WR Caçambas - Locação de Caçamba em BH,  Rua Nelson Hungria
+Current entry:  Magestur Viagens e Turismo,  Rua Nelson Hungria
+Current entry:  Congregação Crista No Brasil - Tupi,  Rua Nelson Hungria
+Similarity:  1
+HIT!
+MATCH:  Congregação Crista No Brasil - Tupi ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Igreja Evangélica Pentecostal Primitiva,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Igreja Evangélica Pentecostal Primitiva ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Centro Educacional Passos Firmes,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Centro Educacional Passos Firmes ['0', '8512100', '4713001']
+ISS CNAE:  8512100 
+Place added to stats.
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Igreja Casa de Oração do Evangelho do Senhor Jesus ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Salão Super Star,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Salão Super Star ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Vex Lan House,  Rua José Lins do Rego
+Current entry:  Point da Saúde,  Rua José Lins do Rego
+Current entry:  Dentista Dra. Juliana Marcia Pires,  Rua José Lins do Rego
+Current entry:  Borracharia do Baiano,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Borracharia do Baiano ['0', '4520001', '4713001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Merceria Silvéria de Freitas Ltda,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Merceria Silvéria de Freitas Ltda ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  ÁGUAS LOKARSILVA,  Rua Graciliano Ramos
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Graciliano Ramos
+Current entry:  Salão Super Star,  Rua Graciliano Ramos
+Similarity:  1
+HIT!
+MATCH:  Salão Super Star ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Point da Saúde,  Rua Graciliano Ramos
+Current entry:  Áudio Vídeo Eletrônica,  Rua Graciliano Ramos
+Current entry:  Salão Pires,  Rua Graciliano Ramos
+Similarity:  1
+HIT!
+MATCH:  Salão Pires ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Lojas Rose,  Rua Antônio Bandeira
+Current entry:  César de Moura,  Rua Antônio Bandeira
+Current entry:  Augusto Marcenaria E Vidros Temperados,  Rua Pintor Renato Lima
+Current entry:  Bar e Lan House,  Rua 45
+Similarity:  3
+HIT!
+MATCH:  Bar e Lan House ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  Conselho Comunitário Unidos pelo Ribeiro de Abreu,  Rua Remi Pereira Lopes
+Current entry:  Bar do Porreta,  Rua Brant Horta
+Current entry:  serazi majeko jewelers,  Rua Brant Horta
+Current entry:  Igreja Internacional Despertar da Fé,  Rua Brant Horta
+Current entry:  Telefone Público,  Rua Brant Horta
+Current entry:  DL direção hidráulicas,  Rua Alfavaca
+Current entry:  Primeira Igreja Batista de Renovação do Ribeiro de Abreu,  Rua São Mauro
+Current entry:  Decoralle Cortinas e Persianas,  Rua Brant Horta
+Current entry:  Bebida Fácil,  Rua Edmar Colini Ferreira
+Current entry:  Elimar Rações,  Rua Edmar Colini Ferreira
+Current entry:  Bar do Tarzan,  Rua Batestina de Andrade
+Current entry:  Pet Portugal,  Rua Edeltônio Frota Cruz
+Current entry:  Petisqueira Pampulha,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Petisqueira Pampulha ['0', '4713001', '4712100', '5611201', '5611202']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Espaço Clubinho Pampulha,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Espaço Clubinho Pampulha ['4712100', '4713001', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Espaço para Eventos Empresariais em BH - Clubinho Pampulha,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Espaço para Eventos Empresariais em BH - Clubinho Pampulha ['4712100', '4713001', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Lagoa Telhas Comércio,  Rua Jordelina Maria do Carmo
+Current entry:  MG TEXTURAS,  Rua Jordelina Maria do Carmo
+Current entry:  FOX PAINTBALLBH,  Rua Jordelina Maria do Carmo
+Current entry:  The Best Home Vídeo,  Avenida Guarapari
+Current entry:  Lili Presentes,  Avenida Guarapari
+Current entry:  Usual C P Ltda,  Avenida Guarapari
+Current entry:  Papelaria Usual,  Avenida Guarapari
+Current entry:  RVN Consultoria e Comunicação de Marketing Ltda.,  Avenida Guarapari
+Current entry:  Publifacil,  Avenida Guarapari
+Current entry:  Núcleo Farmacêutico,  Avenida Guarapari
+Current entry:  Royalfarma Fármacia de Manipulação e Drograria,  Avenida Guarapari
+Current entry:  Faol Contabilidade,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Faol Contabilidade ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 
+Place added to stats.
+Current entry:  Andrezza P Sena,  Avenida Guarapari
+Current entry:  Tecsol Locação de Equip P Eventos Ltda,  Avenida Guarapari
+Current entry:  Ana A M Tomaz,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Ana A M Tomaz ['4712100', '4729602', '0', '4713001']
+ISS CNAE:  4712100 4723700
+Place added to stats.
+Current entry:  A Cores de Festa Pampulha,  Rua Mansueto Filizzola
+Current entry:  Centro de Saúde Santa Amélia,  Rua Engenheiro Pedro Bax
+Current entry:  Gramas Tapete Verde,  Rua Mário de Andrade
+Current entry:  Motel Pampulha,  Rua Antero de Quental
+Current entry:  ICIL-Indústria e Comércio Itacarambi,  Rua Antero de Quental
+Current entry:  O MESMO,  Rua Antero de Quental
+Current entry:  Phoneutria Biotecnologia e Ser,  Rua Antero de Quental
+Current entry:  Iceltec,  Rua Antero de Quental
+Current entry:  uaitotal Tecnologia,  Rua Engenheiro Vicente Assunção
+Current entry:  Instituto Aravinda Miriam Amorim e Emílio Rezende,  Rua João Edmundo Caldeira Brant
+Current entry:  Soc de Assistência e Cultura Sagrado Coração de Jesus,  Avenida Montese
+Current entry:  Venture Assessoria Contábil,  Rua Sebastião Nepomuceno
+Current entry:  Marlete Salgados,  Rua José Oscar Barreira
+Current entry:  Beleza & Artte,  Rua José Oscar Barreira
+Current entry:  Enxovais Pampulha,  Avenida Doutor Cristiano Guimarães
+Current entry:  Planalto Tintas,  Avenida Doutor Cristiano Guimarães
+Current entry:  Bordados Pampulha Ltda,  Avenida Doutor Cristiano Guimarães
+Current entry:  Cook Lar Ambientes Planejados,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Cook Lar Ambientes Planejados ['0', '9700500', '3101200', '4713001']
+ISS CNAE:  3101200 
+Place added to stats.
+Current entry:  Requinte Corretora de Imóveis,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Requinte Corretora de Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6822600 6821801
+Place added to stats.
+Current entry:  Telefone Público Doutor Cristiano Guimarães,  Avenida Doutor Cristiano Guimarães
+Current entry:  Consutório Odontológico Dra. Maria Luiza S. Pereira,  Avenida Doutor Cristiano Guimarães
+Current entry:  Patologia Clínica Dr Geraldo Lustosa Cabral,  Avenida Doutor Cristiano Guimarães
+Current entry:  Novolar Corretora de Imóveis,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Novolar Corretora de Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6822600 6821801
+Place added to stats.
+Current entry:  Infocell Soluções em Informática,  Avenida Doutor Cristiano Guimarães
+Current entry:  Requinte Negócios Imobiliários,  Avenida Doutor Cristiano Guimarães
+Current entry:  Confeitaria Gramado,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Confeitaria Gramado ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  1091102 
+Place added to stats.
+Current entry:  Festa Surpresa,  Avenida General Carlos Guedes
+Current entry:  Copiadora Planejar,  Avenida General Carlos Guedes
+Current entry:  CriFaz Comunicação Integrada,  Avenida General Carlos Guedes
+Current entry:  Lava Jato Bahia,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Lava Jato Bahia ['0', '4520005', '4713001']
+ISS CNAE:  4520005 
+Place added to stats.
+Current entry:  Sacolão Planalto,  Avenida General Carlos Guedes
+Current entry:  Rmg Imóveis,  Avenida General Carlos Guedes
+Current entry:  Delar,  Avenida General Carlos Guedes
+Current entry:  Aliança,  Avenida General Carlos Guedes
+Current entry:  Bar 3 Fazendas,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Bar 3 Fazendas ['0', '5611202', '4713001']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Bazar Beneficente São Vicente de Paula,  Avenida Deputado Último de Carvalho
+Current entry:  Veredas Cabeleireiros,  Avenida Deputado Último de Carvalho
+Current entry:  Centro Automotivo Decisão,  Avenida Deputado Último de Carvalho
+Similarity:  3
+HIT!
+MATCH:  Centro Automotivo Decisão ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Centro Esportivo Magno,  Rua Antônio Ferreira Sobrinho
+Current entry:  Dog Mais Rações,  Rua Antônio Ferreira Sobrinho
+Current entry:  Telefone Público,  Rua Antônio Ferreira Sobrinho
+Current entry:  Igreja Pentecostal Deus é Amor,  Rua Coronel Joaquim Tibúrcio
+Current entry:  Ok Automóveis,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Ok Automóveis ['4511102', '0', '4713001']
+ISS CNAE:  4511102 4512902
+Place added to stats.
+Current entry:  Sorveteria Tropical,  Rua Teófilo Otoni
+Similarity:  3
+HIT!
+MATCH:  Sorveteria Tropical ['4712100', '0', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Fernantur Agência de Viagens e Turismo Ltda,  Rua José Cláudio de Sales
+Current entry:  Luiz Oswaldo Marques Guerra,  Avenida Joaquim Clemente
+Current entry:  Placas e Faixas,  Rua Clóvis de Castro
+Current entry:  Salão J e J Cabeleireiros Unissex,  Rua Clóvis de Castro
+Similarity:  3
+HIT!
+MATCH:  Salão J e J Cabeleireiros Unissex ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4755502
+Place added to stats.
+Current entry:  HI-TECH INFORMÁTICA LTDA,  Rua Nelson Hungria
+Current entry:  Creche Espírita Nosso Pequeno Lar,  Rua Nelson Hungria
+Similarity:  1
+HIT!
+MATCH:  Creche Espírita Nosso Pequeno Lar ['9491000', '4713001', '8512100', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Paróquia São Francisco Xavier,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Paróquia São Francisco Xavier ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Consórcio Fiat,  Rua Nelson Hungria
+Current entry:  Vandira Fróes de Lima,  Rua Nelson Hungria
+Current entry:  Minas Comércio e Representações Ltda,  Rua Furquim Werneck
+Current entry:  Trairas Beer's do Toninho,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Trairas Beer's do Toninho ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Edileusa M Silva,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Edileusa M Silva ['4712100', '4729602', '0', '4713001']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Lokarsilva Transporte de Água,  Rua Graciliano Ramos
+Current entry:  PIPA EM BH,  Rua Graciliano Ramos
+Current entry:  ÁGUA POTÁVEL BH,  Rua Graciliano Ramos
+Current entry:  Caminhão Pipa em BH Caminhão Pipa RF,  Rua Graciliano Ramos
+Current entry:  Divigolas ltda,  Rua Chiquinha Gonzaga
+Similarity:  1
+HIT!
+MATCH:  Divigolas ltda ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Igreja Internacional Despertar da Fé,  Rua Remi Pereira Lopes
+Current entry:  A V G C Esquadrias de Alumínios,  Rua São João
+Current entry:  Bar do Tonhão,  Rua da Abolição
+Current entry:  Espaço Clubinho Pampulha,  Rua Edeltônio Frota Cruz
+Current entry:  Espaço para Eventos Empresariais em BH - Clubinho Pampulha,  Rua Edeltônio Frota Cruz
+Current entry:  Belo Horizonte,  Rua Edeltônio Frota Cruz
+Current entry:  FOX PAINTBALLBH,  Rua Edeltônio Frota Cruz
+Current entry:  Jardim de Infancia Minha Vida,  Rua Olinda Ferreira Lopes
+Current entry:  Subway,  Rua Olinda Ferreira Lopes
+Similarity:  1
+HIT!
+MATCH:  Subway ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 5611201
+Place added to stats.
+Current entry:  Guarapari Imóveis,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Guarapari Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6821802 6821801
+Place added to stats.
+Current entry:  Luciana L Alves,  Avenida Guarapari
+Current entry:  Santa Amélia,  Avenida Guarapari
+Current entry:  Ernandes P Claudiano,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Ernandes P Claudiano ['4712100', '4713001', '0']
+ISS CNAE:  4712100 4723700
+Place added to stats.
+Current entry:  Grupo GP,  Rua Monte Cassino
+Current entry:  Quality Vigilância,  Rua Júlio Diniz
+Current entry:  Polícia Militar do Estado de Minas Gerais,  Rua Antero de Quental
+Current entry:  BrBioEnergia Ltda,  Rua Antero de Quental
+Current entry:  PlantaBio Agrotecnologia,  Rua Antero de Quental
+Current entry:  GT Serviços em Telecomunicações Eng e Inf,  Rua Doutor José Esteves Rodrigues
+Current entry:  Banda RP2000,  Rua Doutor José Esteves Rodrigues
+Current entry:  Condomínio do Edifício Priscila Braga,  Rua João Edmundo Caldeira Brant
+Current entry:  Toscana Consultoria Internacional Ltda,  Rua Professor Baeta Viana
+Current entry:  Supermercado Pelè,  Rua Fernando Magalhães Gomes
+Current entry:  Escola Municipal Lidia Angélica,  Rua Desembargador Lincoln Prates
+Current entry:  Lojas Grafitte "PLANALTO",  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Lojas Grafitte "PLANALTO" ['0', '4713001', '4781400', '4782201']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Instituto de Olhos Pampulha,  Avenida Doutor Cristiano Guimarães
+Current entry:  Kayalla Fashion,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Kayalla Fashion ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Centro Pedagogico da Criança,  Avenida Doutor Cristiano Guimarães
+Current entry:  Cor e Charme,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Cor e Charme ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Atrium Moda Feminina,  Rua Roberto Lúcio Aroeira
+Current entry:  Jô Boutique,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Jô Boutique ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Model e Acessórios,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Model e Acessórios ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Livraria Jardim Cultural,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Livraria Jardim Cultural ['0', '4761001', '4713001']
+ISS CNAE:  8299799 4761001
+Place added to stats.
+Current entry:  Chaveiro Itapoã,  Avenida General Carlos Guedes
+Current entry:  Pontual Planalto,  Avenida General Carlos Guedes
+Current entry:  Casa de Rações Espinelli,  Avenida General Carlos Guedes
+Current entry:  Elogie Modas,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Elogie Modas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Andrade Pavimentações Andrapav,  Rua Iracema Souza Pinto
+Current entry:  Advocacia Dra. Andréia Maria Silva de Ávila,  Rua Tristão da Cunha
+Current entry:  Bom Apetite Salgados,  Rua Tristão da Cunha
+Current entry:  Dani Salão,  Rua Lobo Leite
+Similarity:  1
+HIT!
+MATCH:  Dani Salão ['0', '9602501', '4713001']
+ISS CNAE:  9602501 3299099
+Place added to stats.
+Current entry:  Edmac Comunicação e Marketing Ltda,  Rua Lobo Leite
+Current entry:  Sorveteria do Roberto,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Sorveteria do Roberto ['4712100', '0', '4713001']
+ISS CNAE:  4722901 4712100
+Place added to stats.
+Current entry:  Blocos de Concreto Tôrres,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Blocos de Concreto Tôrres ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Real Lajes Ltda,  Rua Teófilo Otoni
+Current entry:  Avant Consultoria Representações e Comércio,  Rua Itaoca
+Current entry:  Academia Olímpica Mineira de Esporte e Cultura,  Rua Jaci Nogueira
+Current entry:  Lava Jato Service Car,  Rua Numa Nogueira
+Current entry:  Leila T Damásio,  Rua Lúcia Miguel Pereira
+Current entry:  Supermercado Bom e Bom,  Rua Lúcia Miguel Pereira
+Similarity:  3
+HIT!
+MATCH:  Supermercado Bom e Bom ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Consórcio Fiat,  Rua José Lins do Rego
+Current entry:  Hidro Água Ltda,  Rua José Lins do Rego
+Current entry:  Congregação Crista No Brasil - Tupi,  Rua José Lins do Rego
+Similarity:  3
+HIT!
+MATCH:  Congregação Crista No Brasil - Tupi ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Vandira Fróes de Lima,  Rua José Lins do Rego
+Current entry:  Consultório Dra Daniella Bastos Prato,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Consultório Dra Daniella Bastos Prato ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Creche Casinha dos Anjos,  Rua Furquim Werneck
+Current entry:  Frigorífico Super Carne,  Rua Antônio Bandeira
+Similarity:  3
+HIT!
+MATCH:  Frigorífico Super Carne ['4712100', '0', '4713001']
+ISS CNAE:  4721102 4712100
+Place added to stats.
+Current entry:  Comupra,  Rua Remi Pereira Lopes
+Current entry:  Ponto Brindes,  Rua Carlos Gardel
+Current entry:  A V G C Esquadrias de Alumínios,  Rua São João
+Current entry:  Academia Sensação,  Rua São João
+Current entry:  Bradesco,  Rua Toronto
+Current entry:  Bradesco Dia & Noite,  Rua Toronto
+Current entry:  Belo Horizonte,  Rua Toronto
+Current entry:  FOX PAINTBALLBH,  Rua Toronto
+Current entry:  Otimização de Sites BH,  Rua Eugênio Sales
+Current entry:  minha escola,  Rua Eugênio Sales
+Current entry:  Escola Estadual Getúlio Vargas,  Rua Eugênio Sales
+Current entry:  Meriene D Silva,  Rua Joinville
+Current entry:  Salão Darroh,  Avenida Virgilio de Melo Franco
+Current entry:  Escola Estadual Getúlio Vargas,  Avenida Virgilio de Melo Franco
+Current entry:  M G Impermeabilizantes,  Rua Olinda Ferreira Lopes
+Current entry:  Jump Academia,  Rua Olinda Ferreira Lopes
+Current entry:  Centro de Saúde Serra Verde 2,  Avenida Guarapari
+Current entry:  Depósito Chris e Cris,  Avenida Deputado Anuar Menhem
+Current entry:  Cia das Índias,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  Cia das Índias ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Ruminas,  Avenida Deputado Anuar Menhem
+Current entry:  Canal Contábil,  Rua Presidente Nasser
+Current entry:  Sovipa-Distribuição & Comércio Ltda,  Rua Presidente Nasser
+Current entry:  Taxi /transporte Executivo,  Rua Monte Cassino
+Current entry:  Igreja Nossa Senhora Sagrado Coração,  Rua Marcos Lopes de Almeida
+Current entry:  Gate Batalhão,  Rua Antero de Quental
+Current entry:  Sadia,  Rua Antero de Quental
+Current entry:  Quibasa Química Básica Ltda,  Rua Antero de Quental
+Current entry:  Xavier Carnes,  Rua Antero de Quental
+Current entry:  Sacolão Para Todos,  Rua Antero de Quental
+Current entry:  Predial BH Imoveis,  Rua Monte Castelo
+Similarity:  1
+HIT!
+MATCH:  Predial BH Imoveis ['6821801', '4713001', '0']
+ISS CNAE:  6810201 6821801
+Place added to stats.
+Current entry:  Jopema Serviços Técnicos,  Rua Professor Baeta Viana
+Current entry:  Number One - Itapoa Planalto,  Rua Jornalista Waldir Lau
+Similarity:  1
+HIT!
+MATCH:  Number One - Itapoa Planalto ['0', '8512100', '4713001']
+ISS CNAE:  8512100 8511200
+Place added to stats.
+Current entry:  Ansertex Anselmo Representações Têxteis Ltda,  Rua Jornalista Waldir Lau
+Current entry:  LOKARE FESTAS,  Rua Roberto Lúcio Aroeira
+Current entry:  Maurício D Mello,  Rua Roberto Lúcio Aroeira
+Current entry:  Carlos R Freitas,  Rua Roberto Lúcio Aroeira
+Current entry:  Wânia R M Trajano,  Rua Roberto Lúcio Aroeira
+Current entry:  Instituto Haas -,  Rua Roberto Lúcio Aroeira
+Current entry:  Patrícia H Leivas,  Rua Roberto Lúcio Aroeira
+Current entry:  OURO VEICULOS,  Avenida Doutor Cristiano Guimarães
+Current entry:  Horizonte Express Logística e Transporte Ltda,  Avenida Doutor Cristiano Guimarães
+Current entry:  Equipage Som e Acessórios,  Rua Roberto Lúcio Aroeira
+Current entry:  Ferreira Gás,  Avenida Doutor Cristiano Guimarães
+Current entry:  Acerta Promotora,  Avenida Doutor Cristiano Guimarães
+Current entry:  Ouro Veículos,  Rua Roberto Lúcio Aroeira
+Current entry:  Elaine de Carvalho Aguiar Consultório Odontológico,  Rua Arthur Lima de Azevedo
+Current entry:  Fisk,  Avenida General Carlos Guedes
+Current entry:  Branglish,  Avenida General Carlos Guedes
+Current entry:  Drogaria e Perfumaria Pocrane,  Avenida General Carlos Guedes
+Current entry:  Branglish,  Avenida General Carlos Guedes
+Current entry:  Auto Elétrica - Dudu,  Avenida General Carlos Guedes
+Current entry:  Auto Mecânica WG,  Rua Vereador Orlando Bonfim
+Current entry:  Pequeno Centro de Solidariedade Betina,  Rua Iracema Souza Pinto
+Current entry:  Aluap Player,  Rua Capitão Leonídio Soares
+Current entry:  Mercearia Daiego,  Rua Wilson Soares Fernandes
+Current entry:  Mharmo-Service Granitos Ltda,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Mharmo-Service Granitos Ltda ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Thayrine,  Rua Itaoca
+Similarity:  3
+HIT!
+MATCH:  Thayrine ['0', '9602501', '4713001']
+ISS CNAE:  4781400 9602501
+Place added to stats.
+Current entry:  Brasanitas Empresa B,  Rua Paraguaçú
+Current entry:  Ferreira & Brandão Com,  Avenida Joaquim Clemente
+Current entry:  Academia Olímpica Mineira de Esporte e Cultura,  Rua Jaci Nogueira
+Current entry:  Alô Fogos,  Rua Numa Nogueira
+Current entry:  Cabelo Corpo & Cia,  Rua Nelson Hungria
+Similarity:  1
+HIT!
+MATCH:  Cabelo Corpo & Cia ['0', '9602501', '4713001']
+ISS CNAE:  4330404 9602501
+Place added to stats.
+Current entry:  Newton Gonçalves Pimenta,  Rua Nelson Hungria
+Current entry:  Toque Final,  Rua Nelson Hungria
+Current entry:  PET SHOP IMPERIO ANIMAL,  Rua Lúcia Miguel Pereira
+Similarity:  3
+HIT!
+MATCH:  PET SHOP IMPERIO ANIMAL ['9609208', '0', '4713001']
+ISS CNAE:  4789004 9609208
+Place added to stats.
+Current entry:  Sorveteria e Lanchonete Lucinei,  Rua Lúcia Miguel Pereira
+Similarity:  3
+HIT!
+MATCH:  Sorveteria e Lanchonete Lucinei ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Sacolão Amanhecer,  Rua Lúcia Miguel Pereira
+Similarity:  3
+HIT!
+MATCH:  Sacolão Amanhecer ['4712100', '0', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  21º,  Rua Edgard Cavaleiro
+Current entry:  EXPRESSO VANS,  Rua Edgard Cavaleiro
+Current entry:  Hidro Água Ltda,  Rua Edgard Cavaleiro
+Current entry:  Armarinho JMJ,  Rua Edgard Cavaleiro
+Current entry:  Transgouveia,  Rua Edgard Cavaleiro
+Current entry:  Drogaria e Perfumaria Maxi Tupi,  Rua Furquim Werneck
+Current entry:  100limit skateboard,  Rua Manoel Nunes Viana
+Current entry:  Qualidade Placas,  Rua Manoel Nunes Viana
+Current entry:  Cv Serigrafia,  Rua Manoel Nunes Viana
+Current entry:  Belo Horizonte,  Rua Manoel Nunes Viana
+Current entry:  Produtos Mary Kay,  Rua Esca. Zita Machado
+Current entry:  Maçã Lia,  Rua Domingos de Souza
+Current entry:  Supermercado Vida,  Rua Vinte e Oito
+Current entry:  Escolinha de Futebol União Celeste,  Rua Rogério Aparecido da Silva
+Current entry:  Igreja Internacional Despertar da Fé,  Rua Rogério Aparecido da Silva
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Carlos Gardel
+Current entry:  Academia Sensação,  Rua Carlos Gardel
+Current entry:  Nalu Modas,  Rua Carlos Gardel
+Similarity:  1
+HIT!
+MATCH:  Nalu Modas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4755502
+Place added to stats.
+Current entry:  Dentista Dra. Juliana Marcia Pires,  Rua Carlos Gardel
+Current entry:  Planet.com Fitness,  Rua Carlos Gardel
+Current entry:  Salão Super Star,  Rua Carlos Gardel
+Similarity:  1
+HIT!
+MATCH:  Salão Super Star ['0', '9602501', '4713001']
+ISS CNAE:  9511800 9602501
+Place added to stats.
+Current entry:  Point da Saúde,  Rua Carlos Gardel
+Current entry:  Áudio Vídeo Eletrônica,  Rua Carlos Gardel
+Current entry:  Salão Pires,  Rua Carlos Gardel
+Similarity:  1
+HIT!
+MATCH:  Salão Pires ['0', '9602501', '4713001']
+ISS CNAE:  9511800 9602501
+Place added to stats.
+Current entry:  Esconderijo Modas,  Rua Olga Fratezzi
+Current entry:  Belo Horizonte,  Rua Brant Horta
+Current entry:  FOX PAINTBALLBH,  Rua Brant Horta
+Current entry:  Salão Destak,  Rua Brant Horta
+Similarity:  1
+HIT!
+MATCH:  Salão Destak ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4772500
+Place added to stats.
+Current entry:  Armários Casa Nobre,  Rua Argentina
+Current entry:  Lili Presentes,  Rua Joinville
+Current entry:  DM Logistics Ltda,  Rua Augusto Clementino
+Current entry:  Tutto Truffa Kit Festa,  Rua dos Expedicionarios
+Current entry:  Tutto Truffa Salgados e Doces,  Rua dos Expedicionarios
+Current entry:  Escola Infantil Bianca Mara,  Rua Brant Horta
+Similarity:  1
+HIT!
+MATCH:  Escola Infantil Bianca Mara ['0', '8512100', '4713001']
+ISS CNAE:  8512100 
+Place added to stats.
+Current entry:  Coziline Armários e Cozinhas Planejadas,  Avenida Guarapari
+Current entry:  Farep Eletrônica Informática,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Farep Eletrônica Informática ['0', '4753900', '4713001']
+ISS CNAE:  4754701 4753900
+Place added to stats.
+Current entry:  Linear Interiores - Móveis Planejados,  Avenida Guarapari
+Current entry:  Delar Móveis,  Avenida Guarapari
+Current entry:  Racco Cosméticos,  Avenida Guarapari
+Current entry:  Coperdata Multi Profissional Cooperativa de Trabalho,  Avenida Guarapari
+Current entry:  Marcelo Molina Conde,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Marcelo Molina Conde ['0', '4713001', '86', '8630504']
+ISS CNAE:  8630504 
+Place added to stats.
+Current entry:  Hermano's Coiffeurs,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Hermano's Coiffeurs ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Denise C Malaquias,  Avenida Guarapari
+Current entry:  Convees Assessoria Técnica Ltda,  Avenida Guarapari
+Current entry:  Instituto de Beleza Family,  Rua Olinda Ferreira Lopes
+Current entry:  Salão de Beleza Graça,  Rua Brant Horta
+Similarity:  1
+HIT!
+MATCH:  Salão de Beleza Graça ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4772500
+Place added to stats.
+Current entry:  Santa Amélia Tabacos e Bombonière,  Rua Alair Marques Rodrigues
+Similarity:  1
+HIT!
+MATCH:  Santa Amélia Tabacos e Bombonière ['4712100', '0', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Residencial Palmeira Imperial,  Rua Fortunato Pinto Júnior
+Current entry:  Desentupidora Dona Clara,  Rua Presidente Nasser
+Current entry:  Centro Espírita Adolpho Bezerra de Menezes,  Rua Doutor Afonso Dutra Nicácio
+Similarity:  3
+HIT!
+MATCH:  Centro Espírita Adolpho Bezerra de Menezes ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Keikin Cupcakes,  Rua Monte Cassino
+Similarity:  1
+HIT!
+MATCH:  Keikin Cupcakes ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  4789099 1091102
+Place added to stats.
+Current entry:  Bar do João,  Rua Mário de Andrade
+Similarity:  3
+HIT!
+MATCH:  Bar do João ['0', '4713001', '4712100', '5611201', '5611202']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Padaria Pão de Açúcar,  Rua Mário de Andrade
+Similarity:  3
+HIT!
+MATCH:  Padaria Pão de Açúcar ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  1091102 
+Place added to stats.
+Current entry:  Motel Darling,  Rua Antero de Quental
+Current entry:  Madeiras Penedo Ltda,  Rua Teles de Menezes
+Current entry:  Marcenaria e Carpintaria Evangelos,  Rua Teles de Menezes
+Current entry:  Quibasa Química Básica Ltda,  Rua Teles de Menezes
+Current entry:  Delli Gourmet,  Rua Joaquim Henrique Filho
+Current entry:  Quibasa Química Básica Ltda,  Rua Joaquim Henrique Filho
+Current entry:  Xavier Carnes,  Rua Joaquim Henrique Filho
+Current entry:  Sacolão Para Todos,  Rua Joaquim Henrique Filho
+Current entry:  Telefone Público Sãozinha Bagio Coutinho,  Rua Joaquim Henrique Filho
+Current entry:  Minas Industrial Com e Rep Ltda,  Rua Monte Castelo
+Current entry:  Gm Bar,  Rua Batestina de Andrade
+Current entry:  Mônica Araújo produções,  Rua Batestina de Andrade
+Current entry:  Oinformante,  Rua José Oscar Barreira
+Current entry:  BH Pisos,  Rua Professor Ricardo Pinto
+Current entry:  Omar José Vianelo Pereira,  Rua Roberto Lúcio Aroeira
+Current entry:  Motorplan Auto Serviço,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Motorplan Auto Serviço ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Faculdade Jesuíta de Filosofia e Teologia - Faje,  Avenida Doutor Cristiano Guimarães
+Current entry:  Cia do Sanduíche & Tele Sanduíche,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Cia do Sanduíche & Tele Sanduíche ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  STB Intercâmbio,  Rua Vereador Orlando Bonfim
+Current entry:  Gomes Representações,  Rua Tristão da Cunha
+Current entry:  Gesso Daymon,  Rua Professor José de Carvalho Lopes
+Current entry:  CN Informática,  Rua Professor José de Carvalho Lopes
+Current entry:  Churrasqueira Planalto,  Rua Wilson Soares Fernandes
+Current entry:  Igreja Pentecostal Deus é Vida,  Rua Coronel Joaquim Tibúrcio
+Current entry:  MRG Turismo,  Rua Coronel Joaquim Tibúrcio
+Current entry:  Proaudio BH,  Rua Lobo Leite
+Current entry:  Disk Sanduba,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Disk Sanduba ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Refrigeração Floramar,  Rua Numa Nogueira
+Current entry:  Roberto de Lima Neves,  Rua Numa Nogueira
+Current entry:  Comunidade Evangélica Restituição e Vida,  Rua José Clemente
+Current entry:  JG Máquinas,  Rua José Lins do Rego
+Current entry:  Frango Esperto,  Rua Edgard Cavaleiro
+Similarity:  1
+HIT!
+MATCH:  Frango Esperto ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Saramenha Móveis,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Saramenha Móveis ['0', '9700500', '3101200', '4713001']
+ISS CNAE:  9602501 9700500
+Place added to stats.
+Current entry:  Loteria São Caetano,  Rua Furquim Werneck
+Current entry:  EDILUSSO,  Rua Manoel Nunes Viana
+Similarity:  2
+HIT!
+MATCH:  EDILUSSO ['4330404', '4713001', '4321500', '0']
+ISS CNAE:  4321500 4399199
+Place added to stats.
+Current entry:  Moradia : ),  Rua Manoel Nunes Viana
+Current entry:  Salão Taça de Prata,  Rua Júlio Ribeiro
+Current entry:  Escola Municipal Milton Campos,  Rua Izalina Faustina Silveira
+Current entry:  Drogaria Equilíbrio,  Rua Olga Fratezzi
+Current entry:  Belo Horizonte,  Rua Olga Fratezzi
+Current entry:  FOX PAINTBALLBH,  Rua Olga Fratezzi
+Current entry:  Serralheria M. A,  Avenida Central
+Current entry:  BGS Informática,  Rua Radeck Muzzi
+Current entry:  Auto Elétrica Mariana Ltda,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Auto Elétrica Mariana Ltda ['0', '4713001', '4520001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  Kiosque Beer,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Kiosque Beer ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Dakron Automação Comércio de Peças Elétricas,  Avenida Guarapari
+Current entry:  BhEletro,  Avenida Guarapari
+Current entry:  Fotografia Lara Lima,  Avenida Guarapari
+Current entry:  Lava Jato Central,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Lava Jato Central ['0', '4520005', '4713001']
+ISS CNAE:  4520003 4520005
+Place added to stats.
+Current entry:  Plasmec-Ar,  Avenida Guarapari
+Current entry:  Plaster Car,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Plaster Car ['0', '4713001', '4520001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  Hiper Motos,  Rua Monte Cassino
+Current entry:  Madeiras Penedo,  Rua Teles de Menezes
+Current entry:  Pampulha Gesso,  Rua Teles de Menezes
+Current entry:  Telefone Público Sãozinha Bagio Coutinho,  Rua Teles de Menezes
+Current entry:  Telefone Público Sãozinha Bagio Coutinho,  Rua Sãozinha Baggio Coutinho
+Current entry:  a a a Tocantins Mudanças Içamentos,  Rua Manoel Lopes Coelho
+Current entry:  Alugar Som e Luz Ltda,  Rua Sebastião Nepomuceno
+Current entry:  GRUPO OURO - BANDAS DE BAILE PARA EVENTOS,  Rua Sebastião Nepomuceno
+Current entry:  Academia Nado e Malhação,  Avenida Doutor Cristiano Guimarães
+Current entry:  Dantex Tecidos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Alves & Neves Empreendimentos Imobiliari,  Avenida Doutor Cristiano Guimarães
+Current entry:  Centro de Estética Corpo Moreno By Geralda,  Avenida Doutor Cristiano Guimarães
+Current entry:  Associação Jesuíta de Educação e Assistência Social,  Avenida Doutor Cristiano Guimarães
+Current entry:  Serralheria São Lucas Indústria e Comércio,  Rua Arthur Lima de Azevedo
+Current entry:  Piscinas Planalto,  Rua Arthur Lima de Azevedo
+Current entry:  Spa Banheira ltda,  Rua Arthur Lima de Azevedo
+Current entry:  AMS CONSTRUÇÕES E COMÉRCIO LTDA.,  Avenida General Carlos Guedes
+Current entry:  Ponto do Espeto,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Ponto do Espeto ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Bolando Festa,  Avenida General Carlos Guedes
+Current entry:  Serralheria São Lucas,  Avenida General Carlos Guedes
+Current entry:  Salão Nosso Espaço,  Avenida General Carlos Guedes
+Current entry:  Capel Consult Assessoria Part e Empreen Ltda,  Rua Capitão Leonídio Soares
+Current entry:  Clínica Cris,  Rua Capitão Leonídio Soares
+Current entry:  s2eletronicos,  Rua Professor José de Carvalho Lopes
+Current entry:  Distribuidora de Bebidas Cristiano,  Rua Coronel Joaquim Tibúrcio
+Current entry:  Onicio G Rosa,  Rua Padre Augusto
+Current entry:  Rafa's Modas,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Rafa's Modas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4321500
+Place added to stats.
+Current entry:  Lan House Do Wallace,  Rua Coronel Joaquim Tibúrcio
+Current entry:  Mercearia Santa Isabel,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Mercearia Santa Isabel ['4712100', '0', '4713001']
+ISS CNAE:  4722901 4712100
+Place added to stats.
+Current entry:  Telefone Público,  Rua Padre Augusto
+Current entry:  Distribuidora de Bebidas Cláudio,  Rua Padre Augusto
+Current entry:  Serviço de Reboque/ Guincho - Auto Socorro Nacional - Assistência 24 horas,  Rua Conselheiro José Tomas
+Current entry:  Guincho BH - Auto Socorro Nacional,  Rua Conselheiro José Tomas
+Current entry:  Casa Verde,  Rua Conselheiro José Tomas
+Current entry:  Auto Omnibus Floramar,  Rua Ouricuri
+Current entry:  4° delegacia venda nova,  Avenida Joaquim Clemente
+Current entry:  Bar da Cida,  Rua Numa Nogueira
+Current entry:  Mecânica Automotive,  Rua Numa Nogueira
+Current entry:  Supermercado Vale Apena,  Rua José Clemente
+Similarity:  3
+HIT!
+MATCH:  Supermercado Vale Apena ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4712100 4729699
+Place added to stats.
+Current entry:  O Brasil Para Cristo,  Rua José Clemente
+Current entry:  Igreja Casa de Oração para Todas as Nações,  Rua Nelson Hungria
+Similarity:  1
+HIT!
+MATCH:  Igreja Casa de Oração para Todas as Nações ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  EE Djanira Rodrigues de Oliveira,  Rua Cosme Torres Pimenta
+Current entry:  CS: Salão de Costura,  Rua Tarcísio Pacheco
+Current entry:  Igreja do Evangelho Quadrangular,  Rua Edgard Cavaleiro
+Current entry:  Casa Sílvia Ltda,  Rua Edgard Cavaleiro
+Current entry:  Chaveiro Tupi,  Rua Graciliano Ramos
+Current entry:  Congregação de Maria Irmãs Maristas,  Rua Graciliano Ramos
+Current entry:  Alessandro Jeus,  Rua Graciliano Ramos
+Current entry:  Déposito Beija-Flor,  Rua Padre Argemiro Moreira
+Current entry:  Mercearia do Rodrigo,  Rua das Mangueiras
+Similarity:  1
+HIT!
+MATCH:  Mercearia do Rodrigo ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  Parrillero,  Rua Olga Fratezzi
+Current entry:  Verità Cerimonial,  Rua Carlos de Sá
+Current entry:  Maria A Q Carvalho,  Avenida Central
+Current entry:  Impacto e Ação Ind. e Com. de Artigos Esportivos Ltda,  Rua Saide Haddad Antônio
+Current entry:  Fundo de Quintal,  Rua Saide Haddad Antônio
+Current entry:  Rosse,  Rua Radeck Muzzi
+Current entry:  Dimensão Divisórias Ltda,  Rua Pioneiros da Paz
+Current entry:  Vistual Confecções,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Vistual Confecções ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789001
+Place added to stats.
+Current entry:  AVXTEC SERVICOS,  Avenida Guarapari
+Current entry:  Star Kids,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Star Kids ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789001
+Place added to stats.
+Current entry:  Restaurante Espeto do Manoel,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Restaurante Espeto do Manoel ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Igreja Evangélica Palavra Viva,  Rua Mansueto Filizzola
+Similarity:  1
+HIT!
+MATCH:  Igreja Evangélica Palavra Viva ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  RF Telecom,  Rua Olinda Ferreira Lopes
+Current entry:  Associação Brasileira da Igreja de Jesus Cristo dos Santos dos Últimos Dias,  Rua Doutor Afonso Dutra Nicácio
+Similarity:  3
+HIT!
+MATCH:  Associação Brasileira da Igreja de Jesus Cristo dos Santos dos Últimos Dias ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Centro Automotivo Porto Seguro,  Rua Monte Cassino
+Current entry:  PAMPULHA AUTO CENTRO,  Rua Monte Cassino
+Current entry:  Pampulha Auto Centro,  Rua Marcos Lopes de Almeida
+Current entry:  Primetec Digital,  Rua Teles de Menezes
+Current entry:  Atmaq Peças e Serv Ltda,  Rua Teles de Menezes
+Current entry:  Telefone Público Dom Pedro I,  Rua Teles de Menezes
+Current entry:  Model e Acessórios,  Rua Irlanda
+Similarity:  1
+HIT!
+MATCH:  Model e Acessórios ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4782202
+Place added to stats.
+Current entry:  Três Meninas,  Rua Irlanda
+Similarity:  1
+HIT!
+MATCH:  Três Meninas ['0', '9602501', '4713001']
+ISS CNAE:  9602501 7319003
+Place added to stats.
+Current entry:  Grupo Vieira Penna,  Rua Sãozinha Baggio Coutinho
+Current entry:  Motel Castelo,  Rua João Edmundo Caldeira Brant
+Current entry:  A Lusitan Mudanças,  Rua João Edmundo Caldeira Brant
+Current entry:  A Lusitan Mudanças,  Rua Manoel Lopes Coelho
+Current entry:  Alugar Som e Luz Ltda,  Rua Sebastião Nepomuceno
+Current entry:  Czar Moda Feminina,  Rua Jornalista Waldir Lau
+Similarity:  1
+HIT!
+MATCH:  Czar Moda Feminina ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  S¦lvia A Soares,  Rua Jornalista Waldir Lau
+Current entry:  Hospital Santo Inácio,  Avenida Doutor Cristiano Guimarães
+Current entry:  Hum Delícia,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Hum Delícia ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Comercial Pithu Moda Fitness,  Avenida Doutor Cristiano Guimarães
+Current entry:  Consutório Odontológico Dr. Vanessa Couto da Mata,  Avenida Doutor Cristiano Guimarães
+Current entry:  Frango Assado,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Frango Assado ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Vanessa Couto da Mata,  Avenida Doutor Cristiano Guimarães
+Current entry:  Consultorio Odontológico,  Avenida Doutor Cristiano Guimarães
+Current entry:  Gregofort Serviços,  Rua Mardocheu Diniz
+Current entry:  Linear Topografia,  Rua Mardocheu Diniz
+Current entry:  1001 Conserto de Roupas em Geral,  Rua Mardocheu Diniz
+Current entry:  Desentupidora em Belo Horizonte BH Primos,  Rua Arthur Lima de Azevedo
+Current entry:  Pet Shop Anjo de Patas BH - Planalto,  Rua Arthur Lima de Azevedo
+Similarity:  1
+HIT!
+MATCH:  Pet Shop Anjo de Patas BH - Planalto ['9609208', '0', '4713001']
+ISS CNAE:  9609208 4789004
+Place added to stats.
+Current entry:  Emcaixas Embalagens Ltda,  Rua Arthur Lima de Azevedo
+Current entry:  Capotaria Denilson,  Rua Arthur Lima de Azevedo
+Current entry:  Macarrão do Clebão,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Macarrão do Clebão ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Piscina de Vinil,  Rua Arthur Lima de Azevedo
+Current entry:  HM Imóveis,  Rua Arthur Lima de Azevedo
+Current entry:  Auto Velocímetro Digital,  Avenida General Carlos Guedes
+Current entry:  Denilson A Cordeiro,  Rua Arthur Lima de Azevedo
+Current entry:  Sempre Bela,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Sempre Bela ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Loterias São Judas Tadeu,  Avenida General Carlos Guedes
+Current entry:  Systema HCLC,  Avenida General Carlos Guedes
+Current entry:  Kioske do Açaí Delivery,  Avenida General Carlos Guedes
+Current entry:  Dolabella e Resende Imobiliária,  Avenida General Carlos Guedes
+Current entry:  Consultório Odontológico Dra. Andréa dos Reis Leal,  Avenida General Carlos Guedes
+Current entry:  Salão da Renata,  Avenida General Carlos Guedes
+Current entry:  Cortinas e Cia,  Avenida General Carlos Guedes
+Current entry:  Elion Uniformes,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Elion Uniformes ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Veterinária Cantinho do Animal,  Avenida General Carlos Guedes
+Current entry:  AG CLÍNICA VETERINÁRIA 24 HORAS NA PAMPULHA,  Avenida General Carlos Guedes
+Current entry:  Loteria Organização Santa Teresa,  Avenida General Carlos Guedes
+Current entry:  Celso Cabeleireiros,  Avenida General Carlos Guedes
+Current entry:  A Arca dos Bichos - Transporte Gratuíto em BH,  Avenida General Carlos Guedes
+Current entry:  Dicas de Festa,  Rua Capitão Leonídio Soares
+Current entry:  João Material de Construção,  Rua Coronel Joaquim Tibúrcio
+Current entry:  Loja da Xão,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Loja da Xão ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4321500
+Place added to stats.
+Current entry:  Oficina Três Irmãos,  Rua Padre Augusto
+Similarity:  1
+HIT!
+MATCH:  Oficina Três Irmãos ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4530704
+Place added to stats.
+Current entry:  Roberto Silva,  Rua Padre Augusto
+Similarity:  1
+HIT!
+MATCH:  Roberto Silva ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4530704
+Place added to stats.
+Current entry:  Fam Aquários Imóveis,  Rua Numa Nogueira
+Current entry:  Bar do Jair,  Rua Numa Nogueira
+Current entry:  Escola Estadual Pedro Paulo Penido,  Rua Numa Nogueira
+Current entry:  Ferreira & Oliveira Gás,  Rua José Clemente
+Current entry:  Geraldo A Freitas,  Rua Nelson Hungria
+Current entry:  Veja Vídeo Locadora,  Rua Nelson Hungria
+Current entry:  Salão Novo Visual,  Rua José Clemente
+Similarity:  3
+HIT!
+MATCH:  Salão Novo Visual ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Nolasco WorkStudios,  Rua Maestro Vila Lobos
+Current entry:  Vidraçaria Rafhá,  Rua Edgard Cavaleiro
+Current entry:  minha escola,  Rua Edgard Cavaleiro
+Current entry:  Comercial te Encontro,  Rua Edgard Cavaleiro
+Similarity:  1
+HIT!
+MATCH:  Comercial te Encontro ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Escola Estadual Getúlio Vargas,  Rua Edgard Cavaleiro
+Current entry:  Escola Estadual Getúlio Vargas,  Rua Graciliano Ramos
+Current entry:  Tupi Gás,  Rua Augusto Meyer
+Current entry:  Michael Lmt.,  Rua Augusto Meyer
+Current entry:  Constrular,  Rua Augusto Meyer
+Current entry:  Sertral-sérgio Tratores Ltda,  Rua Corococó
+Current entry:  Invista Imóveis,  Rua Corococó
+Current entry:  Dário Nery Zoglio,  Rua Corococó
+Current entry:  Posto Tina,  Rua das Mangueiras
+Current entry:  Carla Cristina Santos Godoy,  Rua das Mangueiras
+Current entry:  Supermercado Nova Pampulha,  Rua Padre João Burnier
+Current entry:  Belo Horizonte,  Rua Padre João Burnier
+Current entry:  Biscoiteria e Lat P Maio Ltda,  Rua Tenerife
+Current entry:  Parrillero,  Rua Tenerife
+Current entry:  Comercial Sulemar Ltda,  Avenida Portugal
+Current entry:  Liderança Imóveis,  Avenida Portugal
+Similarity:  1
+HIT!
+MATCH:  Liderança Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6821801 6821802
+Place added to stats.
+Current entry:  Parrillero,  Avenida Portugal
+Similarity:  1
+HIT!
+MATCH:  Parrillero ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Club Dom Pedro,  Avenida Portugal
+Current entry:  Euroinfor Informática Eletrônica e Serviços Ltda,  Rua Eugênio Sales
+Current entry:  Pampulha Hostel Boutique,  Rua Argentina
+Current entry:  FarP StrondA,  Rua Saide Haddad Antônio
+Current entry:  Asilo Cantinho da Paz,  Rua São Paulo
+Similarity:  3
+HIT!
+MATCH:  Asilo Cantinho da Paz ['4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Schutt Company,  Rua Pioneiros da Paz
+Current entry:  NY BURGER & DRINKERIA,  Rua Pioneiros da Paz
+Similarity:  1
+HIT!
+MATCH:  NY BURGER & DRINKERIA ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Jack Burger,  Rua Pioneiros da Paz
+Similarity:  1
+HIT!
+MATCH:  Jack Burger ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  DM Festas e Eventos Ltda,  Avenida Guarapari
+Current entry:  Porto Equipamentos Ltda,  Avenida Guarapari
+Current entry:  Pizza Hot BH,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Pizza Hot BH ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Pizzaria Mangabeiras,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  Pizzaria Mangabeiras ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Afonso Móveis,  Rua Marcos Lopes de Almeida
+Current entry:  Restaurante Amarelinho,  Rua Teles de Menezes
+Similarity:  1
+HIT!
+MATCH:  Restaurante Amarelinho ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5510803 5611201
+Place added to stats.
+Current entry:  Joyciane Santos,  Rua Teles de Menezes
+Similarity:  1
+HIT!
+MATCH:  Joyciane Santos ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5510803 5611201
+Place added to stats.
+Current entry:  L'acqua Di Fiori - Shopping Via Brasil,  Rua Teles de Menezes
+Current entry:  Magia Modas / Magia Masculina,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Magia Modas / Magia Masculina ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Telefone Público Dom Pedro I,  Avenida Dom Pedro I
+Current entry:  Frutos do Brasil,  Rua Irlanda
+Similarity:  3
+HIT!
+MATCH:  Frutos do Brasil ['4712100', '0', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Dittz Outlet,  Rua Professor Hermínio Guerra
+Similarity:  3
+HIT!
+MATCH:  Dittz Outlet ['0', '4781400', '4713001']
+ISS CNAE:  4772500 4781400
+Place added to stats.
+Current entry:  Neo Indústria e Comércio,  Rua Professor Hermínio Guerra
+Similarity:  3
+HIT!
+MATCH:  Neo Indústria e Comércio ['0', '4781400', '4713001']
+ISS CNAE:  4772500 4781400
+Place added to stats.
+Current entry:  Via Lubrificantes,  Rua Professor Hermínio Guerra
+Similarity:  3
+HIT!
+MATCH:  Via Lubrificantes ['0', '4713001', '4520001']
+ISS CNAE:  4520002 4520001
+Place added to stats.
+Current entry:  Alcar Centro Med e Psicológico,  Rua Monte Castelo
+Current entry:  Avelar Rezende Engenharia,  Rua Líbano
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua João Edmundo Caldeira Brant
+Current entry:  Base Comunitária da Polícia Militar,  Rua Cova da Iriá
+Current entry:  Fagure Lingerie,  Rua Sebastião Nepomuceno
+Similarity:  3
+HIT!
+MATCH:  Fagure Lingerie ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789001
+Place added to stats.
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Jornalista Waldir Lau
+Current entry:  Nalu Modas,  Rua Jornalista Waldir Lau
+Similarity:  1
+HIT!
+MATCH:  Nalu Modas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Eletro Consertos,  Rua Cova da Iriá
+Current entry:  Salão Agape Masculino,  Rua Cova da Iriá
+Current entry:  Planet.com Fitness,  Rua Cova da Iriá
+Current entry:  Benditto Espeto,  Rua Cova da Iriá
+Current entry:  Hidráulica Ideal MG,  Avenida Doutor Cristiano Guimarães
+Current entry:  Fórmula Fiat,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Fórmula Fiat ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Café Teria???,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Café Teria??? ['4712100', '5611203', '4713001', '0']
+ISS CNAE:  5611203 
+Place added to stats.
+Current entry:  13 Bar e Restaurante,  Rua São Miguel
+Similarity:  3
+HIT!
+MATCH:  13 Bar e Restaurante ['0', '4713001', '4712100', '5611201', '5611202']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Pé de Anjo,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Pé de Anjo ['0', '4713001', '4782201']
+ISS CNAE:  4755501 4782201
+Place added to stats.
+Current entry:  Financial Empréstimos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Salão do Renato,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Salão do Renato ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Guilhermina Tratamento Capilar,  Rua Adelina de Sales Pereira
+Current entry:  Loja do Pelé,  Avenida Doutor Cristiano Guimarães
+Current entry:  Studio Michelle Sena,  Rua Adelina de Sales Pereira
+Current entry:  Instituto de Beleza Maria Lúcia,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Instituto de Beleza Maria Lúcia ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  gsmusic luthieria,  Avenida Doutor Cristiano Guimarães
+Current entry:  Meu luthier (Guilherme),  Avenida Doutor Cristiano Guimarães
+Current entry:  Giga Byte Restaurante e Lanchonete,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Giga Byte Restaurante e Lanchonete ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Sonata Escola de Música,  Rua Mardocheu Diniz
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Mardocheu Diniz
+Current entry:  Nalu Modas,  Rua Mardocheu Diniz
+Current entry:  Luciana Lingerie,  Rua Cova da Iriá
+Current entry:  Cantinho da Gula,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Cantinho da Gula ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Clemência Viagens e Turismos,  Avenida General Carlos Guedes
+Current entry:  Help my Heart,  Rua Arthur Lima de Azevedo
+Current entry:  Piscinas Planalto Comércio e Serviços,  Rua Arthur Lima de Azevedo
+Current entry:  Adriana Fortunato Salão de Beleza,  Avenida General Carlos Guedes
+Current entry:  AHV Contabilidade,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  AHV Contabilidade ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 
+Place added to stats.
+Current entry:  Bom Gosto,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Bom Gosto ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Maria Bonita Beauty Space,  Rua Arthur Lima de Azevedo
+Similarity:  1
+HIT!
+MATCH:  Maria Bonita Beauty Space ['0', '9602501', '4713001']
+ISS CNAE:  9602501 9602502
+Place added to stats.
+Current entry:  Marcilene Ferreira,  Rua Professor Teodoro Vaz
+Similarity:  1
+HIT!
+MATCH:  Marcilene Ferreira ['0', '9602501', '4713001']
+ISS CNAE:  9602501 9602502
+Place added to stats.
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Professor Teodoro Vaz
+Current entry:  Luciana Lingerie,  Rua Professor Teodoro Vaz
+Similarity:  1
+HIT!
+MATCH:  Luciana Lingerie ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789099
+Place added to stats.
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Capitão Leonídio Soares
+Current entry:  BH Reformas,  Rua Luiz de Mello Mattos
+Current entry:  Arena Cariúnas,  Rua Luiz de Mello Mattos
+Similarity:  1
+HIT!
+MATCH:  Arena Cariúnas ['0', '8512100', '4713001']
+ISS CNAE:  8512100 
+Place added to stats.
+Current entry:  Projeto Cariúnas,  Rua Luiz de Mello Mattos
+Current entry:  Bar do Toninho,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Bar do Toninho ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  Padaria Heliópolis,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Padaria Heliópolis ['0', '4713001', '4712100', '1091102', '5611201', '4711302']
+ISS CNAE:  4722901 4712100
+Place added to stats.
+Current entry:  Jf Persianas,  Rua Conselheiro José Tomas
+Current entry:  Motouni Distribuidora,  Rua Numa Nogueira
+Current entry:  DELURE Uniformes,  Rua Lúcia Miguel Pereira
+Current entry:  Primeira Igreja Batista do Tupi,  Rua Lasar Segal
+Similarity:  1
+HIT!
+MATCH:  Primeira Igreja Batista do Tupi ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Paulo Antônio da Cruz,  Rua Furquim Werneck
+Current entry:  Drogaria Areal,  Rua Furquim Werneck
+Current entry:  Paulo Antônio da Cruz,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Paulo Antônio da Cruz ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Comunidade Evangélica Reviver Em Cristo - CERC,  Avenida Basílio da Gama
+Similarity:  3
+HIT!
+MATCH:  Comunidade Evangélica Reviver Em Cristo - CERC ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Tupi Paintball,  Rua Pintor Renato Lima
+Current entry:  Trigo Art e Cia,  Rua Júlio Ribeiro
+Current entry:  Portas e Janelas em Vidro Temperado - TOTAL BOX,  Rua Pintor Renato Lima
+Current entry:  Vidro Temperado em BH - Total Box,  Rua Pintor Renato Lima
+Current entry:  Mercearia Zequito,  Rua Teles Fran
+Similarity:  1
+HIT!
+MATCH:  Mercearia Zequito ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Constrular,  Rua Teles Fran
+Current entry:  Terezinha de Miranda Carvalho,  Rua Corococó
+Current entry:  Constrular,  Rua Corococó
+Current entry:  Instituto de Beleza Provisão,  Rua Brant Horta
+Similarity:  1
+HIT!
+MATCH:  Instituto de Beleza Provisão ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4772500
+Place added to stats.
+Current entry:  Decoragesso BH,  Rua Angelonia
+Current entry:  Nuctase Studio,  Rua São Jacinto
+Current entry:  PC Vidros,  Rua Ajair de Almeida Costa
+Current entry:  Salão do Mário,  Rua João Alves Teixeira
+Similarity:  3
+HIT!
+MATCH:  Salão do Mário ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Odontológica Cidade Administrativa de Minas Gerais,  Rua João Alves Teixeira
+Current entry:  Drogaria e Perfumaria Nova Aliança,  Avenida Xangri-lá
+Current entry:  Edini Oliveira Ferreira,  Avenida Xangri-lá
+Current entry:  Papelaria Mult Papéis,  Avenida Xangri-lá
+Current entry:  ZLY Informática,  Rua Dacar
+Current entry:  ABC Fortes Caçambas,  Rua Dacar
+Current entry:  Necarte - Ideias Sustentáveis (artesanato),  Rua Alcides Sales Filho
+Current entry:  Ativocon Contabilidade,  Rua Onofre Camilo de Campos
+Current entry:  Odontológica Cidade Administrativa de Minas Gerais,  Rua Onofre Camilo de Campos
+Current entry:  Belo Horizonte,  Rua Onofre Camilo de Campos
+Current entry:  Bem Estar - Centro de convivência do idoso,  Rua São Tomé E Príncipe
+Current entry:  Manu Estética e Beleza,  Avenida Portugal
+Current entry:  Maria J Carmo,  Avenida Portugal
+Similarity:  1
+HIT!
+MATCH:  Maria J Carmo ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4772500
+Place added to stats.
+Current entry:  Vigília BH,  Avenida Central
+Current entry:  KRK Hidroserv Ltda,  Rua Domingos Viotti
+Current entry:  Barato e Fácil LTDA,  Avenida Guarapari
+Current entry:  Célula Igreja Batista da Lagoinha - Santa Amélia,  Rua Levindo Ignácio Ribeiro
+Current entry:  MS Instituto de Beleza,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  MS Instituto de Beleza ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4772500
+Place added to stats.
+Current entry:  Hospitalar Serviços,  Avenida Deputado Anuar Menhem
+Current entry:  Tudo para Jardim,  Rua Augusto de Lima Júnior
+Current entry:  intermac luz,  Rua Augusto de Lima Júnior
+Current entry:  Afonso Móveis,  Rua Augusto de Lima Júnior
+Current entry:  Telefone Público,  Rua Augusto de Lima Júnior
+Current entry:  Restaurante Amarelinho,  Rua Augusto de Lima Júnior
+Current entry:  Joyciane Santos,  Rua Augusto de Lima Júnior
+Current entry:  Nilsa M Oliveira,  Rua Augusto de Lima Júnior
+Current entry:  L'acqua Di Fiori - Shopping Via Brasil,  Rua Augusto de Lima Júnior
+Current entry:  Tatami Fitness,  Rua Irlanda
+Current entry:  Studio Regina Célia,  Rua Irlanda
+Current entry:  MANSOLDO & GUIMARÃES ADVOCACIA,  Rua Ministro Hermenegildo de Barros
+Current entry:  Pamlux Energia e Controle Ltda,  Rua Sebastião Nepomuceno
+Current entry:  Citerol - Itapoã,  Rua São Miguel
+Similarity:  3
+HIT!
+MATCH:  Citerol - Itapoã ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4755502
+Place added to stats.
+Current entry:  Chaveiro Planalto,  Rua São Miguel
+Current entry:  Universo Indiano,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Universo Indiano ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Engemusic Instrumentos Musicais,  Avenida Doutor Cristiano Guimarães
+Current entry:  Du Surf,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Du Surf ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Nalu Moda Feminina,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Nalu Moda Feminina ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Espetinho do Eustáquio,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Espetinho do Eustáquio ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  Hallst,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Hallst ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Tele Pizza - Recanto,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Tele Pizza - Recanto ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Comercial Drumond,  Rua Mardocheu Diniz
+Current entry:  Salão Casual,  Rua Mardocheu Diniz
+Similarity:  1
+HIT!
+MATCH:  Salão Casual ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Celsu's Cabeleireiros e Cia,  Rua Mardocheu Diniz
+Similarity:  1
+HIT!
+MATCH:  Celsu's Cabeleireiros e Cia ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Emapa Administração e Participações,  Rua Mardocheu Diniz
+Current entry:  Thaiscar Veículos Ltda,  Avenida General Carlos Guedes
+Current entry:  Sotec Eletrônica,  Avenida General Carlos Guedes
+Current entry:  Loja Primavera Com de Roupas Ltda,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Loja Primavera Com de Roupas Ltda ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Geraldo Gonçalves Teixeira,  Avenida General Carlos Guedes
+Current entry:  Cardcom Soluções em Identificação,  Avenida General Carlos Guedes
+Current entry:  ZAP Music Acessórios,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  ZAP Music Acessórios ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  General Car,  Avenida General Carlos Guedes
+Current entry:  Cerimonial Iane Phazenda,  Rua Arthur Lima de Azevedo
+Current entry:  Igreja Adventista do Sétimo Dia,  Rua Capitão Leonídio Soares
+Current entry:  Reformar Estofados,  Rua Capitão Leonídio Soares
+Current entry:  Takumi Sushi bar,  Rua Luiz de Mello Mattos
+Current entry:  Assembleia de Deus,  Rua Coronel Joaquim Tibúrcio
+Current entry:  Agroales Produtos Agropecuários,  Rua Padre Antônio
+Current entry:  Lava Jato Lavadão,  Rua Padre Antônio
+Similarity:  3
+HIT!
+MATCH:  Lava Jato Lavadão ['0', '4520005', '4713001']
+ISS CNAE:  4520005 1091102
+Place added to stats.
+Current entry:  Igreja do Evangelho Quadrangular,  Rua Padre Antônio
+Current entry:  Madeiras do Futuro,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Madeiras do Futuro ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Cafeteria Jardins de Minas,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Cafeteria Jardins de Minas ['4712100', '5611203', '4713001', '0']
+ISS CNAE:  5611203 4729601
+Place added to stats.
+Current entry:  Suave Sabor,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Suave Sabor ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611202 5611201
+Place added to stats.
+Current entry:  Estilo Materiais de Construção,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Estilo Materiais de Construção ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Fast Burguer,  Rua Ubatuba
+Similarity:  3
+HIT!
+MATCH:  Fast Burguer ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 5611201
+Place added to stats.
+Current entry:  Vinte e Um Marketing e Eventos,  Rua Álvaro Camargos Sobrinho
+Current entry:  Atmosfera Climatizadores,  Rua Álvaro Camargos Sobrinho
+Current entry:  Motouni Distribuidora,  Rua Álvaro Camargos Sobrinho
+Current entry:  Supermercados Vale a Pena,  Rua Álvaro Camargos Sobrinho
+Current entry:  V&M Cerimonial,  Rua Lasar Segal
+Current entry:  Belo Horizonte,  Avenida Basílio da Gama
+Current entry:  Higstoc Lavanderia,  Rua Alfeu de Carvalho
+Current entry:  Creche Comunitária D Giussani,  Rua Domingos de Souza
+Current entry:  Drogaria Menezes,  Rua Dois
+Similarity:  3
+HIT!
+MATCH:  Drogaria Menezes ['4771701', '86', '0', '4713001']
+ISS CNAE:  7319002 4771701
+Place added to stats.
+Current entry:  Thiago Reformas em Geral,  Rua Juiz Milton Grandinetti
+Current entry:  Doce Teixeira,  Rua Trajano Amâncio Ferreira
+Similarity:  3
+HIT!
+MATCH:  Doce Teixeira ['4712100', '0', '4713001']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  Escola Municipal Persio Pereira Pinto,  Rua Trajano Amâncio Ferreira
+Current entry:  Armarinho Comerciário,  Rua Elza Rolla de Miranda
+Current entry:  Itaú,  Avenida Portugal
+Similarity:  1
+HIT!
+MATCH:  Itaú ['4713001', '4036619', '0', '64', '6421200']
+ISS CNAE:  6421200 
+Place added to stats.
+Current entry:  Lavanderia GE,  Rua Saide Haddad Antônio
+Current entry:  Damaso Comércio e Serv,  Rua Augusto Clementino
+Current entry:  Escritório Eleitoral Eliseu Resende,  Rua Homero de Oliveira
+Current entry:  Eclipsom,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Eclipsom ['0', '4753900', '4713001', '4520001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  Freecarnes,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Freecarnes ['4712100', '4713001', '0']
+ISS CNAE:  4712100 4723700
+Place added to stats.
+Current entry:  Barato e Fácil,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Barato e Fácil ['0', '4753900', '4713001']
+ISS CNAE:  4754701 4753900
+Place added to stats.
+Current entry:  Royal Farma,  Avenida Guarapari
+Current entry:  BH EMBALAGENS LTDA,  Rua Mansueto Filizzola
+Current entry:  marítima construção e incorporação,  Rua Engenheiro Pedro Bax
+Current entry:  Agora Express,  Rua Comandante Ary Lopes
+Current entry:  W A BIOGALENA,  Rua São Gonçalo do Abaeté
+Current entry:  Biogalena,  Rua São Gonçalo do Abaeté
+Current entry:  Wanete Andrade,  Rua São Gonçalo do Abaeté
+Current entry:  Arte Visual,  Rua Francisco José Teixeira
+Current entry:  Av Sign,  Rua Francisco José Teixeira
+Current entry:  tele brasil,  Rua Augusto de Lima Júnior
+Current entry:  Conservadora Cidade,  Rua Augusto de Lima Júnior
+Current entry:  Eduardo Brasileiro Freire,  Rua Augusto de Lima Júnior
+Current entry:  Capela de Nossa Senhora do Sagrado Coração,  Rua Augusto de Lima Júnior
+Current entry:  Carinho na sua Casa,  Rua Professor Hermínio Guerra
+Current entry:  Clube Quinze Veranistas,  Rua Gumercindo Couto e Silva
+Current entry:  Cláudia M N Zacarias,  Rua Jamaica
+Current entry:  Estofados Costa,  Rua Jornalista Waldir Lau
+Current entry:  Restaurante Lazzores,  Rua São Miguel
+Similarity:  3
+HIT!
+MATCH:  Restaurante Lazzores ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Encadernadora Braspelo,  Rua São Miguel
+Current entry:  Bb,  Rua São Miguel
+Current entry:  Décimo Terceiro Batalhão da Polícia Militar,  Rua São Miguel
+Current entry:  Alla Auto Center,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Alla Auto Center ['0', '4520001', '4713001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Geraldo A Jesus,  Avenida Doutor Cristiano Guimarães
+Current entry:  HAP,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  HAP ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Vitaçaí,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Vitaçaí ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Use Fitness,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Use Fitness ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Califórnia Soul,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Califórnia Soul ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  MRV Engenharia,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  MRV Engenharia ['6821801', '4713001', '0']
+ISS CNAE:  6822600 6821801
+Place added to stats.
+Current entry:  Foto Stúdio Roberto,  Avenida General Carlos Guedes
+Current entry:  Unicópias Copiadora,  Avenida General Carlos Guedes
+Current entry:  Advogada Kelly Fagundes,  Avenida General Carlos Guedes
+Current entry:  Únicópias Impressão Digital,  Avenida General Carlos Guedes
+Current entry:  Cantina Mineira,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Cantina Mineira ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  EMR Consultoria de Proj em Est Tubulares,  Rua Capitão Leonídio Soares
+Current entry:  Bar Zé do Rádio,  Rua Coronel Joaquim Tibúrcio
+Similarity:  3
+HIT!
+MATCH:  Bar Zé do Rádio ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  Supermercado Acassia,  Rua Padre Antônio
+Current entry:  Centro Esportivo Elite,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Centro Esportivo Elite ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Solo Pneus,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Solo Pneus ['0', '4520001', '4713001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  Rodrigo R Souza,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Rodrigo R Souza ['4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Prefeitura Municipal de Guarujá,  Rua Igaraúnas
+Current entry:  Nautica Telecom,  Rua Igaraúnas
+Current entry:  PHT Uniformes,  Rua Igaraúnas
+Current entry:  RC NET SERVICE LTDA,  Rua Igaraúnas
+Current entry:  Atmosfera Climatizadores,  Rua Álvaro Camargos Sobrinho
+Current entry:  Celinho Burguer Delivery,  Rua Dario Gonçalves
+Current entry:  Marcelo J Marcos,  Rua Dario Gonçalves
+Current entry:  Celinburg e Pizzas,  Rua Dario Gonçalves
+Current entry:  Astemax Ar Condicionado Ltda,  Rua José Clemente
+Current entry:  Elmar Gráfica,  Rua Edgard Cavaleiro
+Current entry:  Comercial Silverata Ltda,  Rua Edgard Cavaleiro
+Current entry:  Jornal Comunidade em Ação Ltda,  Rua João Dornas Filho
+Current entry:  Instituto Educacional Pequenos Brilhantes,  Rua Emílio Cardoso Aires
+Similarity:  3
+HIT!
+MATCH:  Instituto Educacional Pequenos Brilhantes ['0', '8512100', '4713001']
+ISS CNAE:  8511200 8512100
+Place added to stats.
+Current entry:  Refor Equipamentos,  Rua Emílio Cardoso Aires
+Current entry:  Flávio Cazita da Cunha,  Rua Antônio Bandeira
+Current entry:  Tabajaras,  Rua Alfeu de Carvalho
+Current entry:  Edivaldo S Ribeiro,  Rua Alfeu de Carvalho
+Current entry:  Escola Municipal Persio Pereira Pinto,  Rua Juiz Milton Grandinetti
+Current entry:  Comercial te Encontro,  Rua Juiz Milton Grandinetti
+Similarity:  1
+HIT!
+MATCH:  Comercial te Encontro ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 4712100
+Place added to stats.
+Current entry:  Fortman Segurança e Eventos,  Rua Juiz Milton Grandinetti
+Current entry:  Belo Horizonte,  Rua Juiz Milton Grandinetti
+Current entry:  Invista Imóveis,  Rua Juiz Milton Grandinetti
+Current entry:  Dário Nery Zoglio,  Rua Juiz Milton Grandinetti
+Current entry:  Curso Banho e Tosa Pet BH,  Rua Carlos de Sá
+Current entry:  Cia do Pão,  Rua Saide Haddad Antônio
+Similarity:  3
+HIT!
+MATCH:  Cia do Pão ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Trad Evangelista Ind e Com de Panificação Ltda,  Rua Saide Haddad Antônio
+Similarity:  3
+HIT!
+MATCH:  Trad Evangelista Ind e Com de Panificação Ltda ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  BH Cartões de Visita / Fábrica 84,  Rua Radeck Muzzi
+Current entry:  Lu Caligrafia Artística,  Rua Augusto Clementino
+Current entry:  A Mais Espaço - Soluções Sob Medida,  Rua Homero de Oliveira
+Current entry:  Pampulha Informática Correios,  Avenida Guarapari
+Current entry:  Francisco Carvalhais Leal,  Avenida Guarapari
+Current entry:  Restaurante Santuario,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Restaurante Santuario ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Jocauto Ltda,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Jocauto Ltda ['0', '4713001', '4520001']
+ISS CNAE:  4530703 4520001
+Place added to stats.
+Current entry:  padaria Santa Amelia,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  padaria Santa Amelia ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  4712100 4723700
+Place added to stats.
+Current entry:  FLORICULTURA PAMPULHA,  Avenida Guarapari
+Current entry:  Era Uma Vez,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Era Uma Vez ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789001
+Place added to stats.
+Current entry:  Reilla Márcia Xavier Pereira,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Reilla Márcia Xavier Pereira ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4789001
+Place added to stats.
+Current entry:  Varejão Guarapari,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Varejão Guarapari ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4712100 4723700
+Place added to stats.
+Current entry:  Sacolão Fazendinha,  Avenida Guarapari
+Current entry:  Auto Vidros MG,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  Auto Vidros MG ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  auto vidros mg,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  auto vidros mg ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Salão Marta e Pitty,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  Salão Marta e Pitty ['0', '9602501', '4713001']
+ISS CNAE:  9602501 4772500
+Place added to stats.
+Current entry:  Ranaliba Buffet,  Rua Geraldino de Magalhães Barros
+Current entry:  Academia Fitness Campestre,  Rua São Gonçalo do Abaeté
+Current entry:  tele brasil,  Rua Augusto de Lima Júnior
+Current entry:  Alfa Distribuidora,  Rua Augusto de Lima Júnior
+Current entry:  H Sete Imobiliária,  Rua Augusto de Lima Júnior
+Current entry:  Comtrel Comercial,  Rua Augusto de Lima Júnior
+Current entry:  COMTREL COM MAT ELET TELEF E REDES LTDA,  Rua Augusto de Lima Júnior
+Current entry:  Escola Estadual José Heilbuth Gonçalves,  Rua Augusto de Lima Júnior
+Current entry:  Banco Bradesco S/A,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Banco Bradesco S/A ['4713001', '4036619', '0', '64', '6421200']
+ISS CNAE:  6421200 
+Place added to stats.
+Current entry:  Empada Praiana Belo Horizonte,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Empada Praiana Belo Horizonte ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Bradesco Dia&Noite,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Bradesco Dia&Noite ['4713001', '4036619', '0', '64', '6421200']
+ISS CNAE:  6421200 
+Place added to stats.
+Current entry:  Chaveiro Chavinha Dois,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Chaveiro Chavinha Dois ['4744099', '4713001', '0', '9529102']
+ISS CNAE:  4744099 4744005
+Place added to stats.
+Current entry:  CVC Viagens e Turismo,  Avenida Dom Pedro I
+Current entry:  Toque e Retoque Bijuteria,  Avenida Dom Pedro I
+Current entry:  ECT-Empresa Brasileira de Correios e Telégrafos-Ag Itapuã,  Avenida Dom Pedro I
+Current entry:  Yasuda Informática Ltda,  Avenida Dom Pedro I
+Current entry:  Maya Confecções,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Maya Confecções ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Super Power Celular,  Avenida Dom Pedro I
+Current entry:  Zebra de Ouro Loterias,  Avenida Dom Pedro I
+Current entry:  Bambolle,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Bambolle ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Planeta Aquarela,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Planeta Aquarela ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Divina Derm Cosméticos Naturais Ltda,  Avenida Dom Pedro I
+Current entry:  Policena Maria Silva Pimenta,  Avenida Dom Pedro I
+Current entry:  Courobolsas,  Avenida Dom Pedro I
+Current entry:  Wmb Bia,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Wmb Bia ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Via Kids,  Avenida Dom Pedro I
+Current entry:  Meios e Metas,  Avenida Dom Pedro I
+Current entry:  Elmo,  Avenida Dom Pedro I
+Current entry:  Telefone Público,  Avenida Dom Pedro I
+Current entry:  Photo Art Serviços Digitais,  Avenida Dom Pedro I
+Current entry:  Praça Santa Bárbara,  Avenida Dom Pedro I
+Current entry:  Centro Empresarial Luiz Mayrink Netto,  Avenida Dom Pedro I
+Current entry:  Nutrição Esportiva e Clínica Funcional Dra Bárbara Cardoso Dias,  Avenida Dom Pedro I
+Current entry:  Eletromáquinas Ltda,  Rua Líbano
+Current entry:  Campo de Futebol,  Rua Líbano
+Current entry:  JDM-ME,  Rua Manoel Lopes Coelho
+Current entry:  MEGAPIX SOLUÇÕES EM SEGURANÇA,  Rua Roberto Lúcio Aroeira
+Current entry:  Cross Bike,  Rua São Miguel
+Current entry:  Planalto Posto de Serviço Ltda,  Avenida Doutor Cristiano Guimarães
+Current entry:  Posto Ipiranga,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Posto Ipiranga ['0', '4731800', '4713001', '4520001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Elétrica Padrão,  Avenida General Carlos Guedes
+Current entry:  Telegás Vitória,  Avenida General Carlos Guedes
+Current entry:  Liguitel,  Avenida General Carlos Guedes
+Current entry:  Instituto Flash de Luz,  Avenida General Carlos Guedes
+Current entry:  Belo Horizonte Gesso,  Avenida General Carlos Guedes
+Current entry:  Copacabana Veículos,  Avenida General Carlos Guedes
+Current entry:  Belohorizontegesso.com.br,  Avenida General Carlos Guedes
+Current entry:  Judismar P S Dias,  Avenida General Carlos Guedes
+Current entry:  Centro Automotivo Via Minas,  Rua Sesostris Leal Paixão
+Similarity:  3
+HIT!
+MATCH:  Centro Automotivo Via Minas ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4520003
+Place added to stats.
+Current entry:  Consultório Odontológico,  Rua Sesostris Leal Paixão
+Current entry:  Seo Agência Empresa,  Rua das Clarissas
+Current entry:  ICA Indústria de Móveis em Geral,  Rua das Clarissas
+Current entry:  My Puppy Pet Shop,  Rua Laura Brito Farias
+Similarity:  1
+HIT!
+MATCH:  My Puppy Pet Shop ['9609208', '0', '4713001']
+ISS CNAE:  4789004 9609208
+Place added to stats.
+Current entry:  Asa Delta Moda Praia e Fitness,  Rua Laura Brito Farias
+Similarity:  1
+HIT!
+MATCH:  Asa Delta Moda Praia e Fitness ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Arte Focus,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Arte Focus ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Faminas Belo Horizonte,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Faminas Belo Horizonte ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Lael Varela educação e Cultura,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Lael Varela educação e Cultura ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  I'm just missundaztood,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  I'm just missundaztood ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  ANDERSON CIA,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  ANDERSON CIA ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Linha Verde,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Linha Verde ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Laudo Inspeção Veicular,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Laudo Inspeção Veicular ['0', '4713001', '4520001']
+ISS CNAE:  4520004 4520001
+Place added to stats.
+Current entry:  Santa Lúcia Comércio Representações,  Rua Igaraúnas
+Current entry:  Anair Imóveis,  Rua José Clemente
+Current entry:  Hospital Lifcenter,  Rua Graciliano Ramos
+Current entry:  LC centro Automotivo,  Rua Afonso Taunay
+Current entry:  Casa de Carnes Santa Bárbara Ltda,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Casa de Carnes Santa Bárbara Ltda ['4712100', '0', '4713001']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Estação Digital,  Rua Furquim Werneck
+Current entry:  Caixa 24 Horas,  Rua Furquim Werneck
+Current entry:  Supermercados Paranaíba,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Supermercados Paranaíba ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Cleu Modas,  Avenida Basílio da Gama
+Current entry:  Belo Horizonte,  Rua Augusto Meyer
+Current entry:  Liza Gourmet,  Rua Geraldo Barreto Maia
+Current entry:  A ERA DO GESSO,  Rua José Angélico de Barros
+Current entry:  Depósito Santo Antônio,  Rua José Benedito
+Current entry:  Oreia Skateshop,  Rua Rio Verde
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Rio Verde
+Current entry:  Lava Jato Xavier,  Rua Cova da Iriá
+Current entry:  Ponto do Acai Sorveteria,  Rua Cova da Iriá
+Current entry:  Telefone Público Cova da Íria,  Rua Cova da Iriá
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Cova da Iriá
+Current entry:  Salão Masculino US Vips,  Rua Cova da Iriá
+Current entry:  Broto Cultural Comércio de Livros Ltda,  Rua Dacar
+Current entry:  Elite BH Paintball,  Rua Mandacarú
+Current entry:  Belo Horizonte,  Rua Mandacarú
+Current entry:  Escola Municipal Deputado Renato Azeredo,  Rua Água
+Current entry:  Telefone Público,  Rua Água
+Current entry:  Dolabella & Resende Imob Ltda,  Rua Carlos de Sá
+Current entry:  A Desentupidora Dimensão Ltda,  Rua Reynaldo Smith Camargos
+Current entry:  Restaurante Sabor Mineiro,  Rua Leil. José Barros
+Current entry:  Celso Rodrigues da Silva,  Avenida Deputado Anuar Menhem
+Current entry:  Consistem,  Rua Augusto de Lima Júnior
+Current entry:  Posto Petrobras,  Avenida Dom Pedro I
+Similarity:  2
+HIT!
+MATCH:  Posto Petrobras ['0', '4731800', '4713001', '4520001']
+ISS CNAE:  4530703 4731800
+Place added to stats.
+Current entry:  Bob's Shakes,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Bob's Shakes ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Agência News,  Avenida Dom Pedro I
+Current entry:  Eletrotek Instalação e Manutenção Elétrica e Segurança Eletrônica,  Avenida Dom Pedro I
+Current entry:  Zeus Lan House Ltda,  Avenida Dom Pedro I
+Current entry:  Salão de Beleza Três Meninas,  Avenida Dom Pedro I
+Current entry:  Sebastião B Gusmão,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Sebastião B Gusmão ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Via Café,  Avenida Dom Pedro I
+Similarity:  2
+HIT!
+MATCH:  Via Café ['4712100', '5611203', '4713001', '0']
+ISS CNAE:  5611203 
+Place added to stats.
+Current entry:  Administradora e Recursos Via Despachantes,  Avenida Dom Pedro I
+Current entry:  Click Papelaria,  Avenida Dom Pedro I
+Current entry:  Américan Tour,  Avenida Dom Pedro I
+Current entry:  Conexão,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Conexão ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Ar Pilates,  Avenida Dom Pedro I
+Current entry:  Instituto de Beleza Isaías Braga,  Avenida Dom Pedro I
+Current entry:  H Martins Com e Ind,  Rua Líbano
+Current entry:  Ailton Valerianno Moreira,  Rua das Chácaras
+Current entry:  Reforço Escolar,  Rua Jamaica
+Current entry:  Edson Fotografia,  Rua das Chácaras
+Current entry:  Instituto Amparar,  Rua Manoel Lopes Coelho
+Current entry:  Suave Sabor,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Suave Sabor ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  Drogaria Planalto,  Avenida Doutor Cristiano Guimarães
+Current entry:  Planalto,  Avenida General Carlos Guedes
+Current entry:  Espaço Imaginarium,  Rua Ajair de Almeida Costa
+Current entry:  Serralheria São Lucas Indústria e Comércio,  Rua Capitão Leonídio Soares
+Current entry:  Supermercado São Geraldo,  Rua João Alves Teixeira
+Similarity:  3
+HIT!
+MATCH:  Supermercado São Geraldo ['4712100', '0', '4711302', '4713001']
+ISS CNAE:  4723700 4712100
+Place added to stats.
+Current entry:  Telefone Público,  Rua João Alves Teixeira
+Current entry:  Portaço,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Portaço ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Taco Show,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Taco Show ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611202 5611201
+Place added to stats.
+Current entry:  Intersolo Engenharia Ltda,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Intersolo Engenharia Ltda ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Na Companhia dos Bichos,  Rua Jordelina Maria do Carmo
+Similarity:  1
+HIT!
+MATCH:  Na Companhia dos Bichos ['9609208', '0', '4713001']
+ISS CNAE:  9609208 4771704
+Place added to stats.
+Current entry:  Bom Gosto,  Rua Jordelina Maria do Carmo
+Current entry:  Bar Do Roia,  Rua José Soares
+Similarity:  3
+HIT!
+MATCH:  Bar Do Roia ['0', '5611202', '4713001']
+ISS CNAE:  5611202 
+Place added to stats.
+Current entry:  Maria C Araújo,  Rua Álvaro Camargos Sobrinho
+Current entry:  Santa Lúcia Comércio Representações,  Rua Álvaro Camargos Sobrinho
+Current entry:  NSD Assessoria e Consultoria,  Rua José de Lima
+Current entry:  Adm Informática,  Rua Jovino Rodrigues Pego
+Current entry:  Sebastião Ferreira da Cruz,  Rua José Clemente
+Current entry:  Ligia Moda Praia,  Rua Gastão Cruls
+Current entry:  Dr. Bruno de Castro,  Rua Otávio Tarquino de Souza
+Current entry:  Primeira Igreja Batista do Tupi,  Rua João Dornas Filho
+Similarity:  3
+HIT!
+MATCH:  Primeira Igreja Batista do Tupi ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Telegás Jeová Jiréh,  Rua Afonso Taunay
+Current entry:  Drogaria Hiper Popular,  Rua Furquim Werneck
+Current entry:  Comercial Cannigatti,  Rua Furquim Werneck
+Current entry:  Lupa Móveis,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Lupa Móveis ['0', '9700500', '3101200', '4713001']
+ISS CNAE:  9602501 9700500
+Place added to stats.
+Current entry:  Casa Norma,  Rua Furquim Werneck
+Current entry:  Restaurante do Bolinha,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Restaurante do Bolinha ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4771701 4712100
+Place added to stats.
+Current entry:  Igreja Missionária Casa de Benção,  Rua Jovino Rodrigues Pego
+Current entry:  Igreja Batista Betel Renovada,  Rua Olegário Mariano
+Current entry:  GK Produções Musicais,  Rua Jovino Rodrigues Pego
+Current entry:  VILLAGE imóveis,  Rua Jovino Rodrigues Pego
+Current entry:  jossauro,  Rua Izalina Faustina Silveira
+Current entry:  Telefone Público,  Rua Jovino Rodrigues Pego
+Current entry:  JN Construções,  Rua Jovino Rodrigues Pego
+Current entry:  Lee Duba,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  Lee Duba ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611202 5611201
+Place added to stats.
+Current entry:  Auto Mecânica Baleares,  Rua José Felix Martins
+Similarity:  3
+HIT!
+MATCH:  Auto Mecânica Baleares ['0', '4713001', '4520001']
+ISS CNAE:  4520001 
+Place added to stats.
+Current entry:  Lava Jato,  Rua Jovino Rodrigues Pego
+Current entry:  Salão Visual,  Rua Miramar
+Similarity:  3
+HIT!
+MATCH:  Salão Visual ['0', '9602501', '4713001']
+ISS CNAE:  1246 9602501
+Place added to stats.
+Current entry:  Stiling Vidros,  Rua Quintino Simão
+Current entry:  Esc Inf Estrelinha Cintilante,  Rua Antônio Mariano de Abreu
+Similarity:  3
+HIT!
+MATCH:  Esc Inf Estrelinha Cintilante ['0', '8512100', '4713001']
+ISS CNAE:  8512100 8513900
+Place added to stats.
+Current entry:  Escola Infantil Estrelinha Cintilante,  Rua Antônio Mariano de Abreu
+Current entry:  Polibike Sinibu,  Rua Luzia Salomão
+Current entry:  Júlio César Chaves Bueno,  Rua Dona Cidinha Stussi
+Similarity:  1
+HIT!
+MATCH:  Júlio César Chaves Bueno ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 
+Place added to stats.
+Current entry:  BH Adesivos Decorativos,  Rua Radeck Muzzi
+Current entry:  SER - Sua Empresa na Rede,  Rua Radeck Muzzi
+Current entry:  Grupo Ser Comunicação Visual Ltda,  Rua João de Melo
+Current entry:  Suplementos e Cia,  Rua Homero de Oliveira
+Current entry:  (reis Pintura),  Avenida Guarapari
+Current entry:  Salão Babyliss,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Salão Babyliss ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Sala de Estética e Beleza,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Sala de Estética e Beleza ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Devart Camisetas Promocionais,  Rua Regina Costa Peixoto
+Similarity:  1
+HIT!
+MATCH:  Devart Camisetas Promocionais ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412603
+Place added to stats.
+Current entry:  Eurolocks Ltda,  Rua Alair Marques Rodrigues
+Current entry:  Vg printer,  Rua José Ferreira dos Santos
+Current entry:  Morada Imóveis,  Rua das Canárias
+Current entry:  Consistem,  Rua José Ferreira dos Santos
+Current entry:  Consistem Contabilidade,  Rua José Ferreira dos Santos
+Current entry:  Stamparia Digital,  Avenida Dom Pedro I
+Current entry:  Espaço da Dança,  Avenida Dom Pedro I
+Current entry:  Banco Mercantil do Brasil,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Banco Mercantil do Brasil ['4713001', '4036619', '0', '64', '6421200']
+ISS CNAE:  6421200 
+Place added to stats.
+Current entry:  Banco Santander,  Avenida Dom Pedro I
+Current entry:  Banco Bradesco,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Banco Bradesco ['4713001', '4036619', '0', '64', '6421200']
+ISS CNAE:  6421200 
+Place added to stats.
+Current entry:  Banco 24 Horas,  Avenida Dom Pedro I
+Current entry:  Banco do Brasil,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Banco do Brasil ['4713001', '4036619', '0', '64', '6421200']
+ISS CNAE:  6421200 
+Place added to stats.
+Current entry:  Ar Pilater,  Avenida Dom Pedro I
+Current entry:  Gloss Salão de Beleza,  Avenida Dom Pedro I
+Current entry:  Estética Kenia Melo,  Avenida Dom Pedro I
+Current entry:  Clínica Odontológica Arte e Riso Ltda,  Avenida Dom Pedro I
+Current entry:  Oficina do Celular,  Avenida Dom Pedro I
+Current entry:  Depeline,  Avenida Dom Pedro I
+Current entry:  Conserto de Roupas em Geral,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Conserto de Roupas em Geral ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Via Fashion,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Via Fashion ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Ativa Comercial Importadora e Exportador,  Avenida Dom Pedro I
+Current entry:  Cia da Empada,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Cia da Empada ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Planeta Moça,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Planeta Moça ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Deivede Eder Ferreira,  Avenida Dom Pedro I
+Current entry:  Sorveteria Master Mel Belo Horizonte,  Avenida Dom Pedro I
+Current entry:  Otho Marlieri,  Rua Líbano
+Similarity:  3
+HIT!
+MATCH:  Otho Marlieri ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Loca Laser Bh Ltda,  Rua Líbano
+Current entry:  Luxúria Boutique,  Rua Líbano
+Similarity:  3
+HIT!
+MATCH:  Luxúria Boutique ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4782201
+Place added to stats.
+Current entry:  Sorveteria Easy Ice,  Rua Professor Mercedo Moreira
+Current entry:  Estudio A 3D,  Rua Professor Mercedo Moreira
+Current entry:  Angelica Dia da Noiva,  Rua Professor Mercedo Moreira
+Current entry:  Wizard,  Rua Professor Mercedo Moreira
+Current entry:  Wizard Funcionarios,  Rua Professor Mercedo Moreira
+Current entry:  Art Adesivos,  Rua Trajano Amâncio Ferreira
+Current entry:  Cacau show,  Rua Trajano Amâncio Ferreira
+Current entry:  Mil Delícias,  Rua Trajano Amâncio Ferreira
+Similarity:  3
+HIT!
+MATCH:  Mil Delícias ['4712100', '0', '4713001']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  Subway,  Rua Trajano Amâncio Ferreira
+Similarity:  3
+HIT!
+MATCH:  Subway ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611202 4712100
+Place added to stats.
+Current entry:  The Dog,  Rua Trajano Amâncio Ferreira
+Current entry:  Telefone Público,  Rua Trajano Amâncio Ferreira
+Current entry:  Subway,  Avenida General Carlos Guedes
+Similarity:  1
+HIT!
+MATCH:  Subway ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5611203
+Place added to stats.
+Current entry:  The Dog,  Avenida General Carlos Guedes
+Current entry:  Padaria Specialité,  Avenida Portugal
+Current entry:  Telefone Público,  Avenida Portugal
+Current entry:  Centro de Form de Cond Estr R,  Avenida Doutor Cristiano Guimarães
+Current entry:  Alexander Cabeleireiro,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Alexander Cabeleireiro ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Depósito Planalto,  Avenida Doutor Cristiano Guimarães
+Current entry:  André Lanches,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  André Lanches ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  Banca Gêmeos,  Avenida Doutor Cristiano Guimarães
+Current entry:  Pag Planalto,  Avenida Doutor Cristiano Guimarães
+Current entry:  Fraternidade Santa Teresa de Jesus,  Rua dos Sacramentinos
+Similarity:  1
+HIT!
+MATCH:  Fraternidade Santa Teresa de Jesus ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Terraplenagem Mineirinho,  Rua Sete de Outubro
+Current entry:  Salão Toque Natural,  Rua Sete de Outubro
+Similarity:  1
+HIT!
+MATCH:  Salão Toque Natural ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Quatro Estações,  Rua José Soares
+Similarity:  3
+HIT!
+MATCH:  Quatro Estações ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4782201
+Place added to stats.
+Current entry:  Voiture Limousine,  Rua José Soares
+Current entry:  Açai City,  Rua José Soares
+Similarity:  3
+HIT!
+MATCH:  Açai City ['4712100', '0', '4713001']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Vera Unhas e Depilações,  Rua José Soares
+Similarity:  3
+HIT!
+MATCH:  Vera Unhas e Depilações ['0', '9602501', '4713001']
+ISS CNAE:  9602501 9602502
+Place added to stats.
+Current entry:  Vidro Lins Bh,  Rua Álvaro Camargos Sobrinho
+Current entry:  Palmas Alimentos do Brasil Ind e Comércio,  Rua José Clemente
+Similarity:  3
+HIT!
+MATCH:  Palmas Alimentos do Brasil Ind e Comércio ['4712100', '4713001', '0']
+ISS CNAE:  4712100 4729699
+Place added to stats.
+Current entry:  Barroso José Geraldo Godinho,  Rua Gastão Cruls
+Current entry:  Eletrônica Cine Som,  Rua Gastão Cruls
+Current entry:  Sucal Ferro e Aço,  Rua Gastão Cruls
+Current entry:  Escola Infantil Tio Hulk,  Rua Otávio Tarquino de Souza
+Current entry:  Inesquecivel lanches,  Rua Otávio Tarquino de Souza
+Current entry:  Oto Alves de Castro,  Rua Afonso Taunay
+Current entry:  Sidney A Fonseca,  Rua Afonso Taunay
+Current entry:  Tupi Guarani Mat de Construção,  Rua Afonso Taunay
+Current entry:  Viamel Distribuidora,  Rua Afonso Taunay
+Current entry:  Mário M Carmo,  Rua Afonso Taunay
+Current entry:  Casa Verde,  Rua Furquim Werneck
+Current entry:  Serralheria Nanuque,  Rua Furquim Werneck
+Current entry:  Transporte Escolar Silva,  Avenida Basílio da Gama
+Current entry:  A & C Clima,  Rua Cabo Raimundo Simão
+Current entry:  Reaproveitar,  Rua Emílio Cardoso Aires
+Current entry:  Arquitetura Materiais de Construção Ltda,  Rua Miramar
+Current entry:  Rações Irmãos Andrade Ltda,  Rua Miramar
+Current entry:  Confecções Biane,  Rua Quintino Simão
+Current entry:  Província Brasileira da Congregação da Missão,  Rua Mariano Guimarães
+Current entry:  Adilson Gás,  Rua Assapeixe
+Current entry:  Vilma A Quites,  Rua São Jacinto
+Current entry:  Fluxo Tecnologia,  Rua São Régis
+Current entry:  Belo Horizonte,  Rua São Régis
+Current entry:  EVIGGIANO - Espaço de Exposição dos Produtos,  Avenida Portugal
+Current entry:  Instituto Educacional Ipe Amarelo,  Avenida Portugal
+Current entry:  Célula Igreja Batista da Lagoinha - Santa Amélia,  Rua João de Melo
+Current entry:  Instituto Santa Amélia,  Rua Augusto Moreira
+Similarity:  1
+HIT!
+MATCH:  Instituto Santa Amélia ['0', '8512100', '4713001']
+ISS CNAE:  8512100 5590699
+Place added to stats.
+Current entry:  Jose Gomes da Silva,  Rua Reynaldo Smith Camargos
+Similarity:  1
+HIT!
+MATCH:  Jose Gomes da Silva ['0', '4781400', '4713001']
+ISS CNAE:  1412602 4781400
+Place added to stats.
+Current entry:  Inst Sta Amélia,  Rua Reynaldo Smith Camargos
+Current entry:  Kariny M O Thomaz,  Rua Homero de Oliveira
+Current entry:  Meios e Metas,  Avenida Guarapari
+Current entry:  Belfar Ltda,  Rua Alair Marques Rodrigues
+Current entry:  Cruzeiro Esporte Clube,  Rua Alair Marques Rodrigues
+Current entry:  Art Wood,  Rua das Canárias
+Current entry:  Consistem Contabilidade,  Rua das Canárias
+Similarity:  3
+HIT!
+MATCH:  Consistem Contabilidade ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 
+Place added to stats.
+Current entry:  ACF Itapoa,  Avenida Dom Pedro I
+Current entry:  O MESMO,  Avenida Dom Pedro I
+Current entry:  Mundo da Criança,  Avenida Dom Pedro I
+Current entry:  Frat,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Frat ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Ponto Shoes,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Ponto Shoes ['0', '4713001', '4781400', '4782201']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Bar Universitário,  Avenida Dom Pedro I
+Similarity:  2
+HIT!
+MATCH:  Bar Universitário ['0', '5611202', '4713001']
+ISS CNAE:  5611202 5611203
+Place added to stats.
+Current entry:  UNIFENAS - CEASC,  Rua Professor Hermínio Guerra
+Current entry:  Praça Três Poderes,  Rua Professor Hermínio Guerra
+Current entry:  Edilene Ulhoa Netto,  Rua Professor Hélio Viana
+Similarity:  3
+HIT!
+MATCH:  Edilene Ulhoa Netto ['0', '4713001', '86', '8630504']
+ISS CNAE:  8630504 
+Place added to stats.
+Current entry:  Casa da Multimidia,  Rua Professor Mercedo Moreira
+Current entry:  Angelica Noivas,  Rua Professor Mercedo Moreira
+Current entry:  Mulher do Idéia vermelho!!,  Rua Doutor Luiz Pena
+Current entry:  Coala Fantasias,  Rua General Ephigênio Ruas Santos
+Current entry:  Escola Infantil Catatau e Sua Turma,  Rua Roberto Lúcio Aroeira
+Current entry:  Bem Estar do Menor,  Rua Sebastião Nepomuceno
+Current entry:  Art Adesivos,  Rua Sebastião Nepomuceno
+Current entry:  Cacau show,  Rua Sebastião Nepomuceno
+Current entry:  Mil Delícias,  Rua Sebastião Nepomuceno
+Current entry:  Subway,  Rua Sebastião Nepomuceno
+Current entry:  The Dog,  Rua Sebastião Nepomuceno
+Current entry:  Telefone Público,  Rua Sebastião Nepomuceno
+Current entry:  Caramelos Buffet,  Avenida Doutor Cristiano Guimarães
+Current entry:  Mattos Modas,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Mattos Modas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Stúdio Villa Romana,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Stúdio Villa Romana ['0', '9602501', '4713001']
+ISS CNAE:  9602502 9602501
+Place added to stats.
+Current entry:  Danielly S Vieira,  Avenida Doutor Cristiano Guimarães
+Current entry:  Planalto Chaves,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Planalto Chaves ['0', '4713001', '9529102']
+ISS CNAE:  9529102 
+Place added to stats.
+Current entry:  Edson M Brito,  Avenida Doutor Cristiano Guimarães
+Current entry:  Relojoaria Planalto,  Avenida Doutor Cristiano Guimarães
+Current entry:  Erick Cell,  Avenida Doutor Cristiano Guimarães
+Current entry:  De 1Tudo,  Avenida Doutor Cristiano Guimarães
+Current entry:  Casa de Apoio ao Portador do Câncer Bem Viver,  Rua Capitão Leonídio Soares
+Current entry:  Pontual Gestão Contábil,  Rua dos Sacramentinos
+Current entry:  Pontual Gestão Contábil,  Rua dos Sacramentinos
+Similarity:  1
+HIT!
+MATCH:  Pontual Gestão Contábil ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 8211300
+Place added to stats.
+Current entry:  Andaminas,  Rua das Clarissas
+Current entry:  Rodrigues Pinturas,  Rua Laura Brito Farias
+Current entry:  Shopping for Label,  Rua Abdenago Lisboa
+Current entry:  Alfaiataria e Consertos de Roupas,  Rua Abdenago Lisboa
+Current entry:  Madeireira Suprema,  Avenida Cristiano Machado
+Similarity:  1
+HIT!
+MATCH:  Madeireira Suprema ['0', '4713001']
+ISS CNAE:  4713001 
+Place added to stats.
+Current entry:  Chico do Peixe,  Avenida Joaquim Clemente
+Similarity:  1
+HIT!
+MATCH:  Chico do Peixe ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 5611201
+Place added to stats.
+Current entry:  Soma Imoveisbh,  Rua José Soares
+Current entry:  Cláudio H Sampaio,  Rua José Soares
+Current entry:  Carol Fashion,  Rua José Soares
+Similarity:  3
+HIT!
+MATCH:  Carol Fashion ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4782201
+Place added to stats.
+Current entry:  Nayra Leandro Miguel Martins,  Rua José Soares
+Current entry:  Via Norte Imóveis,  Rua José Soares
+Current entry:  Carlos R Vilela,  Rua José Soares
+Current entry:  Mi Art Tattoo Studio,  Rua José Soares
+Current entry:  Andrezza Dias,  Rua Dario Gonçalves
+Current entry:  Aluguel Rita Noivas,  Rua Manoel Miranda dos Santos
+Similarity:  1
+HIT!
+MATCH:  Aluguel Rita Noivas ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Topa Tudo Saramenha,  Avenida Saramenha
+Current entry:  Casarão do Gesso,  Avenida Saramenha
+Current entry:  Nordeste,  Avenida Saramenha
+Current entry:  Ecco Transportes de Carga e Logistica,  Avenida Saramenha
+Current entry:  Casarão do Gesso Comércio e Se,  Avenida Saramenha
+Current entry:  Igreja do Evangelho Quadrangular,  Avenida Saramenha
+Current entry:  Madriart,  Avenida Saramenha
+Current entry:  Funilaria Guarani,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Funilaria Guarani ['0', '4713001', '4520001']
+ISS CNAE:  4530704 4520001
+Place added to stats.
+Current entry:  L & S Despachantes,  Avenida Saramenha
+Current entry:  RW Tripas,  Avenida Saramenha
+Current entry:  Auto Mecânica Junior,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Auto Mecânica Junior ['0', '4713001', '4520001']
+ISS CNAE:  4530704 4520001
+Place added to stats.
+Current entry:  Cleo's Beauty Salon,  Avenida Saramenha
+Current entry:  Jhones Bar Peixes,  Avenida Saramenha
+Current entry:  Sorveteira Jhones,  Avenida Saramenha
+Current entry:  Deposito Shadai Ltda,  Rua Furquim Werneck
+Current entry:  Distribuidora Tayná,  Rua Furquim Werneck
+Current entry:  Bar e Lanchonete Sá,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Bar e Lanchonete Sá ['0', '5611202', '4713001']
+ISS CNAE:  5611201 5611202
+Place added to stats.
+Current entry:  Distribuidora Tayná,  Rua Furquim Werneck
+Current entry:  Ch Moto Expresso,  Rua Hugo de Carvalho Ramos
+Current entry:  I R Elétrica e Automação,  Rua Hugo de Carvalho Ramos
+Current entry:  Elizangela Tur,  Avenida Basílio da Gama
+Current entry:  Campo de Futebol,  Rua Sete
+Current entry:  Aquecedor Solar,  Rua Pintor Renato Lima
+Current entry:  Fortman Segurança e Eventos,  Rua Pintor Renato Lima
+Current entry:  Frigoalmeida,  Rua Três
+Current entry:  Fortman Segurança e Eventos,  Rua Três
+Current entry:  Sesaly Frossard,  Rua Áurea Elísio Valadão
+Current entry:  Biomedh Microbiotecnologia,  Rua Reginaldo Cunha Belaguer
+Current entry:  Biomedh Microbiotecnologia,  Rua Reginaldo Cunha Belaguer
+Current entry:  MR Filmagem Produções Eventos,  Avenida Otacílio Negrão de Lima
+Current entry:  Strategia Serviços e Conservação,  Rua Nigéria
+Current entry:  Belo Horizonte,  Rua Nigéria
+Current entry:  Balanças Ror,  Rua Carlos de Sá
+Current entry:  Colégio Santa Amélia,  Rua Augusto Moreira
+Similarity:  1
+HIT!
+MATCH:  Colégio Santa Amélia ['0', '8512100', '4713001']
+ISS CNAE:  8512100 5590699
+Place added to stats.
+Current entry:  José Miguel Comercial Alta Costura Masculina,  Rua Augusto Moreira
+Current entry:  Novo Estilo Embalagens,  Rua dos Expedicionarios
+Current entry:  Éder Almeida,  Rua Reynaldo Smith Camargos
+Current entry:  Telefone Público,  Rua Edna Brandão Ferreira
+Current entry:  Academia Fitness,  Avenida Guarapari
+Similarity:  1
+HIT!
+MATCH:  Academia Fitness ['0', '86', '9313100', '4713001']
+ISS CNAE:  9313100 9329899
+Place added to stats.
+Current entry:  Knx Informática,  Rua Tanzânia
+Current entry:  Leandro Portela - Curso de Modelagem 3D de Joias,  Rua Alair Marques Rodrigues
+Current entry:  Tag Digital Informática e Comunicação,  Rua Castanheiras
+Current entry:  Belfar,  Avenida Deputado Anuar Menhem
+Current entry:  Cruzeiro Esporte Clube,  Rua Tanzânia
+Current entry:  HSBC Bank,  Rua das Canárias
+Current entry:  Rafael Relojoaria,  Avenida Dom Pedro I
+Current entry:  Classificados Estado de Minas,  Avenida Dom Pedro I
+Current entry:  Spatifilus,  Avenida Dom Pedro I
+Current entry:  Via Malha,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Via Malha ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Manna Celulares Tim,  Avenida Dom Pedro I
+Current entry:  Modeladores H Aeróbica,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Modeladores H Aeróbica ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Márcio Rogério Lourenço,  Avenida Dom Pedro I
+Current entry:  Sport Hall,  Avenida Dom Pedro I
+Current entry:  Brinque Mais,  Avenida Dom Pedro I
+Current entry:  Serafine,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Serafine ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Subway,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Subway ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 
+Place added to stats.
+Current entry:  Via Presentes,  Avenida Dom Pedro I
+Current entry:  Toda Via,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Toda Via ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Giovana Fiorini Cosméticos,  Avenida Dom Pedro I
+Current entry:  Beto Tattoo,  Avenida Dom Pedro I
+Current entry:  Estudio Black White Ink,  Avenida Dom Pedro I
+Current entry:  Gaxh,  Avenida Dom Pedro I
+Current entry:  Celencar,  Rua Professor Hermínio Guerra
+Current entry:  Nucleo Personna,  Rua Professor Hélio Viana
+Current entry:  Nucleo Personna,  Rua Professor Mercedo Moreira
+Current entry:  Andréia Arantes Contabilidade,  Rua Professor Mercedo Moreira
+Similarity:  1
+HIT!
+MATCH:  Andréia Arantes Contabilidade ['0', '6920601', '64', '4713001']
+ISS CNAE:  6920601 
+Place added to stats.
+Current entry:  Wanderlan A Paula,  Rua Manoel Lopes Coelho
+Current entry:  Felippe & Trindade Representações Ltda.,  Rua Manoel Lopes Coelho
+Similarity:  1
+HIT!
+MATCH:  Felippe & Trindade Representações Ltda. ['0', '4781400', '4713001']
+ISS CNAE:  1411801 4781400
+Place added to stats.
+Current entry:  Ponto da Luta,  Rua Sebastião Nepomuceno
+Current entry:  CVC - Hiper Walmart Pampulha,  Rua Sebastião Nepomuceno
+Current entry:  O Boticário,  Rua Sebastião Nepomuceno
+Current entry:  Pap's Pizza,  Rua Sebastião Nepomuceno
+Current entry:  Bar e Sorveteria Bulinha,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Bar e Sorveteria Bulinha ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 4723700
+Place added to stats.
+Current entry:  June 12th Moda Feminina & Acessórios,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  June 12th Moda Feminina & Acessórios ['0', '4781400', '4713001']
+ISS CNAE:  4781400 
+Place added to stats.
+Current entry:  Topa Tudo Avenida - Planalto,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Topa Tudo Avenida - Planalto ['0', '9700500', '3101200', '4713001']
+ISS CNAE:  3101200 
+Place added to stats.
+Current entry:  José D Costa,  Avenida Doutor Cristiano Guimarães
+Current entry:  Auto Elétrica Capixaba,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  Auto Elétrica Capixaba ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  DS Auto Center,  Avenida Doutor Cristiano Guimarães
+Similarity:  3
+HIT!
+MATCH:  DS Auto Center ['0', '4713001', '4520001']
+ISS CNAE:  4520001 4520002
+Place added to stats.
+Current entry:  Vítor Soares - Psicólogo Clínico,  Rua Capitão Leonídio Soares
+Current entry:  Ed. Columbia,  Rua das Clarissas
+Current entry:  Igreja Presbiteriana Betel,  Rua dos Sacramentinos
+Similarity:  1
+HIT!
+MATCH:  Igreja Presbiteriana Betel ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Praça Padre Júlio Maria,  Rua das Clarissas
+Current entry:  Telefone Público,  Rua Dom Carloto Távora
+Current entry:  Vera Lúcia Francisca dos Santos,  Rua Dom Carloto Távora
+Current entry:  Praça Padre Júlio Maria,  Rua Dom Carloto Távora
+Current entry:  JRB SERVICE,  Rua José Joaquim Duarte
+Current entry:  JRB Service,  Rua José Joaquim Duarte
+Current entry:  Prática Embalagens,  Avenida Joaquim Clemente
+Current entry:  Drogaria E Perfumaria Daniela,  Avenida Joaquim Clemente
+Current entry:  Rivelino,  Avenida Joaquim Clemente
+Similarity:  1
+HIT!
+MATCH:  Rivelino ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 5611201
+Place added to stats.
+Current entry:  Companhia do Sanduiche,  Avenida Joaquim Clemente
+Similarity:  1
+HIT!
+MATCH:  Companhia do Sanduiche ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 5611201
+Place added to stats.
+Current entry:  Gran Farma,  Rua José Soares
+Current entry:  CIA do Sanduíche,  Avenida Joaquim Clemente
+Similarity:  1
+HIT!
+MATCH:  CIA do Sanduíche ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611203 5611201
+Place added to stats.
+Current entry:  sos towner,  Rua José de Lima
+Current entry:  Clica Guarani,  Avenida Saramenha
+Current entry:  Vidraçaria Guarani Ltda,  Avenida Saramenha
+Current entry:  Pássaro Forte,  Avenida Saramenha
+Current entry:  Natália Festas e Eventos,  Avenida Saramenha
+Current entry:  Farlei Centro Automotivo,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Farlei Centro Automotivo ['0', '4713001', '4520001']
+ISS CNAE:  4530704 4520001
+Place added to stats.
+Current entry:  Livraria Ambiente Cultural,  Avenida Saramenha
+Current entry:  Oficina da Limpeza,  Avenida Saramenha
+Current entry:  Bar do Baiano,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Bar do Baiano ['0', '5611202', '4713001']
+ISS CNAE:  5611202 9311500
+Place added to stats.
+Current entry:  Igreja Pentecostal Chama Viva do Arrebatamento,  Avenida Saramenha
+Current entry:  Igreja Evangélica Pentecostal Jesus é a Verdade,  Avenida Saramenha
+Current entry:  Saramenha Carburadores,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Saramenha Carburadores ['0', '4713001', '4520001']
+ISS CNAE:  4530704 4520001
+Place added to stats.
+Current entry:  Centralfix,  Avenida Saramenha
+Current entry:  Borracharia Ostim Pneus,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Borracharia Ostim Pneus ['0', '4520001', '4713001']
+ISS CNAE:  4530704 4520001
+Place added to stats.
+Current entry:  Mutum Baterias,  Avenida Saramenha
+Similarity:  1
+HIT!
+MATCH:  Mutum Baterias ['0', '4520001', '4713001']
+ISS CNAE:  4530704 4520001
+Place added to stats.
+Current entry:  Casa Nova Cortinas e Persianas,  Avenida Saramenha
+Current entry:  Copiadora e Papelaria Planejar,  Avenida Saramenha
+Current entry:  Oficina Bela Arte Foto E Video,  Rua Otávio Tarquino de Souza
+Current entry:  Distribuidora Hermes,  Rua Otávio Tarquino de Souza
+Current entry:  Casa e Cor Sistemas de segurança eletronica ltda,  Rua Otávio Tarquino de Souza
+Current entry:  Copiadora e Papelaria Tupi,  Rua Otávio Tarquino de Souza
+Current entry:  Jacqueline Batista Ramos Prado,  Rua Otávio Tarquino de Souza
+Current entry:  Bella Bijoux,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Bella Bijoux ['0', '4713001', '4783101']
+ISS CNAE:  9609299 4783101
+Place added to stats.
+Current entry:  Igreja Universal Tupi,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Igreja Universal Tupi ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Auto Escola Muriel,  Rua Furquim Werneck
+Current entry:  Copiadora Maná,  Rua Furquim Werneck
+Current entry:  WJB Celulares,  Rua Furquim Werneck
+Current entry:  Casa Nino,  Rua Furquim Werneck
+Similarity:  1
+HIT!
+MATCH:  Casa Nino ['0', '9700500', '3101200', '4713001']
+ISS CNAE:  9602501 9700500
+Place added to stats.
+Current entry:  Ch Moto Expresso,  Rua Hugo de Carvalho Ramos
+Current entry:  Adylane L G Pinheiro,  Rua Emílio Cardoso Aires
+Current entry:  Salão Beleza,  Rua Emílio Cardoso Aires
+Similarity:  3
+HIT!
+MATCH:  Salão Beleza ['0', '9602501', '4713001']
+ISS CNAE:  9602501 
+Place added to stats.
+Current entry:  Microfox Computadores - Manutencao e Venda de Pecas,  Rua Antônio Bandeira
+Current entry:  Alan Impermeabilização,  Rua Maestro Lobo de Mesquita
+Current entry:  Supermercados Paranaiba,  Rua Cova da Iriá
+Current entry:  Floricultura Matos,  Rua Cova da Iriá
+Current entry:  Matos Cosméticos e Beleza,  Rua Cova da Iriá
+Current entry:  Essencial Modas,  Rua Cova da Iriá
+Current entry:  Ateliê Belas Cortinas,  Rua Cova da Iriá
+Current entry:  Onweb Studio - Desenvolvimento de web sites e projetos para web,  Rua Cova da Iriá
+Current entry:  Estética Realce,  Rua Cova da Iriá
+Current entry:  Arte Manha Tatuagem & Piercing,  Rua Cova da Iriá
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Três
+Similarity:  3
+HIT!
+MATCH:  Igreja Casa de Oração do Evangelho do Senhor Jesus ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Michelle Fashion Hair,  Rua Cova da Iriá
+Current entry:  Jesus Gás,  Rua Cova da Iriá
+Current entry:  Nilton Godoy Braga,  Rua Oito
+Current entry:  Igreja Casa de Oração do Evangelho do Senhor Jesus,  Rua Oito
+Similarity:  3
+HIT!
+MATCH:  Igreja Casa de Oração do Evangelho do Senhor Jesus ['9491000', '4713001', '0']
+ISS CNAE:  9491000 
+Place added to stats.
+Current entry:  Posto Beija Flor,  Rua Água
+Current entry:  Ávila Burguer,  Rua das Chácaras
+Similarity:  3
+HIT!
+MATCH:  Ávila Burguer ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  Igreja Presbiteriana da Pampulha,  Rua Mandacarú
+Current entry:  Belo Horizonte,  Avenida Otacílio Negrão de Lima
+Current entry:  Congregação Cristã no Brasil,  Rua Jovino Rodrigues Pego
+Current entry:  Sorveteria e Biscoiteria Dois Irmãos,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  Sorveteria e Biscoiteria Dois Irmãos ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  4724500 4712100
+Place added to stats.
+Current entry:  Big Festa e Cia,  Rua Jovino Rodrigues Pego
+Current entry:  Drogaria Super,  Rua João Alves Teixeira
+Current entry:  Sacolão Italo,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  Sacolão Italo ['4712100', '0', '4713001']
+ISS CNAE:  4724500 4712100
+Place added to stats.
+Current entry:  Colégio Coopemig,  Rua Edna Brandão Ferreira
+Current entry:  Padaria e Mercearia São Geraldo,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  Padaria e Mercearia São Geraldo ['4712100', '4713001', '0', '1091102']
+ISS CNAE:  4724500 4712100
+Place added to stats.
+Current entry:  Lindomar Lanches,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  Lindomar Lanches ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611202 5611201
+Place added to stats.
+Current entry:  Churrascaria Brasa Grill,  Rua Edna Brandão Ferreira
+Similarity:  3
+HIT!
+MATCH:  Churrascaria Brasa Grill ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  5611201 5620101
+Place added to stats.
+Current entry:  Pampulha Residence,  Rua Levindo Ignácio Ribeiro
+Current entry:  Kas Celulares,  Rua Jovino Rodrigues Pego
+Current entry:  Amazonas Desentupidora,  Rua Deputado Wilson Tanure
+Current entry:  Vip Imóveis,  Rua Alair Marques Rodrigues
+Similarity:  1
+HIT!
+MATCH:  Vip Imóveis ['6821801', '4713001', '0']
+ISS CNAE:  6821801 4399101
+Place added to stats.
+Current entry:  Idealis Pesquisa e Comunicação,  Rua Castanheiras
+Current entry:  Fina Flor Turismo,  Rua Castanheiras
+Current entry:  EKM Engenharia,  Rua Castanheiras
+Current entry:  Ana Paula Maciel Vilela | Fisioterapia e Qualidade de Vida,  Rua Castanheiras
+Current entry:  Igreja Batista Getsêmani,  Avenida Deputado Anuar Menhem
+Current entry:  Santana Sistemas de Segurança Ltda,  Rua Castanheiras
+Current entry:  Lavilla Empreendimentos Imobiliários Ltda,  Rua Castanheiras
+Current entry:  Focus Assessoria em Recursos Humanos,  Rua Castanheiras
+Current entry:  Cotta & Antunes Assessoria Contábil,  Rua Castanheiras
+Current entry:  Strema Consultoria e Tec de Informática,  Rua Castanheiras
+Current entry:  Bar do Dedinho,  Rua Castanheiras
+Current entry:  A HABITAR IMÓVEIS,  Avenida Deputado Anuar Menhem
+Similarity:  2
+HIT!
+MATCH:  A HABITAR IMÓVEIS ['6821801', '4713001', '0']
+ISS CNAE:  6821801 
+Place added to stats.
+Current entry:  Migchem Comércio de Produtos Químicos em Geral Ltda,  Rua Jordelina Maria do Carmo
+Current entry:  Depósito Martins,  Rua Jovino Rodrigues Pego
+Current entry:  Carolina Alves Ribeiro,  Rua Jovino Rodrigues Pego
+Current entry:  Caixa de Correio Pública,  Rua Jovino Rodrigues Pego
+Current entry:  Shalom Calçados,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  Shalom Calçados ['0', '4713001', '4781400', '4782201']
+ISS CNAE:  4781400 4751201
+Place added to stats.
+Current entry:  Santander,  Rua Jordelina Maria do Carmo
+Current entry:  Sadia,  Rua das Canárias
+Current entry:  DNA Nacionais e Importados,  Rua Jovino Rodrigues Pego
+Similarity:  1
+HIT!
+MATCH:  DNA Nacionais e Importados ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4751201
+Place added to stats.
+Current entry:  Ferragens Paris,  Avenida Dom Pedro I
+Current entry:  Comercial Embala Itens,  Avenida Dom Pedro I
+Current entry:  Drogaria Araujo,  Avenida Dom Pedro I
+Current entry:  Via Brasil,  Avenida Dom Pedro I
+Current entry:  Fone Táxi Viabrasil,  Avenida Dom Pedro I
+Current entry:  Lado Z,  Avenida Dom Pedro I
+Current entry:  Sol & Lua,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Sol & Lua ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Põe no Pé,  Avenida Dom Pedro I
+Current entry:  Estampa Viva,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Estampa Viva ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Ztwo Jeans,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Ztwo Jeans ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Magia Masculina,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Magia Masculina ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Lado Z,  Avenida Dom Pedro I
+Similarity:  1
+HIT!
+MATCH:  Lado Z ['0', '4781400', '4713001']
+ISS CNAE:  4781400 1412601
+Place added to stats.
+Current entry:  Yolo,  Rua São Miguel
+Similarity:  3
+HIT!
+MATCH:  Yolo ['0', '4781400', '4713001']
+ISS CNAE:  4781400 4755502
+Place added to stats.
+Current entry:  Fell Açai,  Rua São Miguel
+Similarity:  3
+HIT!
+MATCH:  Fell Açai ['5611201', '4713001', '4712100', '0']
+ISS CNAE:  4712100 
+Place added to stats.
+Current entry:  S & S Sex Shop Pampulha,  Rua São Miguel
+Current entry:  Papelaria Graffite,  Rua São Miguel
+Current entry:  Unicópias,  Rua São Miguel
+Current e

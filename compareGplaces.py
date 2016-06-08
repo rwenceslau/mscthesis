@@ -7,11 +7,11 @@ from nltk.metrics import edit_distance
 import pudb
 import csv
 
-persistenceIndexFile = 'persistentIndexes'
+persistenceIndexFile = 'persistentIndexes_part1'
 similarityThreshold = 3
-#indexGplaces = 0
-#indexISS = 0
-#hits = 0
+indexGplaces = 0
+indexISS = 0
+hits = 0
 hitCNAEStats = {}		# Counts the CNAE categories which got hit.
 hitPlaceStats = {}		# Stores the places which got hit.
 
@@ -34,7 +34,7 @@ def read_index_position():
 # Writes CNAE and Places stats to a external csv file.
 def write_stats_csv():
 
-	writer = csv.writer(open('placesHit.csv', 'wb'))
+	writer = csv.writer(open('placesHit_part1.csv', 'a'))
 	for key, value in hitPlaceStats.items():
    		writer.writerow([key, value])
 
@@ -52,7 +52,7 @@ def compare_gplaces_iss(gPlacesEntities, issEntities):
 	sorted(gPlacesEntities)
 	sorted(issEntities)
 	
-	with open('matchsByCategory', 'a') as matchFile, open('nonMatchsByCategory', 'a') as nonMatchFile:
+	with open('matchsByCategory_part1', 'a') as matchFile, open('nonMatchsByCategory_part1', 'a') as nonMatchFile:
 		try:
 			for i in xrange(indexGplaces, len(gPlacesEntities.keys())):
 				gplacesEntry = gPlacesEntities[i]
