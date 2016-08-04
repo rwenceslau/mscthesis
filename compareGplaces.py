@@ -9,6 +9,7 @@ import csv
 
 persistenceIndexFile = 'persistentIndexes'
 similarityThreshold = 3
+filterLevel = 3
 #indexGplaces = 0
 #indexISS = 0
 #hits = 0
@@ -51,6 +52,7 @@ def compare_gplaces_iss(gPlacesEntities, issEntities):
 	read_index_position()
 	sorted(gPlacesEntities)
 	sorted(issEntities)
+	previousPlaceName = '0'
 	
 	with open('matchsByCategory', 'a') as matchFile, open('nonMatchsByCategory', 'a') as nonMatchFile:
 		try:
@@ -61,64 +63,71 @@ def compare_gplaces_iss(gPlacesEntities, issEntities):
 			#for gplacesEntry, gplacesValues in gPlacesEntities.iteritems():
 				#print gplacesValues
 				placeName = str(gplacesEntry[0])
-				streetName = str(gplacesEntry[1])
-				print "Current entry: {}, {}".format(placeName, streetName)
+				print placeName, previousPlaceName
+				if placeName is not previousPlaceName:
+					previousPlaceName = placeName
+					streetName = str(gplacesEntry[1])
+					print "Current entry: {}, {}".format(placeName, streetName)
 
-				#if not check_string_for_street(streetName):		# If the field doesn't provide a valid street name,
-				#	streetName = str(gplacesEntry[2])		    # it belongs to a commercial building, so the
-																# information is in the next entry position.
-				#print indexGplaces
-				#print streetName
-				#print streetNumber, streetName
-				#gplacesAddress = streetName + streetNumber
-				gplacesAddress = streetName
-				gplacesAddress = gplacesAddress.upper()
-				#print gplacesAddress
-				gplacesCNAE = gplacesEntry[-1]
-
-				global indexGplaces
-				indexGplaces = i
-				hadMatch = 0
-
-				for j in xrange(0, len(issEntities.keys())):
-					issEntry = issEntities[j]
-				#for issEntry, issValues in issEntities.iteritems():
-					streetName = str(issEntry[0])
+					#if not check_string_for_street(streetName):		# If the field doesn't provide a valid street name,
+					#	streetName = str(gplacesEntry[2])		    # it belongs to a commercial building, so the
+																	# information is in the next entry position.
+					#print indexGplaces
 					#print streetName
-					issAddress = streetName
-					issMainCNAE = issEntry[1]
-					#print issMainCNAE
-					issSecCNAE = issEntry[2]
-					#print issSecCNAE
-					#print "{} x {}".format(gplacesAddress, issAddress)
-					similarity = edit_distance(gplacesAddress, issAddress)
-					if similarity <= similarityThreshold:
-						#pudb.set_trace()
-						#print "Candidate detected!"
-						#print gplacesCNAE
-						#print issMainCNAE
-						#print issSecCNAE	
-						if issMainCNAE in gplacesCNAE or issSecCNAE in gplacesCNAE:		# Checks if the activities are the same. The algorithm
-							print "Similarity: ", similarity
-							print "HIT!"												# considers the entities the same if CNAE and address are the same.
-							global hits
-							hits += 1
-							hadMatch = 1
-							print "MATCH: {} {}".format(placeName, gplacesCNAE)
-							print "ISS CNAE: ", issMainCNAE, issSecCNAE
-							matchFile.write(issMainCNAE+";"+issSecCNAE+";"+placeName+"\n")
-							hitPlaceStats[placeName] = streetName, issMainCNAE, issSecCNAE
-							print "Place added to stats."
-							break
-			
-					global indexISS
-					indexISS = j
+					#print streetNumber, streetName
+					#gplacesAddress = streetName + streetNumber
+					gplacesAddress = streetName
+					gplacesAddress = gplacesAddress.upper()
+					#print gplacesAddress
+					gplacesCNAE = gplacesEntry[-1]
 
-				if not hadMatch:
-						for cnae in gplacesCNAE:
-							nonMatchFile.write(cnae+";")
-						nonMatchFile.write("\n")
-						
+					global indexGplaces
+					indexGplaces = i
+					hadMatch = 0
+
+					for j in xrange(0, len(issEntities.keys())):
+						if hadMatch:
+							break
+						issEntry = issEntities[j]
+					#for issEntry, issValues in issEntities.iteritems():
+						streetName = str(issEntry[0])
+						#print streetName
+						issAddress = streetName
+						issMainCNAE = issEntry[1]
+						#print issMainCNAE
+						issSecCNAE = issEntry[2]
+						#print issSecCNAE
+						#print "{} x {}".format(gplacesAddress, issAddress)
+						similarity = edit_distance(gplacesAddress, issAddress)
+						if similarity <= similarityThreshold:
+							#pudb.set_trace()
+							#print "Candidate detected!"
+							#print gplacesCNAE
+							#print issMainCNAE
+							#print issSecCNAE	
+							#if issMainCNAE in gplacesCNAE or issSecCNAE in gplacesCNAE:		# Checks if the activities are the same. The algorithm
+							for entry in gplacesCNAE:
+								if issMainCNAE[:filterLevel] in entry:							# Filter tolerance level.
+									print "Similarity: ", similarity
+									print "HIT!"												# considers the entities the same if CNAE and address are the same.
+									global hits
+									hits += 1
+									hadMatch = 1
+									print "MATCH: {} {}".format(placeName, gplacesCNAE)
+									print "ISS CNAE: ", issMainCNAE, issSecCNAE
+									matchFile.write(issMainCNAE+";"+issSecCNAE+";"+placeName+"\n")
+									hitPlaceStats[placeName] = streetName, issMainCNAE, issSecCNAE
+									print "Place added to stats."
+									
+				
+						global indexISS
+						indexISS = j
+
+					if not hadMatch:
+							for cnae in gplacesCNAE:
+								nonMatchFile.write(cnae+";")
+							nonMatchFile.write("\n")
+							
 		except (KeyboardInterrupt, SystemExit):
 			print '\n\nProcessing interrupted. Saving persistent file ...'
 			write_index_position()

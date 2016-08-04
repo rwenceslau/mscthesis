@@ -14,7 +14,7 @@ import loadISS
 import disambiguate
 
 print "\nReading ISS file ...\n"
-issEntities = loadISS.read_iss()
+#issEntities = loadISS.read_iss()
 print len(issEntities.keys())
 # Loads Google Place data.
 
@@ -23,12 +23,12 @@ print "Converting Google Places entries ...\n"
 
 print "Reading Google Places file ...\n"
 gPlacesEntities = loadGplaces.load_GPlaces()
-#print len(gPlacesEntities.keys())
+print len(gPlacesEntities.keys())
 
 print "Removing Google Places file duplicates ...\n"
 gPlacesEntities = disambiguate.disambiguate_GPlaces_entries(gPlacesEntities)
-#print len(gPlacesEntities.keys())
+print len(gPlacesEntities.keys())
 
 print "Comparing ISS x Google Places data ...\n"
 #print len(gPlacesEntities.keys())
-compareGplaces.compare_gplaces_iss(gPlacesEntities, issEntities)
+#compareGplaces.compare_gplaces_iss(gPlacesEntities, issEntities)

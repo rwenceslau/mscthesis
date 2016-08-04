@@ -29,7 +29,7 @@ print len(foursquareEntities.keys())
 
 #foursquareCategories = set()
 #for key, value in foursquareEntities.items():
-	#foursquareCategories.add(value[2])
+	foursquareCategories.add(value[2])
 
 #with open('../Dados/foursquare/foursquareCategories.csv', 'w') as categoriesFoursquare:
 	#for category in foursquareCategories:
