@@ -1,0 +1,7 @@
+﻿create table public.banks2010 as
+SELECT 
+  cmc2010.geom
+FROM 
+  public.cmc2010
+WHERE substring(cmc2010."CNAEPRINCIPAL",1, 3) = '642' OR substring(cmc2010."CNAESECUND�RIA1", 1, 3) = '642';
+

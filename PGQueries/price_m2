@@ -1,0 +1,9 @@
+﻿SELECT
+  up_area.gid,
+  aluguelup_abs."Nomeup",
+  aluguelup_abs.sum / (up_area.area * 1000000) as price_m2  
+FROM 
+  public.aluguelup_abs, 
+  public.up_area
+where aluguelup_abs.gid = up_area.gid
+--order by price_m2 desc

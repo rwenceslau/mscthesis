@@ -1,0 +1,19 @@
+drop table public.temp;
+
+create table public.temp as
+SELECT 
+  features_complete.gid, 
+  features_complete."Nomeup", 
+  features_complete.earningsavg, 
+  features_complete.popdensity,
+  CASE 
+	WHEN hosp2015_per_hab.stores_per_hab IS NULL THEN 0 else hosp2015_per_hab.stores_per_hab
+
+  END
+
+FROM 
+  public.features_complete
+LEFT JOIN
+  public.hosp2015_per_hab
+on   hosp2015_per_hab.gid = features_complete.gid
+order by features_complete.gid

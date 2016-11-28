@@ -1,0 +1,711 @@
+MongoDB shell version: 3.0.12
+connecting to: urbaninformatics
+{
+	"_firstBatch" : [
+		{
+			"_id" : "DONA CLARA",
+			"totalPrice" : 1305.5555555555557,
+			"coord_x" : -43.9361758,
+			"coord_y" : -19.8616316
+		},
+		{
+			"_id" : "DOM SILVERIO",
+			"totalPrice" : 1050,
+			"coord_x" : -43.9050562,
+			"coord_y" : -19.8557092
+		},
+		{
+			"_id" : "DOM BOSCO",
+			"totalPrice" : 2300,
+			"coord_x" : -44.0039753,
+			"coord_y" : -19.9221461
+		},
+		{
+			"_id" : "Céu Azul",
+			"totalPrice" : 1238.888888888889,
+			"coord_x" : -43.9996263,
+			"coord_y" : -19.8211196
+		},
+		{
+			"_id" : "Cruzeiro",
+			"totalPrice" : 8619.69696969697,
+			"coord_x" : -43.9235725,
+			"coord_y" : -19.9465881
+		},
+		{
+			"_id" : "Coração Eucarístico",
+			"totalPrice" : 1200,
+			"coord_x" : -43.98836319999999,
+			"coord_y" : -19.9251669
+		},
+		{
+			"_id" : "Coração De Jesus",
+			"totalPrice" : 1300,
+			"coord_x" : -43.9512492,
+			"coord_y" : -19.9456181
+		},
+		{
+			"_id" : "Coqueiros",
+			"totalPrice" : 850,
+			"coord_x" : -44.0211054,
+			"coord_y" : -19.9003591
+		},
+		{
+			"_id" : "Copacabana",
+			"totalPrice" : 725,
+			"coord_x" : -43.9878552,
+			"coord_y" : -19.8331978
+		},
+		{
+			"_id" : "Conjunto Confisco",
+			"totalPrice" : 800,
+			"coord_x" : -44.0181298,
+			"coord_y" : -19.8666416
+		},
+		{
+			"_id" : "Conjunto Califórnia",
+			"totalPrice" : 733.3333333333334,
+			"coord_x" : -44.0074159,
+			"coord_y" : -19.9227966
+		},
+		{
+			"_id" : "Concórdia",
+			"totalPrice" : 1608.3333333333333,
+			"coord_x" : -43.9377178,
+			"coord_y" : -19.9002688
+		},
+		{
+			"_id" : "Colégio Batista",
+			"totalPrice" : 2192.1052631578946,
+			"coord_x" : -43.93652549999999,
+			"coord_y" : -19.9088642
+		},
+		{
+			"_id" : "Cinquentenário",
+			"totalPrice" : 1130,
+			"coord_x" : -43.9830032,
+			"coord_y" : -19.9544347
+		},
+		{
+			"_id" : "Cidade Nova",
+			"totalPrice" : 5312.5,
+			"coord_x" : -43.9257935,
+			"coord_y" : -19.8898399
+		},
+		{
+			"_id" : "Cidade Jardim Taquaril",
+			"totalPrice" : 4200,
+			"coord_x" : -43.885229,
+			"coord_y" : -19.9164473
+		},
+		{
+			"_id" : "Cidade Jardim",
+			"totalPrice" : 3045.8333333333335,
+			"coord_x" : -43.9344931,
+			"coord_y" : -19.9166813
+		},
+		{
+			"_id" : "Centro",
+			"totalPrice" : 6920.089743589743,
+			"coord_x" : -43.93866020000001,
+			"coord_y" : -19.9192706
+		},
+		{
+			"_id" : "Castelo",
+			"totalPrice" : 1881.6129032258063,
+			"coord_x" : -43.9996134,
+			"coord_y" : -19.8822196
+		},
+		{
+			"_id" : "Carmo Sion",
+			"totalPrice" : 798.5714285714286,
+			"coord_x" : -43.9364638,
+			"coord_y" : -19.9497503
+		},
+		{
+			"_id" : "Carmo",
+			"totalPrice" : 7154.238095238095,
+			"coord_x" : -43.9323522,
+			"coord_y" : -19.9436545
+		},
+		{
+			"_id" : "Carlos Prates",
+			"totalPrice" : 4678,
+			"coord_x" : -43.95374049999999,
+			"coord_y" : -19.9149756
+		},
+		{
+			"_id" : "Canaã",
+			"totalPrice" : 23000,
+			"coord_x" : -43.9472551,
+			"coord_y" : -19.796279
+		},
+		{
+			"_id" : "Campo Alegre",
+			"totalPrice" : 950,
+			"coord_x" : -43.9472551,
+			"coord_y" : -19.8315239
+		},
+		{
+			"_id" : "Camargos",
+			"totalPrice" : 10650,
+			"coord_x" : -44.01595080000001,
+			"coord_y" : -19.9418897
+		},
+		{
+			"_id" : "Califórnia",
+			"totalPrice" : 6490,
+			"coord_x" : -44.0160978,
+			"coord_y" : -19.9240438
+		},
+		{
+			"_id" : "Calafate",
+			"totalPrice" : 2750,
+			"coord_x" : -43.97235879999999,
+			"coord_y" : -19.9260049
+		},
+		{
+			"_id" : "Caiçaras",
+			"totalPrice" : 2510,
+			"coord_x" : -43.96673939999999,
+			"coord_y" : -19.9012987
+		},
+		{
+			"_id" : "Caiçara",
+			"totalPrice" : 2922.0408163265306,
+			"coord_x" : -43.96673939999999,
+			"coord_y" : -19.9012987
+		},
+		{
+			"_id" : "Cachoeirinha",
+			"totalPrice" : 3937.5,
+			"coord_x" : -43.9479859,
+			"coord_y" : -19.8885847
+		},
+		{
+			"_id" : "CRUZEIRO",
+			"totalPrice" : 2273.3333333333335,
+			"coord_x" : -43.92371929999999,
+			"coord_y" : -19.9451372
+		},
+		{
+			"_id" : "CORACAO EUCARISTICO",
+			"totalPrice" : 1700,
+			"coord_x" : -43.9904617,
+			"coord_y" : -19.9265354
+		},
+		{
+			"_id" : "CORACAO DE JESUS",
+			"totalPrice" : 1472.2222222222222,
+			"coord_x" : -43.9496381,
+			"coord_y" : -19.943782
+		},
+		{
+			"_id" : "COPACABANA ",
+			"totalPrice" : 900,
+			"coord_x" : -43.9881331,
+			"coord_y" : -19.8308246
+		},
+		{
+			"_id" : "CONJUNTO CALIFORNIA I",
+			"totalPrice" : 825,
+			"coord_x" : -44.006692,
+			"coord_y" : -19.9230583
+		},
+		{
+			"_id" : "CONJUNTO CALIFORNIA 2",
+			"totalPrice" : 500,
+			"coord_x" : -44.0133818,
+			"coord_y" : -19.9195282
+		},
+		{
+			"_id" : "COND. VALE DOS CRISTAIS",
+			"totalPrice" : 9000,
+			"coord_x" : -43.9344931,
+			"coord_y" : -19.9166813
+		},
+		{
+			"_id" : "CONCORDIA",
+			"totalPrice" : 2200,
+			"coord_x" : -43.9385048,
+			"coord_y" : -19.8982693
+		},
+		{
+			"_id" : "COLEGIO BATISTA",
+			"totalPrice" : 1700,
+			"coord_x" : -43.9336731,
+			"coord_y" : -19.9084829
+		},
+		{
+			"_id" : "CIDADE NOVA",
+			"totalPrice" : 2216.4102564102564,
+			"coord_x" : -43.9251762,
+			"coord_y" : -19.8858835
+		},
+		{
+			"_id" : "CIDADE JARDIM",
+			"totalPrice" : 4491.8421052631575,
+			"coord_x" : -43.9504204,
+			"coord_y" : -19.9423596
+		},
+		{
+			"_id" : "CENTRO",
+			"totalPrice" : 8169.914285714286,
+			"coord_x" : -43.945275,
+			"coord_y" : -19.9205944
+		},
+		{
+			"_id" : "CASTELO MANACAS",
+			"totalPrice" : 1700,
+			"coord_x" : -43.9977513,
+			"coord_y" : -19.8943811
+		},
+		{
+			"_id" : "CASTELO",
+			"totalPrice" : 1507.142857142857,
+			"coord_x" : -43.996293,
+			"coord_y" : -19.8983756
+		},
+		{
+			"_id" : "CASA BRANCA",
+			"totalPrice" : 5000,
+			"coord_x" : -43.8885871,
+			"coord_y" : -19.9028452
+		},
+		{
+			"_id" : "CARMO SION",
+			"totalPrice" : 1800,
+			"coord_x" : -43.9339639,
+			"coord_y" : -19.9475085
+		},
+		{
+			"_id" : "CARMO",
+			"totalPrice" : 3920,
+			"coord_x" : -43.9303067,
+			"coord_y" : -19.942546
+		},
+		{
+			"_id" : "CARLOS PRATES",
+			"totalPrice" : 5844.444444444444,
+			"coord_x" : -43.9675774,
+			"coord_y" : -19.9132219
+		},
+		{
+			"_id" : "CANDELARIA",
+			"totalPrice" : 800,
+			"coord_x" : -43.9751979,
+			"coord_y" : -19.8137433
+		},
+		{
+			"_id" : "CAMPO ALEGRE",
+			"totalPrice" : 1000,
+			"coord_x" : -43.9466142,
+			"coord_y" : -19.8296341
+		},
+		{
+			"_id" : "CAMARGOS",
+			"totalPrice" : 1000,
+			"coord_x" : -44.0152304,
+			"coord_y" : -19.9427011
+		},
+		{
+			"_id" : "CALIFORNIA",
+			"totalPrice" : 800,
+			"coord_x" : -44.013602,
+			"coord_y" : -19.9264764
+		},
+		{
+			"_id" : "CALAFATE",
+			"totalPrice" : 2850,
+			"coord_x" : -43.9718379,
+			"coord_y" : -19.9348855
+		},
+		{
+			"_id" : "CAIÇARA",
+			"totalPrice" : 1666.6666666666667,
+			"coord_x" : -43.9767197,
+			"coord_y" : -19.8994938
+		},
+		{
+			"_id" : "CAICARAS",
+			"totalPrice" : 1416.6666666666667,
+			"coord_x" : -43.9703317,
+			"coord_y" : -19.892186
+		},
+		{
+			"_id" : "CAICARA ADELAIDE",
+			"totalPrice" : 2300,
+			"coord_x" : -43.97499699999999,
+			"coord_y" : -19.9037375
+		},
+		{
+			"_id" : "CAICARA",
+			"totalPrice" : 3825,
+			"coord_x" : -43.9774262,
+			"coord_y" : -19.910905
+		},
+		{
+			"_id" : "CACHOEIRINHA",
+			"totalPrice" : 2875,
+			"coord_x" : -43.9482532,
+			"coord_y" : -19.8971704
+		},
+		{
+			"_id" : "CABRAL",
+			"totalPrice" : 2200,
+			"coord_x" : -44.0426599,
+			"coord_y" : -19.8782096
+		},
+		{
+			"_id" : "CABANA",
+			"totalPrice" : 5000,
+			"coord_x" : -44.0030606,
+			"coord_y" : -19.9424316
+		},
+		{
+			"_id" : "Buritis",
+			"totalPrice" : 3232.325,
+			"coord_x" : -43.9682604,
+			"coord_y" : -19.975593
+		},
+		{
+			"_id" : "Botafogo",
+			"totalPrice" : 750,
+			"coord_x" : -43.9922117,
+			"coord_y" : -19.806416
+		},
+		{
+			"_id" : "Bonfim",
+			"totalPrice" : 850,
+			"coord_x" : -43.952023,
+			"coord_y" : -19.9099583
+		},
+		{
+			"_id" : "Boa Vista",
+			"totalPrice" : 1240,
+			"coord_x" : -43.9036442,
+			"coord_y" : -19.893593
+		},
+		{
+			"_id" : "Betânia",
+			"totalPrice" : 4496.410256410257,
+			"coord_x" : -43.9927638,
+			"coord_y" : -19.9611757
+		},
+		{
+			"_id" : "Belvedere",
+			"totalPrice" : 5738.28125,
+			"coord_x" : -43.9370742,
+			"coord_y" : -19.972686
+		},
+		{
+			"_id" : "Belmonte",
+			"totalPrice" : 650,
+			"coord_x" : -43.9051828,
+			"coord_y" : -19.8467539
+		},
+		{
+			"_id" : "Barroca",
+			"totalPrice" : 2798,
+			"coord_x" : -43.9634063,
+			"coord_y" : -19.9335355
+		},
+		{
+			"_id" : "Barro Preto",
+			"totalPrice" : 5616.431034482759,
+			"coord_x" : -43.95360820000001,
+			"coord_y" : -19.9233091
+		},
+		{
+			"_id" : "Barreiro",
+			"totalPrice" : 2233.3333333333335,
+			"coord_x" : -44.0145455,
+			"coord_y" : -19.9769887
+		},
+		{
+			"_id" : "Bandeirantes",
+			"totalPrice" : 5100,
+			"coord_x" : -43.9981885,
+			"coord_y" : -19.8624215
+		},
+		{
+			"_id" : "Bairro Da Graça",
+			"totalPrice" : 12533.333333333334,
+			"coord_x" : -43.9305636,
+			"coord_y" : -19.9001241
+		},
+		{
+			"_id" : "BURITIS",
+			"totalPrice" : 2239.402985074627,
+			"coord_x" : -43.9621141,
+			"coord_y" : -19.9702441
+		},
+		{
+			"_id" : "BRAUNAS",
+			"totalPrice" : 6400,
+			"coord_x" : -44.00888339999999,
+			"coord_y" : -19.849347
+		},
+		{
+			"_id" : "BONFIM",
+			"totalPrice" : 7000,
+			"coord_x" : -43.9453894,
+			"coord_y" : -19.9085268
+		},
+		{
+			"_id" : "BOA VISTA",
+			"totalPrice" : 650,
+			"coord_x" : -43.9020963,
+			"coord_y" : -19.8938795
+		},
+		{
+			"_id" : "BETANIA",
+			"totalPrice" : 3500,
+			"coord_x" : -43.9995798,
+			"coord_y" : -19.95384
+		},
+		{
+			"_id" : "BERNARDO MONTEIRO",
+			"totalPrice" : 20000,
+			"coord_x" : -43.9344931,
+			"coord_y" : -19.9166813
+		},
+		{
+			"_id" : "BELVEDERE",
+			"totalPrice" : 6569.333333333333,
+			"coord_x" : -43.9418184,
+			"coord_y" : -19.9870819
+		},
+		{
+			"_id" : "BARROCA",
+			"totalPrice" : 2160,
+			"coord_x" : -43.9707668,
+			"coord_y" : -19.9332547
+		},
+		{
+			"_id" : "BARRO PRETO",
+			"totalPrice" : 6851.923076923077,
+			"coord_x" : -43.9493538,
+			"coord_y" : -19.9214286
+		},
+		{
+			"_id" : "BARREIRO",
+			"totalPrice" : 980,
+			"coord_x" : -44.007741,
+			"coord_y" : -20.0057424
+		},
+		{
+			"_id" : "BANDEIRANTES",
+			"totalPrice" : 3185.714285714286,
+			"coord_x" : -43.9981257,
+			"coord_y" : -19.8593508
+		},
+		{
+			"_id" : "BAIRRO DA GRAÇA",
+			"totalPrice" : 1200,
+			"coord_x" : -43.9283641,
+			"coord_y" : -19.919155
+		},
+		{
+			"_id" : "BAIRRO DA GRACA",
+			"totalPrice" : 1650,
+			"coord_x" : -43.9285671,
+			"coord_y" : -19.9020288
+		},
+		{
+			"_id" : "Aparecida",
+			"totalPrice" : 900,
+			"coord_x" : -43.952023,
+			"coord_y" : -19.8911558
+		},
+		{
+			"_id" : "Anchieta",
+			"totalPrice" : 3050,
+			"coord_x" : -43.9269861,
+			"coord_y" : -19.9494271
+		},
+		{
+			"_id" : "Alípio De Melo",
+			"totalPrice" : 1478.5714285714287,
+			"coord_x" : -44.0041007,
+			"coord_y" : -19.89405
+		},
+		{
+			"_id" : "Alto Dos Pinheiros",
+			"totalPrice" : 1483.3333333333333,
+			"coord_x" : -44.000272,
+			"coord_y" : -19.934404
+		},
+		{
+			"_id" : "Alto Boa Vista",
+			"totalPrice" : 1100,
+			"coord_x" : -43.9975934,
+			"coord_y" : -19.951985
+		},
+		{
+			"_id" : "Alto Barroca",
+			"totalPrice" : 1200,
+			"coord_x" : -43.9691288,
+			"coord_y" : -19.9331636
+		},
+		{
+			"_id" : "Aeroporto",
+			"totalPrice" : 1125,
+			"coord_x" : -43.95509,
+			"coord_y" : -19.8524132
+		},
+		{
+			"_id" : "APARECIDA",
+			"totalPrice" : 2810,
+			"coord_x" : -43.9626013,
+			"coord_y" : -19.8900776
+		},
+		{
+			"_id" : "ANCHIETA",
+			"totalPrice" : 2057.8125,
+			"coord_x" : -43.92399570000001,
+			"coord_y" : -19.9494624
+		},
+		{
+			"_id" : "ANA LUCIA",
+			"totalPrice" : 1200,
+			"coord_x" : -43.904886,
+			"coord_y" : -19.8827437
+		},
+		{
+			"_id" : "ALíPIO DE MELO",
+			"totalPrice" : 2500,
+			"coord_x" : -44.0034328,
+			"coord_y" : -19.8937199
+		},
+		{
+			"_id" : "ALTO CAICARA",
+			"totalPrice" : 8000,
+			"coord_x" : -43.9703454,
+			"coord_y" : -19.9007302
+		},
+		{
+			"_id" : "ALTO BARROCA",
+			"totalPrice" : 1885,
+			"coord_x" : -43.9702291,
+			"coord_y" : -19.9333939
+		},
+		{
+			"_id" : "ALPHAVILLE",
+			"totalPrice" : 9500,
+			"coord_x" : -43.9344931,
+			"coord_y" : -19.9166813
+		},
+		{
+			"_id" : "ALIPIO DE MELO",
+			"totalPrice" : 1100,
+			"coord_x" : -44.0000987,
+			"coord_y" : -19.8948822
+		},
+		{
+			"_id" : "AEROPORTO",
+			"totalPrice" : 1300,
+			"coord_x" : -43.9573791,
+			"coord_y" : -19.8563283
+		}
+	],
+	"_cursor" : {
+		"next" : function next() { [native code] },
+		"hasNext" : function hasNext() { [native code] },
+		"objsLeftInBatch" : function objsLeftInBatch() { [native code] },
+		"readOnly" : function readOnly() { [native code] }
+	},
+	"hasNext" : function () {
+    return this._firstBatch.length || this._cursor.hasNext();
+},
+	"next" : function () {
+    if (this._firstBatch.length) {
+        // $err wouldn't be in _firstBatch since ok was true.
+        return this._firstBatch.pop();
+    }
+    else {
+        var ret = this._cursor.next();
+        if ( ret.$err )
+            throw Error( "error: " + tojson( ret ) );
+        return ret;
+    }
+},
+	"objsLeftInBatch" : function () {
+    if (this._firstBatch.length) {
+        return this._firstBatch.length;
+    }
+    else {
+        return this._cursor.objsLeftInBatch();
+    }
+},
+	"help" : function () {
+    // This is the same as the "Cursor Methods" section of DBQuery.help().
+    print("\nCursor methods");
+    print("\t.toArray() - iterates through docs and returns an array of the results")
+    print("\t.forEach( func )")
+    print("\t.map( func )")
+    print("\t.hasNext()")
+    print("\t.next()")
+    print("\t.objsLeftInBatch() - returns count of docs left in current batch (when exhausted, a new getMore will be issued)")
+    print("\t.itcount() - iterates through documents and counts them")
+    print("\t.pretty() - pretty print each document, possibly over multiple lines")
+},
+	"toArray" : function (){
+    if ( this._arr )
+        return this._arr;
+
+    var a = [];
+    while ( this.hasNext() )
+        a.push( this.next() );
+    this._arr = a;
+    return a;
+},
+	"forEach" : function ( func ){
+    while ( this.hasNext() )
+        func( this.next() );
+},
+	"map" : function ( func ){
+    var a = [];
+    while ( this.hasNext() )
+        a.push( func( this.next() ) );
+    return a;
+},
+	"itcount" : function (){
+    var num = 0;
+    while ( this.hasNext() ){
+        num++;
+        this.next();
+    }
+    return num;
+},
+	"shellPrint" : function (){
+    try {
+        var start = new Date().getTime();
+        var n = 0;
+        while ( this.hasNext() && n < DBQuery.shellBatchSize ){
+            var s = this._prettyShell ? tojson( this.next() ) : tojson( this.next() , "" , true );
+            print( s );
+            n++;
+        }
+        if (typeof _verboseShell !== 'undefined' && _verboseShell) {
+            var time = new Date().getTime() - start;
+            print("Fetched " + n + " record(s) in " + time + "ms");
+        }
+         if ( this.hasNext() ){
+            print( "Type \"it\" for more" );
+            ___it___  = this;
+        }
+        else {
+            ___it___  = null;
+        }
+   }
+    catch ( e ){
+        print( e );
+    }
+
+},
+	"pretty" : function (){
+    this._prettyShell = true;
+    return this;
+}
+}

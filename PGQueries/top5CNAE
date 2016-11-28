@@ -1,0 +1,10 @@
+﻿SELECT SUBSTRING(cmc."CNAEPRINCIPAL", 1,3) , count (cmc."CNAEPRINCIPAL")
+FROM 
+  public.matchs4, 
+  public.cmc
+WHERE 
+  matchs4.cmc_id = cmc.id
+GROUP BY
+  SUBSTRING(cmc."CNAEPRINCIPAL", 1,3)
+ORDER BY count (cmc."CNAEPRINCIPAL") DESC
+LIMIT 5;

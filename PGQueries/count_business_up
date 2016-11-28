@@ -1,0 +1,10 @@
+﻿SELECT 
+  unidplan.gid,
+  count(hosp2015.geom)
+FROM 
+  public.hosp2015, 
+  public.unidplan
+WHERE 
+  ST_Intersects(hosp2015.geom, unidplan.the_geom)
+group by unidplan.gid
+order by unidplan.gid

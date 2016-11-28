@@ -3,17 +3,33 @@ import operator
 
 nmCategories = {}
 mCategories = {}
+mNames = []
 
-with open('nonMatchsByCategoryFull', 'r') as nonMatchs:
+#Counts unique matches by business name.
+# with open('Results1/matchsByCategoryFull', 'r') as matchs:
+# 	for row in matchs:
+# 		tokens = row.split(';')
+# 		businessName = tokens[-1]
+
+# 		if businessName not in mNames:
+# 			mNames.append(businessName)
+
+# 	print  'Unique Matchs #: {}'.format(len(mNames))
+
+with open('Results1/nonMatchsByCategoryFull', 'r') as nonMatchs:
+
+	previousRow = ''
 	for row in nonMatchs:
-		tokens = row.split(';')
-		tokens = tokens[:-1]
-		
-		for entry in tokens:
-			if entry not in nmCategories.keys():
-				nmCategories[entry] = 1
-			else:
-				nmCategories[entry] += 1
+		if row is not previousRow:
+			tokens = row.split(';')
+			tokens = tokens[:-1]
+			
+			for entry in tokens:
+				if entry not in nmCategories.keys():
+					nmCategories[entry] = 1
+				else:
+					nmCategories[entry] += 1
+		previousRow = row
 
 sortedNonMatchs = sorted(nmCategories.items(), key=operator.itemgetter(1), reverse = True)
 
@@ -21,19 +37,24 @@ sortedNonMatchs = sorted(nmCategories.items(), key=operator.itemgetter(1), rever
 #	print key, value
 
 print 'Non Matchs Top Categories'
-for i in range (0, 5):
-	print sortedNonMatchs[i]
+for i in range (0, 8):
+		print sortedNonMatchs[i]
 
-with open('matchsByCategoryFull', 'r') as matchs:
+with open('Results1/matchsByCategoryFull', 'r') as matchs:
+
+	previousRow = ''
 	for row in matchs:
-		tokens = row.split(';')
-		tokens = tokens[:-2]
-		
-		for entry in tokens:
-			if entry not in mCategories.keys():
-				mCategories[entry] = 1
-			else:
-				mCategories[entry] += 1
+		if row is not previousRow:
+			tokens = row.split(';')
+			tokens = tokens[:1]
+			
+			for entry in tokens:
+				if entry is not '':
+					if entry not in mCategories.keys():
+						mCategories[entry] = 1
+					else:
+						mCategories[entry] += 1
+		previousRow = row
 
 sortedMatchs = sorted(mCategories.items(), key=operator.itemgetter(1), reverse = True)
 

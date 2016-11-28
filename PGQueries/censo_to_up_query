@@ -1,0 +1,5 @@
+CREATE TABLE censoUnidplan as
+sELECT censo2010table.*, unidplan.gid, unidplan."Nomeup", unidplan.the_geom
+FROM public.unidplan, public.censo2010table, public.censo2010
+WHERE st_within(st_centroid(censo2010.geom), unidplan.the_geom) and censo2010table.cod_setor = censo2010.cod_setor
+ORDER BY unidplan."Nomeup";

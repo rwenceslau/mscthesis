@@ -1,0 +1,2 @@
+UPDATE features_complete
+set banks2010_pop = (select stores_per_hab from public.temp where features_complete.gid = temp.gid)

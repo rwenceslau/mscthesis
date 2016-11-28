@@ -1,0 +1,8 @@
+SELECT 
+  pop_up.gid, 
+  pop_up."Nomeup", 
+  pad2015_up.count/pop_up.pop as stores_per_hab
+FROM 
+  public.pop_up, 
+  public.pad2015_up
+ where   pad2015_up.gid = pop_up.gid

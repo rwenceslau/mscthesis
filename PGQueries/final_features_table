@@ -1,0 +1,13 @@
+﻿SELECT 
+  censo2010features.gid, 
+  censo2010features."Nomeup", 
+  censo2010features.earningsavg, 
+  censo2010features.popdensity,
+  CASE WHEN banks2015_per_hab.stores_per_hab IS NULL THEN 0 else banks2015_per_hab.stores_per_hab end
+FROM 
+  public.censo2010features
+LEFT JOIN
+  public.banks2015_per_hab
+on   banks2015_per_hab.gid = censo2010features.gid
+order by censo2010features.gid
+  

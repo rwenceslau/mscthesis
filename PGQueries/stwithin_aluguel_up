@@ -1,0 +1,2 @@
+select distinct st_within(aluguelbh.geom, st_transform(unidplan.the_geom, 4326))
+from public.aluguelbh, public.unidplan

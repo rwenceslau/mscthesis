@@ -3,32 +3,36 @@
 
 __author__ = 'rodrigowenceslau'
 
-fileFoursquareI = '../Dados/foursquare/foursquare_coletacompleta/foursquare_Primeiracoleta.json'
-fileFoursquareII = '../Dados/foursquare/foursquare_coletacompleta/foursquare_segundacoleta.json'
 fileGPlaces = '../Dados/gplaces/gplacesdata.csv'
 
 import pudb
-import loadGplaces
-import compareGplaces
-import loadISS
-import disambiguate
+#import loadGplaces
+import loadGPlacesCoordinates
+#import compareGplaces
+import compareGPlacesCoordinates
+#import loadISS
+import loadISSCoordinates
+
+#import disambiguate
 
 print "\nReading ISS file ...\n"
-issEntities = loadISS.read_iss()
+issEntities = loadISSCoordinates.read_iss()
 print len(issEntities.keys())
 # Loads Google Place data.
 
-print "Converting Google Places entries ...\n"
-#loadGplaces.read_translate_GPlaces()
+#print "Converting Google Places entries ...\n"
+#loadGPlacesCoordinates.read_translate_GPlaces()
 
 print "Reading Google Places file ...\n"
-gPlacesEntities = loadGplaces.load_GPlaces()
+gPlacesEntities = loadGPlacesCoordinates.load_GPlaces()
 #print len(gPlacesEntities.keys())
 
-print "Removing Google Places file duplicates ...\n"
-gPlacesEntities = disambiguate.disambiguate_GPlaces_entries(gPlacesEntities)
+loadGPlacesCoordinates.createFilePostGres(gPlacesEntities)
+
+#print "Removing Google Places file duplicates ...\n"
+#gPlacesEntities = disambiguate.disambiguate_GPlaces_entries(gPlacesEntities)
 #print len(gPlacesEntities.keys())
 
 print "Comparing ISS x Google Places data ...\n"
 #print len(gPlacesEntities.keys())
-compareGplaces.compare_gplaces_iss(gPlacesEntities, issEntities)
+compareGPlacesCoordinates.compare_gplaces_iss(gPlacesEntities, issEntities)

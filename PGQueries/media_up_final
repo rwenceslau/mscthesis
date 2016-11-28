@@ -1,0 +1,10 @@
+SELECT 
+  up_area.gid,
+  precomedio_up."Nomeup",
+  precomedio_up.sum / up_area.area as avg
+FROM 
+  public.up_area, 
+  public.precomedio_up
+ where up_area.gid = precomedio_up.gid
+ group by up_area.gid, precomedio_up."Nomeup", avg
+ order by up_area.gid

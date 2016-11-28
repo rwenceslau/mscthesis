@@ -1,0 +1,4 @@
+﻿select censounidplanmg.gid, censounidplanmg."Nomeup", sum(censounidplanmg.v002/(st_area(censounidplanmg.the_geom)/1000000)) as area
+from public.censounidplanmg
+group by gid, censounidplanmg."Nomeup"
+order by area

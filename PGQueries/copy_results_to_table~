@@ -1,0 +1,2 @@
+UPDATE censo2010features 
+set banks_pop = (select stores_per_hab from public.temp where censo2010features.gid = temp.gid)

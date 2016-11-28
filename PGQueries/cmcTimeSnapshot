@@ -1,0 +1,6 @@
+﻿INSERT INTO cmc2015
+SELECT *
+FROM 
+  public.cmc
+WHERE substring(cmc."DATINIATVD", 7, 11) <= '2015' and substring(cmc."DATINIATVD", 7, 11) > '2010'
+ORDER BY substring(cmc."DATINIATVD", 7, 11);

@@ -1,0 +1,1 @@
+UPDATE public.aluguelbh SET geom = ST_SetSRID(ST_MakePoint(cast("coordY" as double precision), cast("coordX" as double precision)),4326);

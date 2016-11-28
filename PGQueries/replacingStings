@@ -1,0 +1,2 @@
+﻿update public.censo2010
+set "cod_setor" = replace("cod_setor", '.', '');

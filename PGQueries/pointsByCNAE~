@@ -1,0 +1,5 @@
+SELECT 
+  cmc.geom
+FROM 
+  public.cmc
+WHERE substring(cmc."CNAEPRINCIPAL",1, 3) = '561' OR substring(cmc."CNAESECUND�RIA1", 1, 3) = '561';

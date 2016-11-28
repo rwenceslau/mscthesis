@@ -1,0 +1,9 @@
+﻿SELECT
+  results_3digit.cnae3,
+  results_3digit.matchs4_count, 
+  results_3digit.cmc_count,
+  results_3digit.matchs4_count/results_3digit.cmc_count
+FROM 
+  public.results_3digit
+ORDER BY (results_3digit.matchs4_count/results_3digit.cmc_count) DESC
+LIMIT 5;

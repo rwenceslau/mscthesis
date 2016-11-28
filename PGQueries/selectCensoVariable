@@ -1,0 +1,4 @@
+﻿select censounidplanmg."Nomeup", sum(censounidplanmg.v002 * censounidplanmg.v011)/sum(censounidplanmg.v002)
+from public.censounidplanmg
+group by censounidplanmg."Nomeup"
+order by censounidplanmg."Nomeup"

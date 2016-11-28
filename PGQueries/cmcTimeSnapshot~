@@ -1,0 +1,6 @@
+﻿SELECT 
+  cmc."DATINIATVD", cmc."NOME_LOGRA", cmc."CNAEPRINCIPAL"
+FROM 
+  public.cmc
+WHERE substring(cmc."DATINIATVD", 7, 11)  '2005'
+ORDER BY substring(cmc."DATINIATVD", 7, 11);

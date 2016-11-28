@@ -1,0 +1,10 @@
+﻿SELECT
+  unidplan.gid,
+  unidplan."Nomeup",
+  coalesce(sum(aluguelbh.precomedio)) as sum
+FROM 
+  public.aluguelbh, 
+  public.unidplan
+ where ST_Intersects(aluguelbh.geom, st_transform(unidplan.the_geom, 4326))
+ group by unidplan.gid, unidplan."Nomeup"
+ order by gid

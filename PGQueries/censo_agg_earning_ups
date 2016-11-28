@@ -1,0 +1,13 @@
+create table public.rendamediaup2010 as
+select censounidplanmg.gid, censounidplanmg."Nomeup", sum(censounidplanmg.v002 * censounidplanmg.v007)/sum(censounidplanmg.v002) as avg
+from public.censounidplanmg
+-- Tira outliers
+where censounidplanmg.v007 < 10000000
+group by censounidplanmg.gid, censounidplanmg."Nomeup"
+order by censounidplanmg.gid
+
+-- V007 Valor do rendimento nominal médio mensal das pessoas
+responsáveis por domicílios particulares permanentes (com
+rendimento) --
+-- V002 Moradores em domicílios particulares permanentes ou população
+residente em domicílios particulares permanentes --
